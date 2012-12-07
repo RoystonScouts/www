@@ -18,7 +18,7 @@
 /** The name of the database for WordPress */
 if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
     include( dirname( __FILE__ ) . '/local-config.php' );
- else {
+ } else {
 	define('DB_NAME', 'wordpress');
 
 	/** MySQL database username */
@@ -82,6 +82,14 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('WP_DEFAULT_THEME', 'twentyeleven');
+
+define('WP_ALLOW_MULTISITE', true);
 
 /* That's all, stop editing! Happy blogging. */
 
