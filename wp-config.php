@@ -89,7 +89,7 @@ define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 define('WP_DEFAULT_THEME', 'twentyeleven');
 
-define('WP_ALLOW_MULTISITE', true);
+define('WP_ALLOW_MULTISITE', false);
 
 /* That's all, stop editing! Happy blogging. */
 
