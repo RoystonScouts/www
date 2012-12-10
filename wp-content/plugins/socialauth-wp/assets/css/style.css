@@ -1,0 +1,33 @@
+html {
+     background: #f9f9f9;
+}
+div.SocialAuth_WP {
+     background: #fff;
+     color: #333;
+     font-family: sans-serif;
+     margin: 2em auto;
+     padding: 1em 2em;
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+     border: 1px solid #dfdfdf;
+     max-width: 700px;
+}
+
+div.SocialAuth_WP p {
+     font-size: 14px;
+     line-height: 1.5;
+     margin: 25px 0 20px;
+}
+
+div.SocialAuth_WP p.highlighted {
+     font-weight: bold;
+}
+
+div.SocialAuth_WP a {
+     color: #21759B;
+     text-decoration: none;
+}
+
+div.SocialAuth_WP a:hover {
+     color: #D54E21;
+}

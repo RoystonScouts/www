@@ -1,0 +1,22 @@
+.shashinAdminHeading {
+    text-decoration: none;
+}
+
+.shashinAdminHeading img {
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+.shashinExamplesList {
+    display: none;
+}
+
+.shashinExamplesList dd {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+
+.shashinCenter {
+    text-align: center !important;
+}

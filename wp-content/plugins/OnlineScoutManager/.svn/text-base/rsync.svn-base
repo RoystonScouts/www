@@ -1,0 +1,1 @@
+rsync -C -avz -e 'ssh -p 2200' . onlinescoutmanager.co.uk:/var/www/vhosts/scoutsites/wp-content/plugins/OnlineScoutManager/
