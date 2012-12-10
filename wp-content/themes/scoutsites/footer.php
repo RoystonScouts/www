@@ -21,10 +21,6 @@
 				if ( ! is_404() )
 					get_sidebar( 'footer' );
 			?>
-
-			<div id="site-generator">
-				Powered by <a href="http://scoutsites.org.uk">ScoutSites.org.uk</a> in conjunction with <a href="https://www.onlinescoutmanager.co.uk">Online Scout Manager</a>
-			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
