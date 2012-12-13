@@ -1,3 +1,9 @@
 local-config.php
 wp-content/uploads
+wp-content/w3tc
+wp-content/advanced-cache.php
+wp-content/db.php
+wp-content/object-cache.php
+wp-content/w3-total-cache-config.php
+wp-content
 Thumbs.db
