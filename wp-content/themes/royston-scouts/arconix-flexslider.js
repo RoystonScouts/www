@@ -1,0 +1,9 @@
+jQuery(window).load(function() {
+    jQuery('.flexslider').flexslider( {
+	pauseOnHover: true,
+	animation: "slide",
+	controlNav: false,
+	directionNav: true,
+        controlsContainer: ".flex-container"
+    } );
+} );

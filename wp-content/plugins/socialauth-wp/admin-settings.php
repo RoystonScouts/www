@@ -201,7 +201,7 @@ function SocialAuth_WP_render_settings_page(){
                     <td>
                         <?php $isChecked = (!empty($validateEmail) && ($validateEmail == 'validate'))? "checked='checked'": ""; ?>
                         <input type="checkbox" name="SocialAuth_WP_validate_newUser_email" value="validate" <?php echo $isChecked;?> /> Yes, force user for email validation
-                        <span class="description">This will add an another step of email validation for new users before they can get in.</span>
+                        <span class="description">This will add an another step of email validation for new users before they can get in. You will need to enable some settings in you wordpress installation so that emails can be send. If login provider doesn not share email, this option has no affect at all.</span>
                     </td>
                 </tr>
             </table>

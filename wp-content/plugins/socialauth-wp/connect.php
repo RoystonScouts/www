@@ -118,7 +118,7 @@
                 update_user_meta( $user_id, 'email_verification_hash', $emailVerificationHash);
             }
             
-            if(!empty($validateEmail) && $validateEmail == 'validate' && $emailVerificationHash != 'validated')
+            if(!empty($validateEmail) && $validateEmail == 'validate' && $emailVerificationHash != 'validated' && $ha_user_profile->email)
             {
             	$userEmail = is_array($user_data)? $user_data['user_email']: $user_data->user_email;
             	sendEmailVerificationEmail($userEmail, $user_id, $emailVerificationHash);

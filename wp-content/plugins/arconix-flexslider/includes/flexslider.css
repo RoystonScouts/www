@@ -1,0 +1,202 @@
+/*  Stylesheet for Arconix Flexslider plugin
+
+    Copy "flexslider.css" to your theme's directory and rename it to
+    "arconix-flexslider.css" to use your own stylesheet in place of this one.
+
+    If you want to use the existing nav buttons, make sure to copy the "nav-buttons.png" and
+    "nav-arrows.png" to your theme's images folder and update the path if necessary, or create
+    new images to replace them.
+
+*/
+
+
+/* Browser Resets
+------------------------------------------------------------ */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus { outline: none; }
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav,
+ul.slides,
+ul.slides li,
+.flex-control-nav li,
+.flex-direction-nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+}
+
+/* Base Styles
+------------------------------------------------------------ */
+.flexslider {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+
+.flexslider .slides img {
+    width: inherit; /* ie8 hack */
+    max-width: 100%;
+    height: auto !important;
+    display: block;
+}
+
+.flex-pauseplay span { text-transform: capitalize; }
+
+/* Clearfix for the .slides element */
+.slides:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    line-height: 0;
+}
+
+html[xmlns] .slides { display: block; }
+* html .slides { height: 1%; }
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child { display: block; }
+
+.flexslider_widget {
+    margin-bottom: 10px;
+}
+
+/* FlexSlider Default Style
+------------------------------------------------------------ */
+.flexslider {
+    position: relative;
+    zoom: 1;
+}
+
+.flexslider .slides { zoom: 1; }
+
+.flexslider .slides > li { position: relative; }
+
+.flex-container {
+    margin-bottom: 3%;
+    position: relative;
+    zoom: 1;
+}
+
+/* Caption style
+------------------------------------------------------------ */
+/* IE rgba() hack */
+.flex-caption {
+    background: none;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+    zoom: 1;
+}
+
+.flex-caption {
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    padding: 2%;
+    margin: 0;
+    width: 96%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Content
+------------------------------------------------------------ */
+.flex-image-wrap {
+    float: right;
+    width: 50%
+}
+
+.flex-content-wrap {
+    float: left;
+    width: 50%;
+}
+
+.flex-title {
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+.flex-content {
+    margin-top: 15px;
+    padding: 0 15px 10px 10px;
+}
+
+
+
+/* Direction Nav
+------------------------------------------------------------ */
+.flex-direction-nav { height: 0; }
+
+.flex-direction-nav li a {
+    background: url(../images/nav-arrows.png) no-repeat;
+    cursor: pointer;
+    display: block;
+    margin: -13px -25px 0;
+    text-indent: -999em;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+}
+
+.flex-direction-nav li .prev { left: -17px; }
+
+.flex-direction-nav li .next {
+    background-position: -50px 0;
+    right: -25px;
+}
+
+.flex-direction-nav li .disabled {
+    opacity: .3;
+    filter: alpha(opacity=30);
+    cursor: default;
+}
+
+/* Control Nav
+------------------------------------------------------------ */
+.flex-control-nav {
+    text-align: center;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+
+.flex-control-nav li {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    zoom: 1;
+}
+
+.flex-control-nav li:first-child { margin: 0; }
+
+.flex-control-nav li a {
+    background: url(../images/nav-buttons.png) no-repeat;
+    cursor: pointer;
+    display: block;
+    text-indent: -999em;
+    width: 13px;
+    height: 13px;
+}
+
+.flex-control-nav li a:hover { background-position: 0 -13px; }
+
+.flex-control-nav li a.active {
+    background-position: 0 -26px;
+    cursor: default;
+}
