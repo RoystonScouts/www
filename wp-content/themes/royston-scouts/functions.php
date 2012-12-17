@@ -10,4 +10,13 @@
 	}
 	
 	add_filter('image_size_names_choose', 'custom_wmu_image_sizes');
+	
+	$args = array(
+		'flex-width'    => true,
+		'width'         => 300,
+		'flex-height'    => true,
+		'height'        => 100,
+		'default-image' => get_stylesheet_directory_uri() . '/images/default-logo.png',
+	);
+	add_theme_support( 'custom-header', $args );
 ?>

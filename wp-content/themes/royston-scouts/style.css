@@ -35,6 +35,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	
 /* =Start From Here
 -------------------------------------------------------------- */
+body {
+	background: white;
+}
+
 div#featured {
 	padding-bottom: 0px;
 }
@@ -61,6 +65,64 @@ div.flex-title a {
 	font-weight: bold;
 	color: #404040;
 }
+
+.menu {
+  background-color: #001323;
+}
+
+.menu .current_page_item a, .menu .current-menu-item a {
+background-color: #343434;
+}
+
+.menu  li{
+  background-color: #001323;
+  text-align: center;
+  width: 192px;
+}
+
+.featured-title {
+  color: #ED7703;
+}
+
+.page_item {
+  background-color: #001323;
+  text-align: center;
+  width: 192px;
+  text-indent: -9999px;
+}
+
+.page-item-36 a, .page-item-36 a:hover {
+	background: url(images/beavers-thumb.png) center left no-repeat;
+}
+
+.page-item-38 a, .page-item-38 a:hover {
+	background: url(images/cubs-thumb.png) center left no-repeat;
+}
+
+.page-item-41 a, .page-item-41 a:hover {
+	background: url(images/scouts-thumb.png) center left no-repeat;
+}
+
+.page-item-17 a, .page-item-17 a:hover {
+	background: url(images/group-thumb.png) center left no-repeat;
+}
+
+.children .page_item {
+	text-indent: 0px;
+	text-align: left;
+}
+
+.current_page_item {
+  background-color: #F37A1F;
+  text-align: center;
+  width: 192px;
+}
+
+.sub-menu {
+  text-align: left;
+}
+
+
 /* =Media Print
 -------------------------------------------------------------- */
 @media print {
