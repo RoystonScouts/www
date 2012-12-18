@@ -41,6 +41,7 @@ body {
 
 div#featured {
 	padding-bottom: 0px;
+	background: #F9F9F9;
 }
 
 div.flex-container{
@@ -120,6 +121,16 @@ background-color: #343434;
 
 .sub-menu {
   text-align: left;
+}
+
+.widget-wrapper {
+	background-color: white;
+	border: 0px;
+	padding-top: 0px;
+}
+
+#wrapper {
+	border: 0px;
 }
 
 
@@ -369,5 +380,3 @@ background-color: #343434;
         text-align: center;
     }
 }
-
-/*The last 29 days of the month are the hardest."- Nikola Tesla*/

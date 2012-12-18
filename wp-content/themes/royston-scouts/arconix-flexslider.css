@@ -145,7 +145,7 @@ html[xmlns] .slides { display: block; }
 .flex-direction-nav { height: 0; }
 
 .flex-direction-nav li a {
-    background: url(../images/nav-arrows.png) no-repeat;
+    background: url(images/nav-arrows.png) no-repeat;
     cursor: pointer;
     display: block;
     margin: -13px -25px 0;
@@ -187,7 +187,7 @@ html[xmlns] .slides { display: block; }
 .flex-control-nav li:first-child { margin: 0; }
 
 .flex-control-nav li a {
-    background: url(../images/nav-buttons.png) no-repeat;
+    background: url(images/nav-buttons.png) no-repeat;
     cursor: pointer;
     display: block;
     text-indent: -999em;

@@ -3,7 +3,7 @@ jQuery(window).load(function() {
 	pauseOnHover: true,
 	animation: "slide",
 	controlNav: false,
-	directionNav: true,
+	directionNav: false,
         controlsContainer: ".flex-container"
     } );
 } );
