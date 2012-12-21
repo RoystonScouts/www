@@ -3,7 +3,7 @@ Theme Name: Responsive
 Theme URI: http://themeid.com/responsive-theme/ 
 Description: Responsive Theme is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, W3C Markup Validated and currently translated into 34 languages. Cross-Browser compatible and yes even the IE7. No paid memberships or clubs to get a FREE/Responsive Support you need. http://themeid.com/support/
 
-Version: 1.8.4.1
+Version: 1.8.5
 Author: ThemeID 
 Author URI: http://themeid.com
 Tags: white, black, gray, light, custom-menu, custom-header, custom-background, one-column, two-columns, left-sidebar, right-sidebar, flexible-width, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, flexible-width, rtl-language-support
@@ -301,6 +301,28 @@ sub {
 	margin-right: 0 !important;
 }
 
+/* =Visibility
+-------------------------------------------------------------- */
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.none {
+    display: none;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.show-desktop {
+    display: block;
+}
+
 /* =Responsive Images
 -------------------------------------------------------------- */
 img {
@@ -388,7 +410,7 @@ input[type="password"] {
 
 select {
 	height: auto;
-	width: 70%;
+	width: 100%;
 }
 
 area,
@@ -422,6 +444,7 @@ area:focus,
 input:focus, 
 textarea:focus {
 	background: #fff;
+    border: 1px solid #6cf;
 }
 
 input[type='text'], 
@@ -2284,10 +2307,10 @@ a img.aligncenter {
 }
 
 .wp-caption {
-	background: #fff;
+	background: #f9f9f9;
 	border: 1px solid #f0f0f0;
 	max-width: 96%;
-	padding: 5px 3px 10px;
+	padding: 13px 10px 10px 10px;
 	text-align: center;
 }
 
@@ -2316,7 +2339,7 @@ a img.aligncenter {
 	font-size: 11px;
 	line-height: 1.5em;
 	margin: 0;
-	padding: 0 4px 5px;
+	padding: 10px;
 }
 
 img.wp-smiley {
@@ -2496,34 +2519,26 @@ table.cart td.actions .coupon .input-text {
 
 /* =Clearfix
 -------------------------------------------------------------- */
-.clearfix:after, 
-#container:after, 
+.clearfix:after,
+.clearfix:before,
+#container:after,
+#container:before,
+.widget-wrapper:after,
+.widget-wrapper:before {
+    content: ' ';
+    display: table;
+}
+
+.clearfix:after,
+#container:after,
 .widget-wrapper:after {
-	clear: both;
-	content: '\0020';
-	display: block;
-	height: 0;
-	max-height: 0;
-	overflow: hidden;
-	visibility: hidden;
+    clear: both;
 }
 
-.clearfix, 
-#container, 
-.widget-wrapper {
-	display: inline-block;
-}
-
-*html .clearfix, 
-*html #container, 
-*html .widget-wrapper {
-	height: 1%;
-}
-
-.clearfix, 
-#container, 
-.widget-wrapper {
-	display: block;
+.ie7 .clearfix,
+.ie7 #container,
+.ie7 .widget-wrapper {
+    zoom: 1;
 }
 
 .clear {
@@ -2607,6 +2622,14 @@ BDO[DIR="rtl"] {
         margin-top: 0 !important;
     }
     
+    .hide-980 {
+        display: none;
+    }
+    
+    .show-980 {
+        display: block;
+    }
+    
 }
 
 @media screen and (max-width: 650px) {
@@ -2652,34 +2675,44 @@ BDO[DIR="rtl"] {
 	    text-align: center;
     }
 	
-	.tinynav { 
-	    display: block;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
 	.tinynav {
-		-moz-appearance: none !important;
-		-webkit-appearance: none !important;
-		appearance: none !important;
-		background: #fff url(images/bg-select.png) no-repeat right;
-		border: 1px solid #ccc;
+        -moz-appearance: none;
+	    -webkit-appearance: none;
+        -moz-border-radius: 2px;
+        -moz-box-shadow: 0pt -1px 0pt rgba(0, 0, 0, 0.075) inset, 0pt 1px 0pt rgba(255, 255, 255, 0.3) inset, 0pt 1px 2px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0pt -1px 0pt rgba(0, 0, 0, 0.075) inset, 0pt 1px 0pt rgba(255, 255, 255, 0.3) inset, 0pt 1px 2px rgba(0, 0, 0, 0.1);
+	    -webkit-border-radius: 2px;
+	    appearance: none;
+	    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f5f5), to(#cdc9c9));
+	    background-image: -webkit-linear-gradient(top, #f6f5f5, #cdc9c9);
+	    background-image: -moz-linear-gradient(top, #f6f5f5, #cdc9c9);
+	    background-image: -ms-linear-gradient(top, #f6f5f5, #cdc9c9);
+	    background-image: -o-linear-gradient(top, #f6f5f5, #cdc9c9);
+	    background-image: linear-gradient(top, #f6f5f5, #cdc9c9);
+	    box-shadow: 0pt -1px 0pt rgba(0, 0, 0, 0.075) inset, 0pt 1px 0pt rgba(255, 255, 255, 0.3) inset, 0pt 1px 2px rgba(0, 0, 0, 0.1);
+	    border: 1px solid #aca6a6;
+	    border-radius: 2px;
+	    color: #444;
+        display: block;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f6f5f5, endColorstr=#cdc9c9);
         font-size: 12px;
 		overflow: hidden;
+        margin: 0 auto;
 		padding: 0.5em 1em 0.5em 0.75em;
+        text-shadow: none;
+        width: 100%;
 	}
-	
-	.ie7 .tinynav,
-	.ie8 .tinynav {
-		padding-right: 10px;
-	}
-	
-	.ie9 .tinynav  {
-		padding-right: 8px;
-	}
-	
+    
     #author-meta {
         padding: 20px;
+    }
+    
+    .hide-650 {
+        display: none;
+    }
+    
+    .show-650 {
+        display: block;
     }
     
     #footer {
@@ -2730,6 +2763,14 @@ BDO[DIR="rtl"] {
         text-rendering: optimizeSpeed;
     }
 	
+    .hide-480 {
+        display: none;
+    }
+    
+    .show-480 {
+        display: block;
+    }
+    
     #footer {
 	    text-align: center;
     }
@@ -2759,6 +2800,14 @@ BDO[DIR="rtl"] {
     .call-to-action a.button {
 	    font-size: 14px;
 	    padding: 7px 17px;
+    }
+
+    .hide-320 {
+        display: none;
+    }
+    
+    .show-320 {
+        display: block;
     }
 }
 
@@ -2798,6 +2847,14 @@ BDO[DIR="rtl"] {
         height: 13px;
         line-height: 13px;
         text-align: center;
+    }
+    
+    .hide-240 {
+        display: none;
+    }
+    
+    .show-240 {
+        display: block;
     }
 }
 
