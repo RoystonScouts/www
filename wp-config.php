@@ -39,6 +39,8 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	/** The Database Collate type. Don't change this if in doubt. */
 	define('DB_COLLATE', '');
 
+	define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+	define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
 	/**#@+
 	 * Authentication Unique Keys and Salts.
 	 *
@@ -86,11 +88,9 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
-define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
 define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
-define('WP_DEFAULT_THEME', 'twentyeleven');
+define('WP_DEFAULT_THEME', 'royston-scouts');
 
 define('WP_ALLOW_MULTISITE', false);
 
