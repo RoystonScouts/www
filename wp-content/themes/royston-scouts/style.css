@@ -1,17 +1,17 @@
-/* 
-Theme Name: Royston Scouts 
+/*
+Theme Name: Royston Scouts
 Description: Default theme for Royston Scouts. Available on github.
 
 Template: responsive
 Version: 1.0.0
-Author: ThemeID 
+Author: ThemeID
 Author URI: http://themeid.com
 Tags: white, black, gray, light, custom-menu, custom-header, custom-background, one-column, two-columns, left-sidebar, right-sidebar, flexible-width, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, flexible-width, rtl-language-support
 
 License: GNU General Public License
-License URI: license.txt 
+License URI: license.txt
 
-Responsive WordPress Theme, Copyright (C) 2003-2012 Emil Uzelac 
+Responsive WordPress Theme, Copyright (C) 2003-2012 Emil Uzelac
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 @import url('../responsive/style.css');
 
 
-	
+
 /* =Start From Here
 -------------------------------------------------------------- */
 body {
@@ -104,7 +104,7 @@ background-color: #343434;
 	background: url(images/scouts-thumb.png) center left no-repeat;
 }
 
-.page-item-17 a, .page-item-17 a:hover {
+.page-item-1242 a, .page-item-1242 a:hover {
 	background: url(images/group-thumb.png) center left no-repeat;
 }
 
@@ -154,12 +154,12 @@ background-color: #343434;
 /*	Retina (HiDPI) Display
     http://www.quirksmode.org/blog/archives/2012/06/devicepixelrati.html
 -------------------------------------------------------------- */
-@media 
-    only screen and (-moz-min-device-pixel-ratio:1.5), 
-    only screen and (-o-min-device-pixel-ratio:3/2), 
-    only screen and (-webkit-min-device-pixel-ratio:1.5), 
+@media
+    only screen and (-moz-min-device-pixel-ratio:1.5),
+    only screen and (-o-min-device-pixel-ratio:3/2),
+    only screen and (-webkit-min-device-pixel-ratio:1.5),
     only screen and (min-device-pixel-ratio:1.5) {
-    
+
     body {}
 }
 
@@ -168,25 +168,25 @@ background-color: #343434;
 @media screen and (max-width: 980px) {
 
     body {}
-	
-    .grid, 
+
+    .grid,
 	.grid-right {
 	    float: none;
     }
-	
+
 	#featured-image .fluid-width-video-wrapper {
 	    margin: 20px 0 0 0;
     }
-	
+
 	.home #widgets {
 		margin-top: 40px;
 	}
-    
+
     .top-widget,
     .home .top-widget {
         margin-top: 0 !important;
     }
-    
+
 }
 
 @media screen and (max-width: 650px) {
@@ -199,7 +199,7 @@ background-color: #343434;
 	    text-align: center;
     }
 
-    .grid, 
+    .grid,
 	.grid-right {
 	    float: none;
     }
@@ -207,7 +207,7 @@ background-color: #343434;
 	#featured-image .fluid-width-video-wrapper {
 	    margin: 20px 0 0 0;
     }
-    
+
     .top-widget {
         float: none;
         margin: 0 auto 10px auto;
@@ -215,29 +215,29 @@ background-color: #343434;
         text-align: center;
         width: auto;
     }
-    
+
     .top-widget .widget-title {
         text-align: center;
     }
-	
+
     .js .menu,
 	.js .sub-header-menu {
 		display: none;
 	}
-	
-	.top-menu, 
+
+	.top-menu,
 	.footer-menu li {
 	    float: none;
         font-size: 11px;
 	    text-align: center;
     }
-	
-	.tinynav { 
+
+	.tinynav {
 	    display: block;
 		margin: 0 auto;
 		width: 100%;
 	}
-	
+
 	.tinynav {
 		-moz-appearance: none !important;
 		-webkit-appearance: none !important;
@@ -248,20 +248,20 @@ background-color: #343434;
 		overflow: hidden;
 		padding: 0.5em 1em 0.5em 0.75em;
 	}
-	
+
 	.ie7 .tinynav,
 	.ie8 .tinynav {
 		padding-right: 10px;
 	}
-	
+
 	.ie9 .tinynav  {
 		padding-right: 8px;
 	}
-	
+
     #author-meta {
         padding: 20px;
     }
-    
+
     #footer {
 	    text-align: center;
     }
@@ -281,35 +281,35 @@ background-color: #343434;
 	    text-align: center;
     }
 
-    .grid, 
+    .grid,
 	.grid-right {
 	    float: none;
     }
-	
+
 	#featured-image .fluid-width-video-wrapper {
 	    margin: 20px 0 0 0;
 	}
-	
+
 	.featured-title {
 	    font-size: 40px;
 	    padding: 40px 20px 0 20px
     }
-    
+
     .navigation .next,
     .navigation .previous {
         text-align: center;
     }
-	
-    .menu ul, 
-	.menu li, 
-	.top-menu, 
-	.footer-menu li, 
+
+    .menu ul,
+	.menu li,
+	.top-menu,
+	.footer-menu li,
 	.sub-header-menu li {
 	    float: none;
 	    text-align: center;
         text-rendering: optimizeSpeed;
     }
-	
+
     #footer {
 	    text-align: center;
     }
@@ -320,9 +320,9 @@ background-color: #343434;
 }
 
 @media screen and (max-width: 320px) {
-    
+
     body {}
-	
+
 	#featured p {
 	    font-size: 12px;
 		line-height: 1.2em;
@@ -331,7 +331,7 @@ background-color: #343434;
     .featured-title {
 	    font-size: 35px;
     }
-	
+
 	.featured-subtitle {
 		font-size: 15px;
 	}
@@ -343,9 +343,9 @@ background-color: #343434;
 }
 
 @media screen and (max-width: 240px) {
-    
+
     body {}
-	
+
 	#featured p {
 	    font-size: 11px;
 		line-height: 1.1em;
@@ -354,7 +354,7 @@ background-color: #343434;
     .featured-title {
 	    font-size: 20px;
     }
-	
+
 	.featured-subtitle {
 		font-size: 11px;
 	}
@@ -363,15 +363,15 @@ background-color: #343434;
 	    font-size: 12px;
 	    padding: 5px 15px;
     }
-    
+
     .top-widget area,
     .top-widget select,
     .top-widget textarea,
-    .top-widget input[type="text"], 
+    .top-widget input[type="text"],
     .top-widget input[type="password"] {
         width: 75%;
     }
-    
+
     .widget-title,
     .widget-title-home h3 {
         font-size: 14px;
