@@ -64,7 +64,7 @@ div.flex-image-wrap a img {
 
 div.flex-title a {
 	font-weight: bold;
-	color: #404040;
+	color: #001323;
 }
 
 .menu {
@@ -131,8 +131,17 @@ background-color: #343434;
 .widget-wrapper {
 	background-color: white;
 	border: 0px;
+	border-left: 1px solid #F37A1F;
 	padding-top: 0px;
 	margin-top:20px;
+}
+
+.widget-title-home, .widget-title {
+	color: #4D2177;
+}
+
+.widget-title-home h3 {
+	padding: 0px;
 }
 
 #wrapper {
