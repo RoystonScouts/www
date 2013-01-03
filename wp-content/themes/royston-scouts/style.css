@@ -144,6 +144,11 @@ background-color: #343434;
 	padding: 0px;
 }
 
+h3.qa-faq-title {
+	font-size: 1em;
+	margin: 0px;
+}
+
 #wrapper {
 	border: 0px;
 }
