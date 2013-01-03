@@ -108,6 +108,11 @@ background-color: #343434;
 	background: url(images/group-thumb.png) center left no-repeat;
 }
 
+.page-item-1247 a, .page-item-1247 a:hover {
+	background: url(images/shop-thumb.png) center left no-repeat;
+}
+
+
 .children .page_item {
 	text-indent: 0px;
 	text-align: left;
@@ -127,12 +132,12 @@ background-color: #343434;
 	background-color: white;
 	border: 0px;
 	padding-top: 0px;
+	margin-top:20px;
 }
 
 #wrapper {
 	border: 0px;
 }
-
 
 /* =Media Print
 -------------------------------------------------------------- */

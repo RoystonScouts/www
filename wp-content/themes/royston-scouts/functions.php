@@ -19,4 +19,10 @@
 		'default-image' => get_stylesheet_directory_uri() . '/images/default-logo.png',
 	);
 	add_theme_support( 'custom-header', $args );
+	
+	function royston_scouts_theme_setup() {
+		remove_filter( 'wp_page_menu_args', 'responsive_page_menu_args' );
+	}
+
+	add_action( 'after_setup_theme', 'royston_scouts_theme_setup' );
 ?>
