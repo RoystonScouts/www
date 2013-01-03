@@ -8,15 +8,29 @@ Changelog Legend:
 [x] = Deleted
 [!] = Bugs
 
-(12/16/2012) - Maintenance and Improvements - Version 1.8.5
-[*] TinyNav - CSS
-[*] Micro Clearfix - CSS
-[*] Visibility (hide/show classes) - CSS
-[*] Minor Improvements - CSS
+----
+(12/23/2012) - Maintenance and Improvements - Version 1.8.6
+[+] Localization
+    - responsive.pot
+    - Languages improvements 
+    - New Languages (40 total)
+    - Arabic
+    - Estonian
+    - Hindi
+    - Korean
+    - Turkish
+[+] If statement for breadcrumb lists and code formatting 
+[+] Breadcrumb lists to Blog and Blog Excerpt Template
+[*] CSS Improvements
+[*] Twitter Icon to comply with https://twitter.com/logo guidelines
+[*] New screenshot.png for Retina displays
+
+----
 
 (12/09/2012) - Maintenance and Improvements - Version 1.8.4.1
 [!] Sidebar Half Page - rtl.css
 
+----
 
 (11/25/2012) - Maintenance and Improvements - Version 1.8.4
 [*] blog-excerpt.php Template now uses a default sidebar
@@ -66,8 +80,7 @@ Changelog Legend:
 	- Indonesian
 	- Welsh
 	- Turkish
-	- Romanian
-	
+	- Romanian	
 ----
 
 (09/27/2012) - Maintenance and Improvements - Version 1.7.9

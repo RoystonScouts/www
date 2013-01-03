@@ -20,13 +20,14 @@ if ( !defined('ABSPATH')) exit;
 ?>
 <?php get_header(); ?>
 
-        <div id="content" class="grid col-620">
+        <div id="content-search" class="grid col-620">
 
 <?php if (have_posts()) : ?>
 
     <h6><?php printf(__('Search results for: %s', 'responsive' ), '<span>' . get_search_query() . '</span>'); ?></h6>
 
 		<?php while (have_posts()) : the_post(); ?>
+        
         
             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 
@@ -63,14 +64,23 @@ if ( !defined('ABSPATH')) exit;
 
 	    <?php else : ?>
 
-        <h3 class="title-404"><?php _e('Your search for', 'responsive' );?> <?php the_search_query(); ?> <?php _e('did not match any entries', 'responsive');?></h3>
+        <h3 class="title-404"><?php printf(__('Your search for %s did not match any entries.', 'responsive' ), get_search_query() ); ?></h3>
+                    
         <p><?php _e('Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here.', 'responsive'); ?></p>
-        <h6><?php _e('You can return', 'responsive'); ?> <a href="<?php echo home_url('/'); ?>" title="<?php esc_attr_e( 'Home', 'responsive' ); ?>"><?php _e( '&larr; Home', 'responsive' ); ?></a> <?php _e( 'or search for the page you were looking for', 'responsive' ); ?></h6>
+                    
+        <h6><?php printf( __('You can return %s or search for the page you were looking for.', 'responsive'),
+	            sprintf( '<a href="%1$s" title="%2$s">%3$s</a>',
+		            esc_url( get_home_url() ),
+		            esc_attr__('Home', 'responsive'),
+		            esc_attr__('&larr; Home', 'responsive')
+	                )); 
+			 ?></h6>
+                    
         <?php get_search_form(); ?>
 
 <?php endif; ?>  
       
-        </div><!-- end of #content -->
+        </div><!-- end of #content-search -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

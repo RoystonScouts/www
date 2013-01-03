@@ -3,126 +3,58 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:57+0100\n"
+"PO-Revision-Date: 2012-12-18 21:52+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: Russian, Russia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 &#8212; Страница не найдена!"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
-msgstr "Страница, которую Вы ищете, не существует или просто перемещена. Не волнуйтесь, рассмотрите предлагаемые варианты."
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
+msgstr ""
+"Страница, которую Вы ищете, не существует или просто перемещена. Не "
+"волнуйтесь, рассмотрите предлагаемые варианты."
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "Вы можете вернуться"
+msgid "You can return %s or search for the page you were looking for."
+msgstr ""
+"Вы можете вернуться %s или воспользоваться поиском и найти нужную Вам "
+"страницу"
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "Главная"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; на Главную"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "или воспользоваться поиском и найти нужную Вам страницу"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,151 +72,85 @@ msgstr "Архивы за год: %s"
 msgid "Blog Archives"
 msgstr "Архивы блога"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Постоянная ссылка на %s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "Комментариев нет &darr;"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 комментарий &darr;"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "Комментариев: % &darr;"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "Страницы:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "Метки:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "Опубликовано в %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "Редактировать"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; Ранние публикации"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Новые публикации &#8250;"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "Подробнее &#8250;"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Эта публикация защищена паролем. Введите пароль для просмотра комментариев."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта публикация защищена паролем. Введите пароль для просмотра комментариев."
 
 #: comments.php
 msgid "&#8249; Older comments"
@@ -303,13 +169,15 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s для \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Имя"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
+msgstr[0] "1 комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария на &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев на &ldquo;%2$s&rdquo;"
+
+#: comments.php
+msgid "Name"
+msgstr "Имя"
 
 #: comments.php
 msgid "E-mail"
@@ -360,8 +228,14 @@ msgid "Your H2 subheadline here"
 msgstr "здесь Ваш &#060;H2&#062; подзаголовок"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "Ваш заголовок, подзаголовок и это содержимое можно отредактировать в Параметрах темы. А также, кнопку призыва к действию и ссылку его назначения. Справа от Вас может быть изображение или при желании, видео с YouTube."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"Ваш заголовок, подзаголовок и это содержимое можно отредактировать в "
+"Параметрах темы. А также, кнопку призыва к действию и ссылку его назначения. "
+"Справа от Вас может быть изображение или при желании, видео с YouTube."
 
 #: home.php
 msgid "Call to Action"
@@ -371,26 +245,13 @@ msgstr "Призыв к действию"
 msgid "&#8249; Return to"
 msgstr "&#8249; Вернуться на"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "Страница, которую Вы ищете, не существует или просто перемещена. Не волнуйтесь, рассмотрите предлагаемые варианты."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 комментарий &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "Комментариев: % &darr;"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "Результаты по запросу: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "Ваш поисковый запрос &laquo;"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "&raquo; не нашел ни одной публикаций."
+msgid "Your search for %s did not match any entries."
+msgstr "Ваш поисковый запрос &laquo; %s &raquo; не нашел ни одной публикаций."
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -432,41 +293,52 @@ msgstr "Затвор:"
 msgid "Camera:"
 msgstr "Камера:"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "Архивы"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "Виджет №1 на Главной"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "Это окно Вашего Виджета №1 на Главной. Для редактирования перейдите по ссылке Внешний вид > Виджеты и выберите 6-й виджет сверху с названием Виджет №1 на Главной. Название также управляется из виджетов."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"Это окно Вашего Виджета №1 на Главной. Для редактирования перейдите по "
+"ссылке Внешний вид > Виджеты и выберите 6-й виджет сверху с названием Виджет "
+"№1 на Главной. Название также управляется из виджетов."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "Виджет №2 на Главной"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "Это окно Вашего Виджета №2 на Главной. Для редактирования перейдите по ссылке Внешний вид > Виджеты и выберите 7-й виджет сверху с названием Виджет №2 на Главной. Название также управляется из виджетов."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"Это окно Вашего Виджета №2 на Главной. Для редактирования перейдите по "
+"ссылке Внешний вид > Виджеты и выберите 7-й виджет сверху с названием Виджет "
+"№2 на Главной. Название также управляется из виджетов."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "Виджет №3 на Главной"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "Это окно Вашего Виджета №3 на Главной. Для редактирования перейдите по ссылке Внешний вид > Виджеты и выберите 8-й виджет сверху с названием Виджет №3 на Главной. Название также управляется из виджетов."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"Это окно Вашего Виджета №3 на Главной. Для редактирования перейдите по "
+"ссылке Внешний вид > Виджеты и выберите 8-й виджет сверху с названием Виджет "
+"№3 на Главной. Название также управляется из виджетов."
 
 #: single.php
 msgid "About"
@@ -501,8 +373,12 @@ msgid "Footer Menu"
 msgstr "Нижнее меню"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">Опубликовано </span>%2$s<span class=\"%3$s\"> Автор: </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">Опубликовано </span>%2$s<span class=\"%3$s\"> Автор: </"
+"span>%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -511,10 +387,6 @@ msgstr "Показать все публикации автора: %s"
 #: includes/functions.php
 msgid "Archive for %s"
 msgstr "Архив для %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Результаты по запросу: %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -565,7 +437,7 @@ msgid "Main Sidebar"
 msgstr "Основной сайдбар"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "1-я область - sidebar.php"
 
 #: includes/functions.php
@@ -573,7 +445,7 @@ msgid "Right Sidebar"
 msgstr "Сайдбар справа"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "2-я область - sidebar-right.php"
 
 #: includes/functions.php
@@ -581,7 +453,7 @@ msgid "Left Sidebar"
 msgstr "Сайдбар слева"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "3-я область - sidebar-left.php"
 
 #: includes/functions.php
@@ -589,7 +461,7 @@ msgid "Left Sidebar Half Page"
 msgstr "Левый сайдбар полстраницы"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "4-я область - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -597,19 +469,19 @@ msgid "Right Sidebar Half Page"
 msgstr "Правый сайдбар полстраницы"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "5-я область - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "6-я область - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "7-я область - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "8-я область - sidebar-home.php"
 
 #: includes/functions.php
@@ -617,7 +489,7 @@ msgid "Gallery Sidebar"
 msgstr "Сайдбар галерея"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "9-я область - sidebar-gallery.php"
 
 #: includes/functions.php
@@ -625,7 +497,7 @@ msgid "Colophon Widget"
 msgstr "Нижний виджет"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
+msgid "Area 10 - sidebar-colophon.php"
 msgstr "10-я область - sidebar-colophon.php"
 
 #: includes/functions.php
@@ -633,7 +505,7 @@ msgid "Top Widget"
 msgstr "Верхний виджет"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
+msgid "Area 11 - sidebar-top.php"
 msgstr "11-я область - sidebar-top.php"
 
 #: includes/theme-options.php
@@ -927,4 +799,3 @@ msgstr "Встраивается в footer.php &darr;"
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
 msgstr "Введите Ваши собственные скрипты в подвале."
-

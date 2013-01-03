@@ -3,126 +3,54 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:57+0100\n"
+"PO-Revision-Date: 2012-12-18 21:53+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: Slovenian, Slovenia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 &#8212; Kaj delaš tukaj?!"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
 msgstr "Ne skrbi. Skupaj bomo rešili problem. Preglejmo možnosti."
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "Lahko se vrneš"
+msgid "You can return %s or search for the page you were looking for."
+msgstr "Lahko se vrneš %s ali poišči stran, ki jo želiš."
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "Domov"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; Domov"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "ali poišči stran, ki jo želiš."
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,150 +68,83 @@ msgstr "Letni arhiv: %s"
 msgid "Blog Archives"
 msgstr "Arhiv"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Trajna povezava %s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "Ni komentarjev &darr;"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 komentar &darr;"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% komentarji &darr;"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "Strani:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "Oznake:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "Objavljeno v %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "Popravi"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; Starejše objave"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Novejše objave &#8250;"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "Več &#8250;"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
 msgstr "Ta objava je zaščitena z geslom. Vnesi geslo ze pregled komentarjev."
 
 #: comments.php
@@ -303,16 +164,16 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s za \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Ime"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
-msgstr[0] "En komentar v &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentarjev v &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s komentarjev v &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s komentarjev v &ldquo;%2$s&rdquo;"
-msgstr[3] "%1$s komentarjev v &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s komentar v &ldquo;%2$s&rdquo;"
+
+#: comments.php
+msgid "Name"
+msgstr "Ime"
 
 #: comments.php
 msgid "E-mail"
@@ -363,8 +224,14 @@ msgid "Your H2 subheadline here"
 msgstr "H2 podnaslov tukaj"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "Naslov, podnaslov in vsebina, ki se vidi, se lahko spremeni pod Možnostmi teme. Podobno tudi gumb Poziv k akciji in njegova povezava. Namesto desne sike lahko vstaviš svojo sliko ali celo youtube posnetek."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"Naslov, podnaslov in vsebina, ki se vidi, se lahko spremeni pod Možnostmi "
+"teme. Podobno tudi gumb Poziv k akciji in njegova povezava. Namesto desne "
+"sike lahko vstaviš svojo sliko ali celo youtube posnetek."
 
 #: home.php
 msgid "Call to Action"
@@ -374,26 +241,13 @@ msgstr "Poziv k akciji"
 msgid "&#8249; Return to"
 msgstr "&#8249; Nazaj"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "Ne skrbi. Skupaj bomo rešili problem. Preglejmo možnosti."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 komentar &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% komentarji &darr;"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "Rezultati iskanja za: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "Rezultati iskanja"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "ni zadetkov"
+msgid "Your search for %s did not match any entries."
+msgstr "Rezultati iskanja %s ni zadetkov"
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -435,41 +289,52 @@ msgstr "Zaklop:"
 msgid "Camera:"
 msgstr "Kamera:"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "V arhivu"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "Domov - gradnik 1"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "To je prvi gradnik naslovne strani. Za spremembo obišči Izgled > Gradniki in izberi 6ti gradnik z vrha na šestem mestu, ki se imenuje (Domov - gradnik) Home Widget 1. Naslov se lahko tudi spremeni v gradnikih."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"To je prvi gradnik naslovne strani. Za spremembo obišči Izgled > Gradniki in "
+"izberi 6ti gradnik z vrha na šestem mestu, ki se imenuje (Domov - gradnik) "
+"Home Widget 1. Naslov se lahko tudi spremeni v gradnikih."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "Domov - gradnik 2"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "To je drugi gradnik naslovne strani. Za spremembo obišči Izgled > Gradniki in izberi 7ti gradnik z vrha na sedmem mestu, ki se imenuje (Domov - gradnik) Home Widget 2. Naslov se lahko tudi spremeni v gradnikih."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"To je drugi gradnik naslovne strani. Za spremembo obišči Izgled > Gradniki "
+"in izberi 7ti gradnik z vrha na sedmem mestu, ki se imenuje (Domov - "
+"gradnik) Home Widget 2. Naslov se lahko tudi spremeni v gradnikih."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "Domov - gradnik 3"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "To je tretji gradnik naslovne strani. Za spremembo obišči Izgled > Gradniki in izberi 8ti gradnik z vrha na osmem mestu, ki se imenuje (Domov - gradnik) Home Widget 3. Naslov se lahko tudi spremeni v gradnikih."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"To je tretji gradnik naslovne strani. Za spremembo obišči Izgled > Gradniki "
+"in izberi 8ti gradnik z vrha na osmem mestu, ki se imenuje (Domov - gradnik) "
+"Home Widget 3. Naslov se lahko tudi spremeni v gradnikih."
 
 #: single.php
 msgid "About"
@@ -504,8 +369,12 @@ msgid "Footer Menu"
 msgstr "Meni v nogi"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">Objavljeno </span>%2$s<span class=\"%3$s\"> оd </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">Objavljeno </span>%2$s<span class=\"%3$s\"> оd </span>"
+"%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -514,10 +383,6 @@ msgstr "Poglej objave od %s"
 #: includes/functions.php
 msgid "Archive for %s"
 msgstr "Arhiv za %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Rezultati iskanja za: %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -568,7 +433,7 @@ msgid "Main Sidebar"
 msgstr "Glavni Sidebar"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "Prvo mesto - sidebar.php"
 
 #: includes/functions.php
@@ -576,7 +441,7 @@ msgid "Right Sidebar"
 msgstr "Desni sidebar"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "Drugo mesto - sidebar-right.php"
 
 #: includes/functions.php
@@ -584,7 +449,7 @@ msgid "Left Sidebar"
 msgstr "Levi sidebar"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "Tretje mesto - sidebar-left.php"
 
 #: includes/functions.php
@@ -592,7 +457,7 @@ msgid "Left Sidebar Half Page"
 msgstr "Leva stranska vrstica, pol strani"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "Četrto mesto - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -600,19 +465,19 @@ msgid "Right Sidebar Half Page"
 msgstr "Desna stranska vrstica, pol strani"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "Peto mesto - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "Šesto mesto - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "Sedmo mesto - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "Osmo mesto - sidebar-home.php"
 
 #: includes/functions.php
@@ -620,7 +485,7 @@ msgid "Gallery Sidebar"
 msgstr "Galerija - stranska vrstica"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "Deveto mesto - sidebar-gallery.php"
 
 #: includes/functions.php
@@ -628,7 +493,7 @@ msgid "Colophon Widget"
 msgstr "Kolofon gradnik"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
+msgid "Area 10 - sidebar-colophon.php"
 msgstr "Prostor deset - stranski-kolofon.php"
 
 #: includes/functions.php
@@ -636,7 +501,7 @@ msgid "Top Widget"
 msgstr "Gornji gradnik"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
+msgid "Area 11 - sidebar-top.php"
 msgstr "Prostor 12 - stranski-zgoraj.php"
 
 #: includes/theme-options.php
@@ -930,4 +795,3 @@ msgstr "Vstavljeno v header.php &darr;"
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
 msgstr "Vstavi svojo skripto po meri za nogo."
-

@@ -13,7 +13,7 @@ if ( !defined('ABSPATH')) exit;
  * @author         Emil Uzelac
  * @copyright      2003 - 2012 ThemeID
  * @license        license.txt
- * @version        Release: 1.0
+ * @version        Release: 1.1.0
  * @filesource     wp-content/themes/responsive/blog-excerpt.php
  * @link           http://codex.wordpress.org/Templates
  * @since          available since Release 1.0
@@ -22,6 +22,11 @@ if ( !defined('ABSPATH')) exit;
 <?php get_header(); ?>
 
         <div id="content-blog" class="grid col-620">
+        
+        <?php $options = get_option('responsive_theme_options'); ?>
+		<?php if ($options['breadcrumb'] == 0): ?>
+		<?php echo responsive_breadcrumb_lists(); ?>
+        <?php endif; ?>
 <?php
     if ( get_query_var('paged') )
 	    $paged = get_query_var('paged');
@@ -31,6 +36,7 @@ if ( !defined('ABSPATH')) exit;
 		$paged = 1;
 		query_posts("post_type=post&paged=$paged"); 
 ?> 
+
      
 <?php if (have_posts()) : ?>
 
@@ -81,8 +87,17 @@ if ( !defined('ABSPATH')) exit;
 	    <?php else : ?>
 
         <h1 class="title-404"><?php _e('404 &#8212; Fancy meeting you here!', 'responsive'); ?></h1>
+                    
         <p><?php _e('Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here.', 'responsive'); ?></p>
-        <h6><?php _e( 'You can return', 'responsive' ); ?> <a href="<?php echo home_url(); ?>/" title="<?php esc_attr_e( 'Home', 'responsive' ); ?>"><?php _e( '&larr; Home', 'responsive' ); ?></a> <?php _e( 'or search for the page you were looking for', 'responsive' ); ?></h6>
+                    
+        <h6><?php printf( __('You can return %s or search for the page you were looking for.', 'responsive'),
+	            sprintf( '<a href="%1$s" title="%2$s">%3$s</a>',
+		            esc_url( get_home_url() ),
+		            esc_attr__('Home', 'responsive'),
+		            esc_attr__('&larr; Home', 'responsive')
+	                )); 
+			 ?></h6>
+                    
         <?php get_search_form(); ?>
         
 <?php endif; ?>  

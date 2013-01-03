@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:54+0100\n"
-"Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
+"PO-Revision-Date: 2012-12-07 23:20:30 UTC\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
 "Language-Team: Catalan\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,10 +12,6 @@ msgstr ""
 "X-Generator: WebTranslateIt.com\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -27,14 +23,15 @@ msgstr ""
 #: blog-excerpt.php
 #: archive.php
 #: 404.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 &#8212; Que estrany que ens trobem aquí!"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
+#: image.php
+#: index.php
 #: page.php
 #: landing-page.php
 #: full-width-page.php
@@ -44,14 +41,14 @@ msgstr "404 &#8212; Que estrany que ens trobem aquí!"
 #: blog-excerpt.php
 #: archive.php
 #: 404.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
 msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
 msgstr "No t&#39;espantis, ens espavilarem. Vegem les opcions a continuació."
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -63,17 +60,14 @@ msgstr "No t&#39;espantis, ens espavilarem. Vegem les opcions a continuació."
 #: blog-excerpt.php
 #: archive.php
 #: 404.php
-msgid "You can return"
-msgstr "Pots tornar a l&#39;"
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
+msgid "You can return %s or search for the page you were looking for."
+msgstr "Pots tornar a l&#39; %s o cercar el que estàs buscant."
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
 #: page.php
 #: landing-page.php
 #: full-width-page.php
@@ -83,14 +77,17 @@ msgstr "Pots tornar a l&#39;"
 #: blog-excerpt.php
 #: archive.php
 #: 404.php
+#: image.php
+#: index.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
+#: includes/functions.php
 msgid "Home"
 msgstr "Inici"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
 #: 404.php
 #: page.php
 #: landing-page.php
@@ -102,27 +99,13 @@ msgstr "Inici"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; Inici"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "o cercar el que estàs buscant"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,19 +123,15 @@ msgstr "Arxius anuals: %s"
 msgid "Blog Archives"
 msgstr "Arxius del blog"
 
-#: sitemap.php
-#: search.php
 #: index.php
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: search.php
+#: sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Enllaç permanent a %s"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
 #: page.php
 #: index.php
 #: image.php
@@ -162,14 +141,45 @@ msgstr "Enllaç permanent a %s"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
 msgid "No Comments &darr;"
 msgstr "Sense comentaris &darr;"
 
-#: sitemap.php
 #: single.php
 #: sidebar-content-page.php
 #: sidebar-content-half-page.php
 #: search.php
+#: page.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+#: index.php
+msgid "1 Comment &darr;"
+msgstr "1 comentari &darr;"
+
+#: single.php
+#: sidebar-content-page.php
+#: sidebar-content-half-page.php
+#: search.php
+#: page.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% comentaris &darr;"
+
 #: page.php
 #: landing-page.php
 #: index.php
@@ -180,12 +190,14 @@ msgstr "Sense comentaris &darr;"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
 msgid "Pages:"
 msgstr "Pàgines:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -196,12 +208,12 @@ msgstr "Pàgines:"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
 msgid "Tagged with:"
 msgstr "Etiquetat amb:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -212,14 +224,12 @@ msgstr "Etiquetat amb:"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
 msgid "Posted in %s"
 msgstr "Publicat a %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -230,14 +240,14 @@ msgstr "Publicat a %s"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
 msgid "Edit"
 msgstr "Edita"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -247,14 +257,14 @@ msgstr "Edita"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; Publicacions més antigues"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -264,13 +274,14 @@ msgstr "&#8249; Publicacions més antigues"
 #: blog.php
 #: blog-excerpt.php
 #: archive.php
+#: search.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Publicacions més noves &#8250;"
 
-#: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
 #: page.php
 #: landing-page.php
 #: index.php
@@ -279,6 +290,10 @@ msgstr "Publicacions més noves &#8250;"
 #: content-sidebar-half-page.php
 #: blog.php
 #: image.php
+#: sidebar-content-half-page.php
+#: sidebar-content-page.php
+#: single.php
+#: includes/functions.php
 msgid "Read more &#8250;"
 msgstr "Continua llegint &#8250;"
 
@@ -287,9 +302,11 @@ msgid "This post is password protected. Enter the password to view any comments.
 msgstr "Aquesta publicació està protegida per contrasenya. Introdueix la contrasenya per veure els comentaris."
 
 #: comments.php
+#: comments.php
 msgid "&#8249; Older comments"
 msgstr "&#8249; Comentaris més antics"
 
+#: comments.php
 #: comments.php
 msgid "Newer comments &#8250;"
 msgstr "Comentaris més nous &#8250;"
@@ -303,14 +320,14 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s per a \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Nom"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
 msgstr[0] "Un comentari a &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s comentaris a &ldquo;%2$s&rdquo;"
+
+#: comments.php
+msgid "Name"
+msgstr "Nom"
 
 #: comments.php
 msgid "E-mail"
@@ -372,26 +389,14 @@ msgstr "Crida a l'acció"
 msgid "&#8249; Return to"
 msgstr "&#8249; Torna a"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "No t'espantis, ens espavilarem. Vegem les opcions a continuació."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 comentari &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% comentaris &darr;"
+#: search.php
+#: includes/functions.php
+msgid "Search results for: %s"
+msgstr "Resultats de la cerca per a: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "La teva cerca per a"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "no ha obtingut cap resultat"
+msgid "Your search for %s did not match any entries."
+msgstr "La teva cerca per a %s no ha obtingut cap resultat."
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -442,8 +447,8 @@ msgstr "Càmera:"
 msgid "In Archive"
 msgstr "A l'arxiu"
 
-#: includes/functions.php
 #: sidebar-home.php
+#: includes/functions.php
 msgid "Home Widget 1"
 msgstr "Giny de l'inici 1"
 
@@ -451,8 +456,8 @@ msgstr "Giny de l'inici 1"
 msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
 msgstr "Aquesta és la capsa del teu primer giny de l'inici. Per editar-lo, vés a Aparença > Ginys i escull el sisè giny des de dalt, a la sisena àrea, anomenat Giny de l'inici 1. El títol també es pot administrar des dels ginys."
 
-#: includes/functions.php
 #: sidebar-home.php
+#: includes/functions.php
 msgid "Home Widget 2"
 msgstr "Giny de l'inici 2"
 
@@ -460,8 +465,8 @@ msgstr "Giny de l'inici 2"
 msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
 msgstr "Aquesta és la capsa del teu segon giny de l'inici. Per editar-lo, vés a Aparença > Ginys i escull el setè giny des de dalt, a la setena àrea, anomenat Giny de l'inici 2. El títol també es pot administrar des dels ginys."
 
-#: includes/functions.php
 #: sidebar-home.php
+#: includes/functions.php
 msgid "Home Widget 3"
 msgstr "Giny de l'inici 3"
 
@@ -514,10 +519,6 @@ msgid "Archive for %s"
 msgstr "Arxiu de %s"
 
 #: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Resultats de la cerca per a: %s"
-
-#: includes/functions.php
 msgid "Posts tagged %s"
 msgstr "Publicacions etiquetades amb %s"
 
@@ -534,6 +535,7 @@ msgid "http://themeid.com/support/"
 msgstr "http://themeid.com/support/"
 
 #: includes/functions.php
+#: includes/functions.php
 msgid "Theme Support"
 msgstr "Suport del tema"
 
@@ -541,6 +543,7 @@ msgstr "Suport del tema"
 msgid "http://themeid.com/themes/"
 msgstr "http://themeid.com/themes/"
 
+#: includes/functions.php
 #: includes/functions.php
 msgid "More Themes"
 msgstr "Més temes"
@@ -550,6 +553,7 @@ msgid "http://themeid.com/showcase/"
 msgstr "http://themeid.com/showcase/"
 
 #: includes/functions.php
+#: includes/functions.php
 msgid "Showcase"
 msgstr "Mostra de dissenys"
 
@@ -557,6 +561,7 @@ msgstr "Mostra de dissenys"
 msgid "http://themeid.com/donate/"
 msgstr "http://themeid.com/donate/"
 
+#: includes/functions.php
 #: includes/functions.php
 msgid "Donate Now"
 msgstr "Fes una donació"
@@ -566,7 +571,7 @@ msgid "Main Sidebar"
 msgstr "Barra lateral principal"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "Àrea 1 - sidebar.php"
 
 #: includes/functions.php
@@ -574,7 +579,7 @@ msgid "Right Sidebar"
 msgstr "Barra lateral de la dreta"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "Àrea 2 - sidebar-right.php"
 
 #: includes/functions.php
@@ -582,7 +587,7 @@ msgid "Left Sidebar"
 msgstr "Barra lateral de l'esquerra"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "Àrea 3 - sidebar-left.php"
 
 #: includes/functions.php
@@ -590,7 +595,7 @@ msgid "Left Sidebar Half Page"
 msgstr "Barra lateral de l'esquerra a mitja pàgina"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "Àrea 4 - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -598,19 +603,19 @@ msgid "Right Sidebar Half Page"
 msgstr "Barra lateral de la dreta a mitja pàgina"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "Àrea 5 - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "Àrea 6 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "Àrea 7 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "Àrea 8 - sidebar-home.php"
 
 #: includes/functions.php
@@ -618,24 +623,24 @@ msgid "Gallery Sidebar"
 msgstr "Barra lateral de la galeria"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "Àrea 9 - sidebar-gallery.php"
 
 #: includes/functions.php
 msgid "Colophon Widget"
-msgstr ""
+msgstr "Giny de colofó"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
-msgstr ""
+msgid "Area 10 - sidebar-colophon.php"
+msgstr "Àrea 10 - sidebar-colophon.php"
 
 #: includes/functions.php
 msgid "Top Widget"
-msgstr ""
+msgstr "Giny superior"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
-msgstr ""
+msgid "Area 11 - sidebar-top.php"
+msgstr "Àrea 11 - sidebar-top.php"
 
 #: includes/theme-options.php
 msgid "Theme Options"
@@ -654,6 +659,7 @@ msgid "Disable Breadcrumb Lists?"
 msgstr "Desactiva els fils d'Ariadna"
 
 #: includes/theme-options.php
+#: includes/theme-options.php
 msgid "Check to disable"
 msgstr "Marca per deshabilitar"
 
@@ -661,6 +667,10 @@ msgstr "Marca per deshabilitar"
 msgid "Disable Call to Action Button?"
 msgstr "Desactiva el botó de crida a l'acció"
 
+#: includes/theme-options.php
+#: includes/theme-options.php
+#: includes/theme-options.php
+#: includes/theme-options.php
 #: includes/theme-options.php
 msgid "Save Options"
 msgstr "Desa les opcions"
@@ -739,7 +749,7 @@ msgstr "Vegeu la documentació"
 
 #: includes/theme-options.php
 msgid "Paste your shortcode, video or image source"
-msgstr ""
+msgstr "Enganxa el teu codi curt, vídeo o recurs d'imatge"
 
 #: includes/theme-options.php
 msgid "Webmaster Tools"
@@ -882,6 +892,7 @@ msgid "Enter your foursquare URL"
 msgstr "Introdueix la teva URL del foursquare"
 
 #: includes/theme-options.php
+#: includes/theme-options.php
 msgid "Custom CSS Styles"
 msgstr "Estils CSS personalitzats"
 
@@ -899,33 +910,33 @@ msgstr "Introdueix els teus estils CSS personalitzats."
 
 #: includes/theme-options.php
 msgid "Custom Scripts"
-msgstr ""
+msgstr "Scripts personalitzats"
 
 #: includes/theme-options.php
 msgid "Custom Scripts for Header and Footer"
-msgstr ""
+msgstr "Scripts personalitzats per a la capçalera i el peu"
 
 #: includes/theme-options.php
 msgid "http://codex.wordpress.org/Using_Javascript"
-msgstr ""
+msgstr "http://codex.wordpress.org/Using_Javascript"
 
 #: includes/theme-options.php
+#: includes/theme-options.php
 msgid "Quick Tutorial"
-msgstr ""
+msgstr "Tutorial ràpid"
 
 #: includes/theme-options.php
 msgid "Embeds to header.php &darr;"
-msgstr ""
+msgstr "S'incrusta a header.php &darr;"
 
 #: includes/theme-options.php
 msgid "Enter your custom header script."
-msgstr ""
+msgstr "Introdueix el teu script personalitzat per a la capçalera"
 
 #: includes/theme-options.php
 msgid "Embeds to footer.php &darr;"
-msgstr ""
+msgstr "S'incrusta a footer.php &darr;"
 
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
-msgstr ""
-
+msgstr "Introdueix el teu script personalitzat per al peu"

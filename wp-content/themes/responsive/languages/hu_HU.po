@@ -3,126 +3,53 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:56+0100\n"
+"PO-Revision-Date: 2012-12-18 21:36+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: Hungarian, Hungary\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 — Jó, hogy találkoztunk!"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
 msgstr "Ne pánikolj, megoldjuk. Nézzük meg a lehetőségeket."
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "Visszatérhetsz"
+msgid "You can return %s or search for the page you were looking for."
+msgstr "Visszatérhetsz %s vagy keresd meg az oldalt, amit szeretnél"
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "Kezdőlap"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; Kezdőlap"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "vagy keresd meg az oldalt, amit szeretnél"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,151 +67,86 @@ msgstr "%s év bejegyzései"
 msgid "Blog Archives"
 msgstr "Valamennyi bejegyzés"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Állandó link ehhez %s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "Nincs hozzászólás &darr;"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 hozzászólás &darr;"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% hozzászólás &darr;"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "Oldal:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "Címke:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "Kategória: %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; Korábbi bejegyzések"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Újabb bejegyzések &#8250;"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "Tovább ›"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Ez a bejegyzés jelszóval védett! A hozzászólások megtekintéséhez meg kell adni a jelszót."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Ez a bejegyzés jelszóval védett! A hozzászólások megtekintéséhez meg kell "
+"adni a jelszót."
 
 #: comments.php
 msgid "&#8249; Older comments"
@@ -303,13 +165,13 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s számára \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Név"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
 msgstr[0] "%1$s hozzászólás &ldquo;%2$s&rdquo;"
+
+#: comments.php
+msgid "Name"
+msgstr "Név"
 
 #: comments.php
 msgid "E-mail"
@@ -360,8 +222,14 @@ msgid "Your H2 subheadline here"
 msgstr "H2 alcím ide"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "A cím, az alcím és a tartalom szerkeszthető a téma opcióknál. A \"cselekvésre ösztönző (Call to action)\" gomb felirata és linkje is onnan szerkeszthető. A jobb oldali kép lehet kép vagy youtube videó."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"A cím, az alcím és a tartalom szerkeszthető a téma opcióknál. A "
+"\"cselekvésre ösztönző (Call to action)\" gomb felirata és linkje is onnan "
+"szerkeszthető. A jobb oldali kép lehet kép vagy youtube videó."
 
 #: home.php
 msgid "Call to Action"
@@ -371,26 +239,13 @@ msgstr "Cselekvésre ösztönzés"
 msgid "&#8249; Return to"
 msgstr "‹ Vissza"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "Ne pánikolj, megoldjuk. Nézzük meg a lehetőségeket."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 hozzászólás &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% hozzászólás &darr;"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "Keresés eredménye a következő kifejezésre: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "A keresés"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "nem talált egyezést egy bejegyzéssel sem."
+msgid "Your search for %s did not match any entries."
+msgstr "A keresés %s nem talált egyezést egy bejegyzéssel sem."
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -432,41 +287,52 @@ msgstr "Zár:"
 msgid "Camera:"
 msgstr "Kamera:"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "Az archívumban"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "Kezdőlap Widget 1"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "Ez az első főoldali widget doboz. Szerkeszteni a Megjelenés > Widgetek menüpont alatt lehet, jobb oldalon felülről a hatodik widget. A widget címét is itt adhatod meg."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"Ez az első főoldali widget doboz. Szerkeszteni a Megjelenés > Widgetek "
+"menüpont alatt lehet, jobb oldalon felülről a hatodik widget. A widget címét "
+"is itt adhatod meg."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "Kezdőlap Widget 2"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "Ez a második főoldali widget doboz. Szerkeszteni a Megjelenés > Widgetek menüpont alatt lehet, jobb oldalon felülről a hetedik widget. A widget címét is itt adhatod meg."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"Ez a második főoldali widget doboz. Szerkeszteni a Megjelenés > Widgetek "
+"menüpont alatt lehet, jobb oldalon felülről a hetedik widget. A widget címét "
+"is itt adhatod meg."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "Kezdőlap Widget 3"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "Ez a harmadik főoldali widget doboz. Szerkeszteni a Megjelenés > Widgetek menüpont alatt lehet, jobb oldalon felülről a nyolcadik widget. A widget címét is itt adhatod meg."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"Ez a harmadik főoldali widget doboz. Szerkeszteni a Megjelenés > Widgetek "
+"menüpont alatt lehet, jobb oldalon felülről a nyolcadik widget. A widget "
+"címét is itt adhatod meg."
 
 #: single.php
 msgid "About"
@@ -501,8 +367,12 @@ msgid "Footer Menu"
 msgstr "Lábléc menü"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">Bejegyezve </span>%2$s<span class=\"%3$s\"> Szerző </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">Bejegyezve </span>%2$s<span class=\"%3$s\"> Szerző </"
+"span>%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -511,10 +381,6 @@ msgstr "%s összes bejegyzése"
 #: includes/functions.php
 msgid "Archive for %s"
 msgstr "Bejegyezések itt: %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Keresés eredménye a következő kifejezésre: %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -565,7 +431,7 @@ msgid "Main Sidebar"
 msgstr "Fő oldalsáv"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "1. terület - sidebar.php"
 
 #: includes/functions.php
@@ -573,7 +439,7 @@ msgid "Right Sidebar"
 msgstr "Jobb oldalsáv"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "2. terület - sidebar-right.php"
 
 #: includes/functions.php
@@ -581,7 +447,7 @@ msgid "Left Sidebar"
 msgstr "Bal oldalsáv"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "3. terület - sidebar-left.php"
 
 #: includes/functions.php
@@ -589,7 +455,7 @@ msgid "Left Sidebar Half Page"
 msgstr "Bal odalsáv, fél oldal"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "4. terület - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -597,19 +463,19 @@ msgid "Right Sidebar Half Page"
 msgstr "Jobb oldalsáv, fél oldal"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "5. terület - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "6. terület - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "7. terület - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "8. terület - sidebar-home.php"
 
 #: includes/functions.php
@@ -617,7 +483,7 @@ msgid "Gallery Sidebar"
 msgstr "Galéria oldalsáv"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "9. terület - sidebar-gallery.php"
 
 #: includes/functions.php
@@ -625,7 +491,7 @@ msgid "Colophon Widget"
 msgstr ""
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
+msgid "Area 10 - sidebar-colophon.php"
 msgstr ""
 
 #: includes/functions.php
@@ -633,7 +499,7 @@ msgid "Top Widget"
 msgstr ""
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
+msgid "Area 11 - sidebar-top.php"
 msgstr ""
 
 #: includes/theme-options.php
@@ -778,7 +644,8 @@ msgstr "Hagyd üresen, ha plugin kezeli a webmester eszközöket"
 
 #: includes/theme-options.php
 msgid "Google Analytics, StatCounter, any other or all of them."
-msgstr "Google Analytics, StatCounter, egyik vagy az összes a felsoroltak közül."
+msgstr ""
+"Google Analytics, StatCounter, egyik vagy az összes a felsoroltak közül."
 
 #: includes/theme-options.php
 msgid "Social Icons"
@@ -927,4 +794,3 @@ msgstr ""
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
 msgstr ""
-

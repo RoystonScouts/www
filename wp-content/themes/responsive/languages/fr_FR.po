@@ -3,126 +3,57 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:55+0100\n"
+"PO-Revision-Date: 2012-12-18 21:35+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: French, France\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 &#8212; Heureux de vous voir ici &#33;"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
-msgstr "Ne paniquez pas&#44; nous allons r&#233;soudre cela ensemble&#46; Explorons les options possibles ici&#46;"
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
+msgstr ""
+"Ne paniquez pas&#44; nous allons r&#233;soudre cela ensemble&#46; Explorons "
+"les options possibles ici&#46;"
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "Vous pouvez revenir en arri&#232;re"
+msgid "You can return %s or search for the page you were looking for."
+msgstr ""
+"Vous pouvez revenir en arri&#232;re %s ou rechercher la page que vous "
+"demandiez"
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "Accueil"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; Accueil"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "ou rechercher la page que vous demandiez"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,151 +71,86 @@ msgstr "Archives annuelles&nbsp;: %s"
 msgid "Blog Archives"
 msgstr "Archives du site"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Lien permanent vers %s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "Aucun commentaire &darr;"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 commentaire &darr;"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% commentaires &darr;"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "Pages&nbsp;:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "Tagu&#233;s avec&nbsp;:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "Publi&#233; dans %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "Editer"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; Articles plus anciens"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Articles plus r&#233;cents &#8250;"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "Lire la suite &#8250;"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Cet article est prot&#233;g&#233; par mot de passe. Entrez le mot de passe pour acc&#233;der aux commentaires."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Cet article est prot&#233;g&#233; par mot de passe. Entrez le mot de passe "
+"pour acc&#233;der aux commentaires."
 
 #: comments.php
 msgid "&#8249; Older comments"
@@ -303,14 +169,14 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s pour \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Nom"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
 msgstr[0] "Un commentaire pour “%2$s”"
 msgstr[1] "%1$s commentaires pour “%2$s”"
+
+#: comments.php
+msgid "Name"
+msgstr "Nom"
 
 #: comments.php
 msgid "E-mail"
@@ -361,8 +227,15 @@ msgid "Your H2 subheadline here"
 msgstr "Votre sous&#45;titre H2 ici"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "Votre titre, sous&#45;titre et contenu sont modifiables via les options du th&#232;me, ainsi que le bouton Action et son lien. L&#39;image sur votre droite peut &#234;tre une image ou m&#234;me une vid&#233;o YouTube si vous le souhaitez."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"Votre titre, sous&#45;titre et contenu sont modifiables via les options du "
+"th&#232;me, ainsi que le bouton Action et son lien. L&#39;image sur votre "
+"droite peut &#234;tre une image ou m&#234;me une vid&#233;o YouTube si vous "
+"le souhaitez."
 
 #: home.php
 msgid "Call to Action"
@@ -372,26 +245,13 @@ msgstr "Appel &#224; Action"
 msgid "&#8249; Return to"
 msgstr "&#8249; Retour &#224;"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "Ne paniquez pas, nous allons r&#233;soudre ceci ensemble. Explorons nos options ici."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 commentaire &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% commentaires &darr;"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "Résultats de recherche pour %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "Votre recherche pour"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "ne retourne aucun contenu"
+msgid "Your search for %s did not match any entries."
+msgstr "Votre recherche pour %s ne retourne aucun contenu."
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -433,41 +293,55 @@ msgstr "Vitesse d&#39;obturation :"
 msgid "Camera:"
 msgstr "Appareil photo :"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "dans les archives"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "Accueil Widget 1"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "Ceci est votre premier widget de page d&#39;accueil. Pour le modifier&#44; allez &#224; Apparence > Widgets et choisissez le 6&#232;me widget appel&#233; Accueil Widget 1. Le titre est &#233;galement &#233;ditable via la page d&#39;administration des widgets."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"Ceci est votre premier widget de page d&#39;accueil. Pour le modifier&#44; "
+"allez &#224; Apparence > Widgets et choisissez le 6&#232;me widget "
+"appel&#233; Accueil Widget 1. Le titre est &#233;galement &#233;ditable via "
+"la page d&#39;administration des widgets."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "Accueil Widget 2"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "Ceci est votre second widget de page d&#39;accueil. Pour le modifier&#44; allez &#224; Apparence > Widgets et choisissez le 7&#232;me widget appel&#233; Accueil Widget 2. Le titre est &#233;galement &#233;ditable via la page d&#39;administration des widgets."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"Ceci est votre second widget de page d&#39;accueil. Pour le modifier&#44; "
+"allez &#224; Apparence > Widgets et choisissez le 7&#232;me widget "
+"appel&#233; Accueil Widget 2. Le titre est &#233;galement &#233;ditable via "
+"la page d&#39;administration des widgets."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "Accueil Widget 3"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "Ceci est votre troisi&#232;me widget de page d&#39;accueil. Pour le modifier&#44; allez &#224; Apparence > Widgets et choisissez le 8&#232;me widget appel&#233; Accueil Widget 3. Le titre est &#233;galement &#233;ditable via la page d&#39;administration des widgets."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"Ceci est votre troisi&#232;me widget de page d&#39;accueil. Pour le "
+"modifier&#44; allez &#224; Apparence > Widgets et choisissez le 8&#232;me "
+"widget appel&#233; Accueil Widget 3. Le titre est &#233;galement &#233;"
+"ditable via la page d&#39;administration des widgets."
 
 #: single.php
 msgid "About"
@@ -502,8 +376,12 @@ msgid "Footer Menu"
 msgstr "Menu de Pied de Page"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">Post&#233; le </span>%2$s<span class=\"%3$s\"> par </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">Post&#233; le </span>%2$s<span class=\"%3$s\"> par </"
+"span>%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -512,10 +390,6 @@ msgstr "Afficher tous les articles par %s"
 #: includes/functions.php
 msgid "Archive for %s"
 msgstr "Archive pour %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Résultats de recherche pour %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -566,76 +440,76 @@ msgid "Main Sidebar"
 msgstr "Colonne principale"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
-msgstr "Zone Une &#45; sidebar.php"
+msgid "Area 1 - sidebar.php"
+msgstr "Zone 1 &#45; sidebar.php"
 
 #: includes/functions.php
 msgid "Right Sidebar"
 msgstr "Colonne lat&#233;rale droite"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
-msgstr "Zone Deux &#45; sidebar&#45;right.php"
+msgid "Area 2 - sidebar-right.php"
+msgstr "Zone 2 &#45; sidebar&#45;right.php"
 
 #: includes/functions.php
 msgid "Left Sidebar"
 msgstr "Colonne lat&#233;rale gauche"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
-msgstr "Zone Trois &#45; sidebar&#45;left.php"
+msgid "Area 3 - sidebar-left.php"
+msgstr "Zone 3 &#45; sidebar&#45;left.php"
 
 #: includes/functions.php
 msgid "Left Sidebar Half Page"
 msgstr "Colonne lat&#233;rale gauche Demi&#45;Page"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
-msgstr "Zone Quatre &#45; sidebar-left&#45;half.php"
+msgid "Area 4 - sidebar-left-half.php"
+msgstr "Zone 4 &#45; sidebar-left&#45;half.php"
 
 #: includes/functions.php
 msgid "Right Sidebar Half Page"
 msgstr "Colonne lat&#233;rale droite Demi&#45;Page"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
-msgstr "Zone Cinq &#45; sidebar-right&#45;half.php"
+msgid "Area 5 - sidebar-right-half.php"
+msgstr "Zone 5 &#45; sidebar-right&#45;half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
-msgstr "Zone Six &#45; sidebar&#45;home.php"
+msgid "Area 6 - sidebar-home.php"
+msgstr "Zone 6 &#45; sidebar&#45;home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
-msgstr "Zone Sept &#45; sidebar&#45;home.php"
+msgid "Area 7 - sidebar-home.php"
+msgstr "Zone 7 &#45; sidebar&#45;home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
-msgstr "Zone Huit &#45; sidebar&#45;home.php"
+msgid "Area 8 - sidebar-home.php"
+msgstr "Zone 8 &#45; sidebar&#45;home.php"
 
 #: includes/functions.php
 msgid "Gallery Sidebar"
 msgstr "Barre lat&#233;rale Galerie"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
-msgstr "Zone Neuf &#45; sidebar&#45;gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
+msgstr "Zone 9 &#45; sidebar&#45;gallery.php"
 
 #: includes/functions.php
 msgid "Colophon Widget"
 msgstr "Widget Colophon"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
-msgstr "Zone dix - sidebar-colophon.php"
+msgid "Area 10 - sidebar-colophon.php"
+msgstr "Zone 10 - sidebar-colophon.php"
 
 #: includes/functions.php
 msgid "Top Widget"
 msgstr "Widget supérieur"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
-msgstr "Zone douze - sidebar-top.php"
+msgid "Area 11 - sidebar-top.php"
+msgstr "Zone 11 - sidebar-top.php"
 
 #: includes/theme-options.php
 msgid "Theme Options"
@@ -928,4 +802,3 @@ msgstr "Inclus dans footer.php &darr;"
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
 msgstr "Saisissez ici le script personnalisé pour le pied de page"
-

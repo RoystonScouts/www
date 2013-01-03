@@ -3,126 +3,53 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:55+0100\n"
+"PO-Revision-Date: 2012-12-18 21:35+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: Hebrew, Israel\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 &#8212; איזו מין פגישה!"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
 msgstr "בלי פאניקה, נעבור את זה יחד. בוא נבחן אילו אפשרויות עומדות לפנינו."
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "ניתן לחזור"
+msgid "You can return %s or search for the page you were looking for."
+msgstr "ניתן לחזור %s או חפש את הדף שניסית למצוא"
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "דף הבית"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; דף הבית"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "או חפש את הדף שניסית למצוא"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,150 +67,83 @@ msgstr "ארכיון שנתי: %s"
 msgid "Blog Archives"
 msgstr "ארכיון הבלוג"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "קישור קבוע ל%s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "אין תגובות &darr;"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "תגובה אחת  &darr;"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% תגובות  &darr;"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "דפים:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "עם התגית:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "נשלח ב %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "עריכה"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; פוסטים קודמים"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "פוסטים חדשים &#8250;"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "קרא עוד &#8250;"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
 msgstr "הפוסט הזה מוגן בסיסמה. הזן סיסמה כדי לצפות בתגובות."
 
 #: comments.php
@@ -303,14 +163,14 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s עבור \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "שם"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
 msgstr[0] "תגובה אחת ב&ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s תגובות ב&ldquo;%2$s&rdquo;"
+
+#: comments.php
+msgid "Name"
+msgstr "שם"
 
 #: comments.php
 msgid "E-mail"
@@ -361,8 +221,14 @@ msgid "Your H2 subheadline here"
 msgstr "והנה כותרת משנית H2"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "הכותרת, כותרת המשנה והתוכן הזה ממש, כולם ניתנים לעריכה באפשרויות התבנית. הדבר נכון גם לגבי כפתור הקריאה לפעולה והקישור אליו הוא מוביל. התמונה משמאל יכולה להיות תמונה או אם תעדיף אפילו סרטון YouTube."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"הכותרת, כותרת המשנה והתוכן הזה ממש, כולם ניתנים לעריכה באפשרויות התבנית. "
+"הדבר נכון גם לגבי כפתור הקריאה לפעולה והקישור אליו הוא מוביל. התמונה משמאל "
+"יכולה להיות תמונה או אם תעדיף אפילו סרטון YouTube."
 
 #: home.php
 msgid "Call to Action"
@@ -372,26 +238,13 @@ msgstr "קריאה לפעולה"
 msgid "&#8249; Return to"
 msgstr "&#8249; חזרה ל"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "בלי פאניקה, נעבור את זה יחד. בוא נבחן אילו אפשרויות עומדות לפנינו."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "תגובה אחת  &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% תגובות  &darr;"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "תוצאות חיפוש עבור: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "החיפוש שלך אחרי"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "לא קיימת רשומה תואמת"
+msgid "Your search for %s did not match any entries."
+msgstr "החיפוש שלך אחרי %s לא קיימת רשומה תואמת"
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -433,41 +286,52 @@ msgstr "מהירות תריס:"
 msgid "Camera:"
 msgstr "מצלמה:"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "בארכיון"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "ווידג'ט 1 לדף הבית"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "זוהי תיבת הווידג'ט הראשונה בדף הבית . כדי לערוך יש לגשת למראה>וידג'טים ולבחור את הווידג'ט השישי מלמעלה באיזור 6. הוא נקרא ווידג'ט 1 לדף הבית. גם הכותרת ניתנת לשינוי מתוך הווידג'טים."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"זוהי תיבת הווידג'ט הראשונה בדף הבית . כדי לערוך יש לגשת למראה>וידג'טים "
+"ולבחור את הווידג'ט השישי מלמעלה באיזור 6. הוא נקרא ווידג'ט 1 לדף הבית. גם "
+"הכותרת ניתנת לשינוי מתוך הווידג'טים."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "ווידג'ט 2 לדף הבית"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "זוהי תיבת הווידג'ט השניה בדף הבית . כדי לערוך יש לגשת למראה>וידג'טים ולבחור את הווידג'ט השביעי מלמעלה באיזור 7. הוא נקרא ווידג'ט 2 לדף הבית. גם הכותרת ניתנת לשינוי מתוך הווידג'טים."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"זוהי תיבת הווידג'ט השניה בדף הבית . כדי לערוך יש לגשת למראה>וידג'טים ולבחור "
+"את הווידג'ט השביעי מלמעלה באיזור 7. הוא נקרא ווידג'ט 2 לדף הבית. גם הכותרת "
+"ניתנת לשינוי מתוך הווידג'טים."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "ווידג'ט 3 בדף הבית"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "זוהי תיבת הווידג'ט השלישית בדף הבית . כדי לערוך יש לגשת למראה>וידג'טים ולבחור את הווידג'ט השמיני מלמעלה באיזור 8. הוא נקרא ווידג'ט 3 לדף הבית. גם הכותרת ניתנת לשינוי מתוך הווידג'טים."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"זוהי תיבת הווידג'ט השלישית בדף הבית . כדי לערוך יש לגשת למראה>וידג'טים "
+"ולבחור את הווידג'ט השמיני מלמעלה באיזור 8. הוא נקרא ווידג'ט 3 לדף הבית. גם "
+"הכותרת ניתנת לשינוי מתוך הווידג'טים."
 
 #: single.php
 msgid "About"
@@ -502,8 +366,12 @@ msgid "Footer Menu"
 msgstr "תפריט בתחתית הדף"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">פורסם ב </span>%2$s<span class=\"%3$s\"> ע\"י </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">פורסם ב </span>%2$s<span class=\"%3$s\"> ע\"י </span>"
+"%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -512,10 +380,6 @@ msgstr "צפיה בכל הפוסטים של %s"
 #: includes/functions.php
 msgid "Archive for %s"
 msgstr "ארכיון %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "תוצאות חיפוש עבור: %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -566,7 +430,7 @@ msgid "Main Sidebar"
 msgstr "עמודת צד ראשית"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "איזור 1 - sidebar.php"
 
 #: includes/functions.php
@@ -574,7 +438,7 @@ msgid "Right Sidebar"
 msgstr "עמודת צד ימנית"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "איזור 2 - sidebar-right.php"
 
 #: includes/functions.php
@@ -582,7 +446,7 @@ msgid "Left Sidebar"
 msgstr "עמודת צד שמאלית"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "איזור 3 - sidebar-left.php"
 
 #: includes/functions.php
@@ -590,7 +454,7 @@ msgid "Left Sidebar Half Page"
 msgstr "עמודת צד שמאלית חצי דף"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "איזור 4 - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -598,19 +462,19 @@ msgid "Right Sidebar Half Page"
 msgstr "עמודת צד ימנית חצי דף"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "איזור 5 - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "איזור 6 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "איזור 7 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "איזור 8 - sidebar-home.php"
 
 #: includes/functions.php
@@ -618,7 +482,7 @@ msgid "Gallery Sidebar"
 msgstr "עמודת צד בגלריה"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "איזור 9 - sidebar-gallery.php"
 
 #: includes/functions.php
@@ -626,7 +490,7 @@ msgid "Colophon Widget"
 msgstr "ווידג'ט Colophon"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
+msgid "Area 10 - sidebar-colophon.php"
 msgstr "איזור 10 - sidebar-colophon.php"
 
 #: includes/functions.php
@@ -634,7 +498,7 @@ msgid "Top Widget"
 msgstr "ווידג'ט עליון"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
+msgid "Area 11 - sidebar-top.php"
 msgstr "איזור 12 - sidebar-top.php"
 
 #: includes/theme-options.php
@@ -775,7 +639,8 @@ msgstr "מעקב אחר סטטיסטיקת האתר"
 
 #: includes/theme-options.php
 msgid "Leave blank if plugin handles your webmaster tools"
-msgstr "השאירו ריק אם קיים תוסף שמנהל את כלי מנהל-האתר בשבילכם (webmaster tools)"
+msgstr ""
+"השאירו ריק אם קיים תוסף שמנהל את כלי מנהל-האתר בשבילכם (webmaster tools)"
 
 #: includes/theme-options.php
 msgid "Google Analytics, StatCounter, any other or all of them."
@@ -928,4 +793,3 @@ msgstr "מטמיע ב footer.php &darr;"
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
 msgstr "הזן סקריפט כותרת התחתונה מותאם אישית."
-

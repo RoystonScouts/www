@@ -3,126 +3,53 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:56+0100\n"
+"PO-Revision-Date: 2012-12-18 21:37+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: Malay, Malaysia (Latin)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 — Laman yang anda kehendaki tidak dijumpai"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
 msgstr "Jangan risau. Mari kita buat pilihan lain."
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "Anda boleh pulang ke"
+msgid "You can return %s or search for the page you were looking for."
+msgstr "Anda boleh pulang ke %s atau cari laman yang dikehendaki"
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "Laman Utama"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "← Laman Utama"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "atau cari laman yang dikehendaki"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,151 +67,85 @@ msgstr "Arkib Tahunan: %s"
 msgid "Blog Archives"
 msgstr "Arkib Blog"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Pautan Kekal ke %s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "Tiada Komen ↓"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 Komen ↓"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% Komen ↓"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "Laman:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "Tag:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "Diterbitkan dalam %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "Ubahsuai"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "‹ Artikel terdahulu"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Artikel terkini ›"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "Sambung lagi ›"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Artikel ini memerlukan kata laluan. Masukkan kata laluan untuk melihat komen."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Artikel ini memerlukan kata laluan. Masukkan kata laluan untuk melihat komen."
 
 #: comments.php
 msgid "&#8249; Older comments"
@@ -303,13 +164,13 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s untuk \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Nama"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
 msgstr[0] "%1$s komen pada “%2$s”"
+
+#: comments.php
+msgid "Name"
+msgstr "Nama"
 
 #: comments.php
 msgid "E-mail"
@@ -360,8 +221,14 @@ msgid "Your H2 subheadline here"
 msgstr "Sila tulis sub-tajuk H2 di sini"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "Tajuk, sub-tajuk dan kandungan ini boleh diubah dalam Pilihan Tema. Butang Menyeru Bertindak dan desitinasinya juga boleh diubah. Gambar di sebelah kanan ini boleh diganti dengan gambar tersendiri ataupun video YouTube."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"Tajuk, sub-tajuk dan kandungan ini boleh diubah dalam Pilihan Tema. Butang "
+"Menyeru Bertindak dan desitinasinya juga boleh diubah. Gambar di sebelah "
+"kanan ini boleh diganti dengan gambar tersendiri ataupun tayangan YouTube."
 
 #: home.php
 msgid "Call to Action"
@@ -371,26 +238,13 @@ msgstr "Menyeru Bertindak"
 msgid "&#8249; Return to"
 msgstr "‹ Pulang ke"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "Jangan risau. Mari kita buat pilihan lain."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 Komen ↓"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% Komen ↓"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "Keputusan Carian untuk: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "Carian anda untuk"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "tidak padan dengan mana-mana artikel"
+msgid "Your search for %s did not match any entries."
+msgstr "Carian anda untuk %s tidak padan dengan mana-mana artikel"
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -432,41 +286,52 @@ msgstr "Shutter:"
 msgid "Camera:"
 msgstr "Kamera:"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "Dalam Arkib"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "Widget Laman Utama 1"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "Ini adalah kotak widget pertama anda. Bagi membuat perubahan, sila pergi ke Appearance > Widgets dan pilih widget ke-6 dari atas di kawasan ke-enam yang bertajuk Widget Laman Utama 1. Tajuk kotak ini juga boleh diubah."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"Ini adalah kotak widget pertama anda. Bagi membuat perubahan, sila pergi ke "
+"Appearance > Widgets dan pilih widget ke-6 dari atas di kawasan ke-enam yang "
+"bertajuk Widget Laman Utama 1. Tajuk kotak ini juga boleh diubah."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "Widget Laman Utama 2"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "Ini adalah kotak widget kedua anda. Bagi membuat perubahan, sila pergi ke Appearance > Widgets dan pilih widget ke-7 dari atas di kawasan ke-tujuh yang bertajuk Widget Laman Utama 2. Tajuk kotak ini juga boleh diubah."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"Ini adalah kotak widget kedua anda. Bagi membuat perubahan, sila pergi ke "
+"Appearance > Widgets dan pilih widget ke-7 dari atas di kawasan ke-tujuh "
+"yang bertajuk Widget Laman Utama 2. Tajuk kotak ini juga boleh diubah."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "Widget Laman Utama 3"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "Ini adalah kotak widget ketiga anda. Bagi membuat perubahan, sila pergi ke Appearance > Widgets dan pilih widget ke-8 dari atas di kawasan ke-lapan yang bertajuk Widget Laman Utama 3. Tajuk kotak ini juga boleh diubah."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"Ini adalah kotak widget ketiga anda. Bagi membuat perubahan, sila pergi ke "
+"Appearance > Widgets dan pilih widget ke-8 dari atas di kawasan ke-lapan "
+"yang bertajuk Widget Laman Utama 3. Tajuk kotak ini juga boleh diubah."
 
 #: single.php
 msgid "About"
@@ -501,8 +366,12 @@ msgid "Footer Menu"
 msgstr "Menu Bahagian Bawah"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">Diterbitkan pada </span>%2$s<span class=\"%3$s\"> oleh </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">Diterbitkan pada </span>%2$s<span class=\"%3$s\"> oleh "
+"</span>%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -510,11 +379,7 @@ msgstr "Lihat semua artikel yang ditulis oleh %s"
 
 #: includes/functions.php
 msgid "Archive for %s"
-msgstr "Arkib bag %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Keputusan Carian untuk: %s"
+msgstr "Arkib bagi %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -565,7 +430,7 @@ msgid "Main Sidebar"
 msgstr "Sidebar Utama"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "Kawasan Satu - sidebar.php"
 
 #: includes/functions.php
@@ -573,7 +438,7 @@ msgid "Right Sidebar"
 msgstr "Sidebar Kanan"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "Kawasan Dua - sidebar-right.php"
 
 #: includes/functions.php
@@ -581,7 +446,7 @@ msgid "Left Sidebar"
 msgstr "Sidebar Kiri"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "Kawasan Tiga - sidebar-left.php"
 
 #: includes/functions.php
@@ -589,7 +454,7 @@ msgid "Left Sidebar Half Page"
 msgstr "Sidebar Kiri Separuh Laman"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "Kawasan Empat - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -597,19 +462,19 @@ msgid "Right Sidebar Half Page"
 msgstr "Sidebar Kanan Separuh Laman"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "Kawasan Lima - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "Kawasan Enam - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "Kawasan Tujuh - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "Kawasan Lapan - sidebar-home.php"
 
 #: includes/functions.php
@@ -617,24 +482,24 @@ msgid "Gallery Sidebar"
 msgstr "Sidebar Galeri"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "Kawasan Sembilan - sidebar-gallery.php"
 
 #: includes/functions.php
 msgid "Colophon Widget"
-msgstr ""
+msgstr "Widget Colophon"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
-msgstr ""
+msgid "Area 10 - sidebar-colophon.php"
+msgstr "Bahagian Kesepuluh - sidebar-colophon.php"
 
 #: includes/functions.php
 msgid "Top Widget"
-msgstr ""
+msgstr "Widget Atas"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
-msgstr ""
+msgid "Area 11 - sidebar-top.php"
+msgstr "Bahagian Keduabelas - sidebar-top.php"
 
 #: includes/theme-options.php
 msgid "Theme Options"
@@ -738,7 +603,7 @@ msgstr "Lihat Dokumen"
 
 #: includes/theme-options.php
 msgid "Paste your shortcode, video or image source"
-msgstr ""
+msgstr "Masukkan shortcode, tayangan atau gambar anda"
 
 #: includes/theme-options.php
 msgid "Webmaster Tools"
@@ -774,7 +639,8 @@ msgstr "Penjejak statistik laman web"
 
 #: includes/theme-options.php
 msgid "Leave blank if plugin handles your webmaster tools"
-msgstr "Biarkan kosong jika alat-alat pengurus laman web anda dikawal oleh \"plugin\""
+msgstr ""
+"Biarkan kosong jika alat-alat pengurus laman web anda dikawal oleh \"plugin\""
 
 #: includes/theme-options.php
 msgid "Google Analytics, StatCounter, any other or all of them."
@@ -898,33 +764,32 @@ msgstr "Masukkan kod CSS tersendiri"
 
 #: includes/theme-options.php
 msgid "Custom Scripts"
-msgstr ""
+msgstr "Skrip tersendiri"
 
 #: includes/theme-options.php
 msgid "Custom Scripts for Header and Footer"
-msgstr ""
+msgstr "Skrip tersendiri Bahagian Atas dan Bahagian Bawah"
 
 #: includes/theme-options.php
 msgid "http://codex.wordpress.org/Using_Javascript"
-msgstr ""
+msgstr "http://codex.wordpress.org/Using_Javascript"
 
 #: includes/theme-options.php
 msgid "Quick Tutorial"
-msgstr ""
+msgstr "Bengkel pantas"
 
 #: includes/theme-options.php
 msgid "Embeds to header.php &darr;"
-msgstr ""
+msgstr "Dimasukkan pada header.php &darr"
 
 #: includes/theme-options.php
 msgid "Enter your custom header script."
-msgstr ""
+msgstr "Masukkan skrip Bahagian Atas tersendiri."
 
 #: includes/theme-options.php
 msgid "Embeds to footer.php &darr;"
-msgstr ""
+msgstr "Dimasukkan pada footer.php &darr"
 
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
-msgstr ""
-
+msgstr "Masukkan skrip Bahagian Bawah tersendiri."

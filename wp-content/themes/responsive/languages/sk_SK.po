@@ -3,126 +3,53 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:57+0100\n"
+"PO-Revision-Date: 2012-12-18 21:38+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: Slovak, Slovakia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : (n >= 2 && n <= 4) ? 1 : 2;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 - Stránka neexistuje"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
 msgstr "Nepanikáriť, prejdeme to spolu. Prejdi si nastavenia."
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "Môžete sa vrátiť"
+msgid "You can return %s or search for the page you were looking for."
+msgstr "Môžete sa vrátiť %s alebo vyhľadať stránku, ktorú ste hľadali"
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "Úvod"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; Úvod"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "alebo vyhľadať stránku, ktorú ste hľadali"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,151 +67,86 @@ msgstr "Ročné archívy: %s"
 msgid "Blog Archives"
 msgstr "Archív stránky"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Trvalý odkaz na %s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "Žiadne komentáre &darr;"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 komentár &darr;"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% komentáre &darr;"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "Stránky:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "Označené s:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "Uverejnené v %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "Upraviť"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; Staršie články"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Novšie články &#8250;"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "Celý článok &#8250;"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Tento článok je zaheslovaný. Zadajte prosím heslo na sprístupnenie komentárov."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Tento článok je zaheslovaný. Zadajte prosím heslo na sprístupnenie "
+"komentárov."
 
 #: comments.php
 msgid "&#8249; Older comments"
@@ -303,15 +165,15 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s pre \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Meno"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s komentáre pre &ldquo;%2$s&rdquo;"
-msgstr[1] "Jeden komentár pre &ldquo;%2$s&rdquo;"
+msgstr[0] "Jeden komentár pre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentáre pre &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s komentárov pre &ldquo;%2$s&rdquo;"
+
+#: comments.php
+msgid "Name"
+msgstr "Meno"
 
 #: comments.php
 msgid "E-mail"
@@ -362,8 +224,14 @@ msgid "Your H2 subheadline here"
 msgstr "Tvoj H2 nadpis"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "Titulok, vedľajší titulok a obsah upravíte v Nastaveniach témy. Rovnako aj text a URL akčného tlačítka. Obrázok vpravo môže byť obrázok, alebo aj YouTube video."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"Titulok, vedľajší titulok a obsah upravíte v Nastaveniach témy. Rovnako aj "
+"text a URL akčného tlačítka. Obrázok vpravo môže byť obrázok, alebo aj "
+"YouTube video."
 
 #: home.php
 msgid "Call to Action"
@@ -373,26 +241,13 @@ msgstr "Akčné tlačítko"
 msgid "&#8249; Return to"
 msgstr "&#8249; Naspäť na"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "Nepanikáriť, prejdeme to spolu. Prejdi si nastavenia."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 komentár &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% komentáre &darr;"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "Výsledky vyhľadávanie pre: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "Vaše vyhľadávanie pre"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "nenájdené"
+msgid "Your search for %s did not match any entries."
+msgstr "Vaše vyhľadávanie pre %s nenájdené"
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -434,41 +289,52 @@ msgstr "Závierka:"
 msgid "Camera:"
 msgstr "Fotoaparát:"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "V archíve"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "Úvodný widget 1"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "Toto je Váš prvý widget úvodnej stránky. Upravíte ho v Vzhľad > Widgety, kde si vyberte šiesty widget od vrchu s názvom Úvodný widget 1 (Oblasť 6 - sidebar-home.php). Titulok je tiež možné zmeniť."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"Toto je Váš prvý widget úvodnej stránky. Upravíte ho v Vzhľad > Widgety, kde "
+"si vyberte šiesty widget od vrchu s názvom Úvodný widget 1 (Oblasť 6 - "
+"sidebar-home.php). Titulok je tiež možné zmeniť."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "Úvodný widget 2"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "Toto je Váš druhý widget úvodnej stránky. Upravíte ho v Vzhľad > Widgety, kde si vyberte siedmy widget od vrchu s názvom Úvodný widget 2 (Oblasť 7 - sidebar-home.php). Titulok je tiež možné zmeniť."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"Toto je Váš druhý widget úvodnej stránky. Upravíte ho v Vzhľad > Widgety, "
+"kde si vyberte siedmy widget od vrchu s názvom Úvodný widget 2 (Oblasť 7 - "
+"sidebar-home.php). Titulok je tiež možné zmeniť."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "Úvodný widget 3"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "Toto je Váš tretí widget úvodnej stránky. Upravíte ho v Vzhľad > Widgety, kde si vyberte ôsmy widget od vrchu s názvom Úvodný widget 3 (Oblasť 8 - sidebar-home.php). Titulok je tiež možné zmeniť."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"Toto je Váš tretí widget úvodnej stránky. Upravíte ho v Vzhľad > Widgety, "
+"kde si vyberte ôsmy widget od vrchu s názvom Úvodný widget 3 (Oblasť 8 - "
+"sidebar-home.php). Titulok je tiež možné zmeniť."
 
 #: single.php
 msgid "About"
@@ -503,8 +369,12 @@ msgid "Footer Menu"
 msgstr "Menu pätičky"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">Uverejnené dňa</span> %2$s<span class=\"%3$s\"> autorom </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">Uverejnené dňa</span> %2$s<span class=\"%3$s\"> autorom "
+"</span>%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -513,10 +383,6 @@ msgstr "Zobraziť všetky články autora %s"
 #: includes/functions.php
 msgid "Archive for %s"
 msgstr "Archív pre %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Výsledky vyhľadávanie pre: %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -532,7 +398,7 @@ msgstr "Stránka"
 
 #: includes/functions.php
 msgid "http://themeid.com/support/"
-msgstr ""
+msgstr "http://themeid.com/support/"
 
 #: includes/functions.php
 msgid "Theme Support"
@@ -540,7 +406,7 @@ msgstr "Podpora témy"
 
 #: includes/functions.php
 msgid "http://themeid.com/themes/"
-msgstr ""
+msgstr "http://themeid.com/themes/"
 
 #: includes/functions.php
 msgid "More Themes"
@@ -548,7 +414,7 @@ msgstr "Ďalšie témy"
 
 #: includes/functions.php
 msgid "http://themeid.com/showcase/"
-msgstr ""
+msgstr "http://themeid.com/showcase/"
 
 #: includes/functions.php
 msgid "Showcase"
@@ -556,7 +422,7 @@ msgstr "Prehliadka"
 
 #: includes/functions.php
 msgid "http://themeid.com/donate/"
-msgstr ""
+msgstr "http://themeid.com/donate/"
 
 #: includes/functions.php
 msgid "Donate Now"
@@ -567,7 +433,7 @@ msgid "Main Sidebar"
 msgstr "Hlavný bočný panel"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "Oblasť 1 - sidebar.php"
 
 #: includes/functions.php
@@ -575,7 +441,7 @@ msgid "Right Sidebar"
 msgstr "Pravý bočný panel"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "Oblasť 2 - sidebar-right.php"
 
 #: includes/functions.php
@@ -583,7 +449,7 @@ msgid "Left Sidebar"
 msgstr "Ľavý bočný panel"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "Oblasť 3 - sidebar-left.php"
 
 #: includes/functions.php
@@ -591,7 +457,7 @@ msgid "Left Sidebar Half Page"
 msgstr "Ľavý bočný panel - polovica stránky"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "Oblasť 4 - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -599,19 +465,19 @@ msgid "Right Sidebar Half Page"
 msgstr "Pravý bočný panel - polovica stránky"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "Olasť 5 - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "Oblasť 6 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "Oblasť 7 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "Oblasť 8 - sidebar-home.php"
 
 #: includes/functions.php
@@ -619,7 +485,7 @@ msgid "Gallery Sidebar"
 msgstr "Bočný panel Galérie"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "Oblasť 9 - sidebar-gallery.php"
 
 #: includes/functions.php
@@ -627,7 +493,7 @@ msgid "Colophon Widget"
 msgstr "Tiráž widget"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
+msgid "Area 10 - sidebar-colophon.php"
 msgstr "Oblasť 10 - sidebar-colophon.php"
 
 #: includes/functions.php
@@ -635,7 +501,7 @@ msgid "Top Widget"
 msgstr "Vrchný widget"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
+msgid "Area 11 - sidebar-top.php"
 msgstr "Oblasť 12 - sidebar-top.php"
 
 #: includes/theme-options.php
@@ -732,7 +598,7 @@ msgstr "Zvýraznený obsah"
 
 #: includes/theme-options.php
 msgid "http://themeid.com/forum/topic/510/theme-options-featured-content/"
-msgstr ""
+msgstr "http://themeid.com/forum/topic/510/theme-options-featured-content/"
 
 #: includes/theme-options.php
 msgid "See Docs"
@@ -788,7 +654,7 @@ msgstr "Ikony sociálnych sietí"
 
 #: includes/theme-options.php
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: includes/theme-options.php
 msgid "Enter your Twitter URL"
@@ -796,7 +662,7 @@ msgstr "Zadajte Twitter URL"
 
 #: includes/theme-options.php
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: includes/theme-options.php
 msgid "Enter your Facebook URL"
@@ -804,7 +670,7 @@ msgstr "Zadajte Facebook URL"
 
 #: includes/theme-options.php
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: includes/theme-options.php
 msgid "Enter your LinkedIn URL"
@@ -812,7 +678,7 @@ msgstr "Zadajte LinkedIn URL"
 
 #: includes/theme-options.php
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: includes/theme-options.php
 msgid "Enter your YouTube URL"
@@ -820,7 +686,7 @@ msgstr "Zadajte YouTube URL"
 
 #: includes/theme-options.php
 msgid "StumbleUpon"
-msgstr ""
+msgstr "StumbleUpon"
 
 #: includes/theme-options.php
 msgid "Enter your StumbleUpon URL"
@@ -836,7 +702,7 @@ msgstr "Zadajte URL RSS kanála"
 
 #: includes/theme-options.php
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: includes/theme-options.php
 msgid "Enter your Google+ URL"
@@ -844,7 +710,7 @@ msgstr "Zadajte Google+ URL"
 
 #: includes/theme-options.php
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: includes/theme-options.php
 msgid "Enter your Instagram URL"
@@ -852,7 +718,7 @@ msgstr "Zadajte Instagram URL"
 
 #: includes/theme-options.php
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: includes/theme-options.php
 msgid "Enter your Pinterest URL"
@@ -860,7 +726,7 @@ msgstr "Zadajte Pinterest URL"
 
 #: includes/theme-options.php
 msgid "Yelp!"
-msgstr ""
+msgstr "Yelp!"
 
 #: includes/theme-options.php
 msgid "Enter your Yelp! URL"
@@ -868,7 +734,7 @@ msgstr "Zadajte Yelp! URL"
 
 #: includes/theme-options.php
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: includes/theme-options.php
 msgid "Enter your Vimeo URL"
@@ -876,7 +742,7 @@ msgstr "Zadajte Vimeo URL"
 
 #: includes/theme-options.php
 msgid "foursquare"
-msgstr ""
+msgstr "foursquare"
 
 #: includes/theme-options.php
 msgid "Enter your foursquare URL"
@@ -908,7 +774,7 @@ msgstr "Vlastné skripty pre hlavičku a pätičku"
 
 #: includes/theme-options.php
 msgid "http://codex.wordpress.org/Using_Javascript"
-msgstr ""
+msgstr "http://codex.wordpress.org/Using_Javascript"
 
 #: includes/theme-options.php
 msgid "Quick Tutorial"
@@ -929,4 +795,3 @@ msgstr "Vložiť do footer.php &darr;"
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
 msgstr "Zadajte vlastný skript pre pätičku"
-

@@ -3,126 +3,57 @@ msgstr ""
 "Project-Id-Version: Responsive Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
-"PO-Revision-Date: 2012-11-04 13:56+0100\n"
+"PO-Revision-Date: 2012-12-18 21:36+0100\n"
 "Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
 "Language-Team: Latvian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: WebTranslateIt.com\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "404 &#8212; Fancy meeting you here!"
 msgstr "404 &#8212; Interesanti Jūs šeit satikt!"
 
+#: image.php index.php page.php landing-page.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
-msgstr "Neuztraucieties, mēs atrisināsim šo problēmu kopā. Apskatīsim Jums piedāvātās iespējas."
+msgid ""
+"Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our "
+"options here."
+msgstr ""
+"Neuztraucieties, mēs atrisināsim šo problēmu kopā. Apskatīsim Jums "
+"piedāvātās iespējas."
 
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php 404.php search.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "You can return"
-msgstr "Jūs varat doties atpakaļ uz"
+msgid "You can return %s or search for the page you were looking for."
+msgstr ""
+"Jūs varat doties atpakaļ uz %s vai arī vēlreiz meklēt lapu, kuru mēģinājāt "
+"atrast iepriekš"
 
-#: includes/functions.php
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: index.php
-#: image.php
-#: page.php
-#: landing-page.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
+#: page.php landing-page.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php 404.php
+#: image.php index.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php includes/functions.php
 msgid "Home"
 msgstr "Sākums"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: 404.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: 404.php page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&larr; Home"
 msgstr "&larr; Sākums"
-
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
-#: 404.php
-msgid "or search for the page you were looking for"
-msgstr "vai arī vēlreiz meklēt lapu, kuru mēģinājāt atrast iepriekš"
 
 #: archive.php
 msgid "Daily Archives: %s"
@@ -140,151 +71,86 @@ msgstr "Gada arhīvs: %s"
 msgid "Blog Archives"
 msgstr "Bloga arhīvs"
 
-#: sitemap.php
-#: search.php
-#: index.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: index.php blog.php blog-excerpt.php archive.php search.php sitemap.php
 msgid "Permanent Link to %s"
 msgstr "Pastāvīgā saite uz %s"
 
+#: page.php index.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: search.php sidebar-content-half-page.php sidebar-content-page.php
 #: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
 msgid "No Comments &darr;"
 msgstr "Komentāru nav &darr;"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
 #: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 komentārs &darr;"
+
+#: single.php sidebar-content-page.php sidebar-content-half-page.php
+#: search.php page.php image.php full-width-page.php content-sidebar-page.php
+#: content-sidebar-half-page.php blog.php blog-excerpt.php archive.php
+#: index.php
+msgid "% Comments &darr;"
+msgstr "% komentāri &darr;"
+
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Pages:"
 msgstr "Lapas:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Tagged with:"
 msgstr "Atzīmēts ar birkām:"
 
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php
 msgid "Posted in %s"
 msgstr "Publicēts %s"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: image.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php image.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Edit"
 msgstr "Rediģēt"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "&#8249; Older posts"
 msgstr "&#8249; Vecāki ieraksti"
 
-#: sitemap.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: search.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: blog-excerpt.php
-#: archive.php
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php
+#: blog-excerpt.php archive.php search.php sidebar-content-half-page.php
+#: sidebar-content-page.php single.php sitemap.php
 msgid "Newer posts &#8250;"
 msgstr "Jaunāki ieraksti &#8250;"
 
+#: page.php landing-page.php index.php full-width-page.php
+#: content-sidebar-page.php content-sidebar-half-page.php blog.php image.php
+#: sidebar-content-half-page.php sidebar-content-page.php single.php
 #: includes/functions.php
-#: single.php
-#: sidebar-content-page.php
-#: sidebar-content-half-page.php
-#: page.php
-#: landing-page.php
-#: index.php
-#: full-width-page.php
-#: content-sidebar-page.php
-#: content-sidebar-half-page.php
-#: blog.php
-#: image.php
 msgid "Read more &#8250;"
 msgstr "Lasīt vairāk &#8250;"
 
 #: comments.php
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Šis ieraksts ir aizsargāts ar paroli. Ievadiet paroli, lai apskatītu pievienotos komentārus."
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Šis ieraksts ir aizsargāts ar paroli. Ievadiet paroli, lai apskatītu "
+"pievienotos komentārus."
 
 #: comments.php
 msgid "&#8249; Older comments"
@@ -303,15 +169,15 @@ msgid "%1$d %2$s for \"%3$s\""
 msgstr "%1$d %2$s par \"%3$s\""
 
 #: comments.php
-msgid "Name"
-msgstr "Vārds"
-
-#: comments.php
 msgid "One comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s komentārs par &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s komentāri par &ldquo;%2$s&rdquo;"
-msgstr[2] "Nav komentāru par &ldquo;%2$s&rdquo;"
+msgstr[0] "Nav komentāru par &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentārs par &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentāri par &ldquo;%2$s&rdquo;"
+
+#: comments.php
+msgid "Name"
+msgstr "Vārds"
 
 #: comments.php
 msgid "E-mail"
@@ -362,8 +228,14 @@ msgid "Your H2 subheadline here"
 msgstr "Tavs H2 apakšvirsraksts"
 
 #: home.php
-msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
-msgstr "Tavs virsraksts, apakšvirsraksts un saturs ir pārvaldāms Dizains > Kažociņa iestatījumi, tāpat kā Darbības izsaukuma poga un tās saite. Tāpat, pa labi var atrasties gan attēls, gan YouTube video, ja Jūs tā vēlaties."
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. "
+"Call to Action button and its destination link as well. Image on your right "
+"can be an image or even YouTube video if you like."
+msgstr ""
+"Tavs virsraksts, apakšvirsraksts un saturs ir pārvaldāms Dizains > Kažociņa "
+"iestatījumi, tāpat kā Darbības izsaukuma poga un tās saite. Tāpat, pa labi "
+"var atrasties gan attēls, gan YouTube video, ja Jūs tā vēlaties."
 
 #: home.php
 msgid "Call to Action"
@@ -373,26 +245,13 @@ msgstr "Darbības izsaukums"
 msgid "&#8249; Return to"
 msgstr "&#8249; Atgriezties"
 
-#: index.php
-#: image.php
-msgid "Don't panic, we'll get through this together. Let's explore our options here."
-msgstr "Neuztraucieties, mēs atrisināsim šo problēmu kopā. Apskatīsim Jums piedāvātās iespējas."
-
-#: index.php
-msgid "1 Comment &darr;"
-msgstr "1 komentārs &darr;"
-
-#: index.php
-msgid "% Comments &darr;"
-msgstr "% komentāri &darr;"
+#: search.php includes/functions.php
+msgid "Search results for: %s"
+msgstr "Meklēšanas rezultāti frāzei: %s"
 
 #: search.php
-msgid "Your search for"
-msgstr "Jūsu meklētā frāze"
-
-#: search.php
-msgid "did not match any entries"
-msgstr "neatbilda nevienam ierakstam"
+msgid "Your search for %s did not match any entries."
+msgstr "Jūsu meklētā frāze %s neatbilda nevienam ierakstam"
 
 #: searchform.php
 msgid "search here &hellip;"
@@ -434,41 +293,52 @@ msgstr "Aizvars:"
 msgid "Camera:"
 msgstr "Fotoaparāts:"
 
-#: sidebar.php
-#: sidebar-right.php
-#: sidebar-right-half.php
-#: sidebar-left.php
-#: sidebar-left-half.php
-#: sidebar-half-left.php
+#: sidebar.php sidebar-right.php sidebar-right-half.php sidebar-left.php
+#: sidebar-left-half.php sidebar-half-left.php
 msgid "In Archive"
 msgstr "Arhīvs"
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 1"
 msgstr "Sākumlapas logdaļa 1"
 
 #: sidebar-home.php
-msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
-msgstr "Šī ir Jūsu pirmā sākumlapas logdaļas kastīte. Lai to rediģētu Jums jādodas uz Dizains > Logdaļas un jāizvēlas sestā logdaļa ar nosaukumu Sākumlapas logdaļa 1. Šajā izvēlnē varat rediģēt arī logdaļas nosaukumu."
+msgid ""
+"This is your first home widget box. To edit please go to Appearance > "
+"Widgets and choose 6th widget from the top in area six called Home Widget 1. "
+"Title is also manageable from widgets as well."
+msgstr ""
+"Šī ir Jūsu pirmā sākumlapas logdaļas kastīte. Lai to rediģētu Jums jādodas "
+"uz Dizains > Logdaļas un jāizvēlas sestā logdaļa ar nosaukumu Sākumlapas "
+"logdaļa 1. Šajā izvēlnē varat rediģēt arī logdaļas nosaukumu."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 2"
 msgstr "Sākumlapas logdaļa 2"
 
 #: sidebar-home.php
-msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
-msgstr "Šī ir Jūsu otrā sākumlapas logdaļas kastīte. Lai to rediģētu Jums jādodas uz Dizains > Logdaļas un jāizvēlas septītā logdaļa ar nosaukumu Sākumlapas logdaļa 2. Šajā izvēlnē varat rediģēt arī logdaļas nosaukumu."
+msgid ""
+"This is your second home widget box. To edit please go to Appearance > "
+"Widgets and choose 7th widget from the top in area seven called Home Widget "
+"2. Title is also manageable from widgets as well."
+msgstr ""
+"Šī ir Jūsu otrā sākumlapas logdaļas kastīte. Lai to rediģētu Jums jādodas uz "
+"Dizains > Logdaļas un jāizvēlas septītā logdaļa ar nosaukumu Sākumlapas "
+"logdaļa 2. Šajā izvēlnē varat rediģēt arī logdaļas nosaukumu."
 
-#: includes/functions.php
-#: sidebar-home.php
+#: sidebar-home.php includes/functions.php
 msgid "Home Widget 3"
 msgstr "Sākumlapas logdaļa 3"
 
 #: sidebar-home.php
-msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
-msgstr "Šī ir Jūsu trešā sākumlapas logdaļas kastīte. Lai to rediģētu Jums jādodas uz Dizains > Logdaļas un jāizvēlas astotā logdaļa ar nosaukumu Sākumlapas logdaļa 3. Šajā izvēlnē varat rediģēt arī logdaļas nosaukumu."
+msgid ""
+"This is your third home widget box. To edit please go to Appearance > "
+"Widgets and choose 8th widget from the top in area eight called Home Widget "
+"3. Title is also manageable from widgets as well."
+msgstr ""
+"Šī ir Jūsu trešā sākumlapas logdaļas kastīte. Lai to rediģētu Jums jādodas "
+"uz Dizains > Logdaļas un jāizvēlas astotā logdaļa ar nosaukumu Sākumlapas "
+"logdaļa 3. Šajā izvēlnē varat rediģēt arī logdaļas nosaukumu."
 
 #: single.php
 msgid "About"
@@ -503,8 +373,12 @@ msgid "Footer Menu"
 msgstr "Kājenes izvēlne"
 
 #: includes/functions.php
-msgid "<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>%4$s"
-msgstr "<span class=\"%1$s\">Publicēts </span>%2$s<span class=\"%3$s\"> publicējis </span>%4$s"
+msgid ""
+"<span class=\"%1$s\">Posted on </span>%2$s<span class=\"%3$s\"> by </span>"
+"%4$s"
+msgstr ""
+"<span class=\"%1$s\">Publicēts </span>%2$s<span class=\"%3$s\"> publicējis </"
+"span>%4$s"
 
 #: includes/functions.php
 msgid "View all posts by %s"
@@ -513,10 +387,6 @@ msgstr "Apskatīt visus %s ierakstus"
 #: includes/functions.php
 msgid "Archive for %s"
 msgstr "Arhīvs par %s"
-
-#: includes/functions.php
-msgid "Search results for: %s"
-msgstr "Meklēšanas rezultāti frāzei: %s"
 
 #: includes/functions.php
 msgid "Posts tagged %s"
@@ -567,7 +437,7 @@ msgid "Main Sidebar"
 msgstr "Galvenā sānjosla"
 
 #: includes/functions.php
-msgid "Area One - sidebar.php"
+msgid "Area 1 - sidebar.php"
 msgstr "Laukums 1 - sidebar.php"
 
 #: includes/functions.php
@@ -575,7 +445,7 @@ msgid "Right Sidebar"
 msgstr "Labā sānjosla"
 
 #: includes/functions.php
-msgid "Area Two - sidebar-right.php"
+msgid "Area 2 - sidebar-right.php"
 msgstr "Laukums 2 - sidebar-right.php"
 
 #: includes/functions.php
@@ -583,7 +453,7 @@ msgid "Left Sidebar"
 msgstr "Kreisā sānjosla"
 
 #: includes/functions.php
-msgid "Area Three - sidebar-left.php"
+msgid "Area 3 - sidebar-left.php"
 msgstr "Laukums 3 - sidebar-left.php"
 
 #: includes/functions.php
@@ -591,7 +461,7 @@ msgid "Left Sidebar Half Page"
 msgstr "Kreisā sānjosla pusei lapas"
 
 #: includes/functions.php
-msgid "Area Four - sidebar-left-half.php"
+msgid "Area 4 - sidebar-left-half.php"
 msgstr "Laukums 4 - sidebar-left-half.php"
 
 #: includes/functions.php
@@ -599,19 +469,19 @@ msgid "Right Sidebar Half Page"
 msgstr "Labā sānjosla pusei lapas"
 
 #: includes/functions.php
-msgid "Area Five - sidebar-right-half.php"
+msgid "Area 5 - sidebar-right-half.php"
 msgstr "Laukums 5 - sidebar-right-half.php"
 
 #: includes/functions.php
-msgid "Area Six - sidebar-home.php"
+msgid "Area 6 - sidebar-home.php"
 msgstr "Laukums 6 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Seven - sidebar-home.php"
+msgid "Area 7 - sidebar-home.php"
 msgstr "Laukums 7 - sidebar-home.php"
 
 #: includes/functions.php
-msgid "Area Eight - sidebar-home.php"
+msgid "Area 8 - sidebar-home.php"
 msgstr "Laukums 8 - sidebar-home.php"
 
 #: includes/functions.php
@@ -619,7 +489,7 @@ msgid "Gallery Sidebar"
 msgstr "Galerijas sānjosla"
 
 #: includes/functions.php
-msgid "Area Nine - sidebar-gallery.php"
+msgid "Area 9 - sidebar-gallery.php"
 msgstr "Laukums 9 - sidebar-gallery.php"
 
 #: includes/functions.php
@@ -627,7 +497,7 @@ msgid "Colophon Widget"
 msgstr "Atsauču logdaļa"
 
 #: includes/functions.php
-msgid "Area Ten - sidebar-colophon.php"
+msgid "Area 10 - sidebar-colophon.php"
 msgstr "Laukums 10 - sidebar-colophon.php"
 
 #: includes/functions.php
@@ -635,7 +505,7 @@ msgid "Top Widget"
 msgstr "Augšējā logdaļa"
 
 #: includes/functions.php
-msgid "Area Twelve - sidebar-top.php"
+msgid "Area 11 - sidebar-top.php"
 msgstr "Laukums 12 - sidebar-top.php"
 
 #: includes/theme-options.php
@@ -780,7 +650,8 @@ msgstr "Atstājiet tukšu, ja spraudnis apstrādā Jūsu tīmekļa pārziņa rī
 
 #: includes/theme-options.php
 msgid "Google Analytics, StatCounter, any other or all of them."
-msgstr "Google Analytics, StatCounter, jebkurš cits pakalpojums vai visi pakalpojumi."
+msgstr ""
+"Google Analytics, StatCounter, jebkurš cits pakalpojums vai visi pakalpojumi."
 
 #: includes/theme-options.php
 msgid "Social Icons"
@@ -929,4 +800,3 @@ msgstr "Tiek iekļauts footer.php &darr;"
 #: includes/theme-options.php
 msgid "Enter your custom footer script."
 msgstr "Ievadiet savu pielāgoto kājenes skriptu."
-
