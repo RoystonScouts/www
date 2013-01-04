@@ -110,7 +110,7 @@ background-color: #343434;
 	color: #4D2177;
 }
 
-.widget-title-home h3 {
+.widget-title-home h3, .widget-title {
 	padding-top: 20px;
 	padding-bottom: 0px;
 }

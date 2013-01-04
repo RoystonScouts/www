@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   inkscape:export-filename="C:\web\royston-scouts\wp-content\themes\royston-scouts\images\shop-thumb.png"
+   inkscape:export-filename="/var/www/royston-scouts/wp-content/themes/royston-scouts/images/shop-thumb.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:docname="shop-thumb.svg">
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
