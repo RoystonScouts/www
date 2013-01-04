@@ -13,7 +13,7 @@
    height="45"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.48.3.1 r9886"
    inkscape:export-filename="C:\web\royston-scouts\wp-content\themes\royston-scouts\images\shop-thumb.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -42,10 +42,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="844"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
+     inkscape:window-width="1308"
+     inkscape:window-height="744"
+     inkscape:window-x="52"
+     inkscape:window-y="24"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -67,14 +67,18 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;font-family:Sans"
-       x="11.566406"
-       y="1047.8368"
+       x="6.5664062"
+       y="1025.6727"
        id="text3000"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3002"
-         x="11.566406"
-         y="1047.8368">for all your local scouting needs </tspan></text>
+         x="6.5664062"
+         y="1025.6727">for all your local </tspan><tspan
+         sodipodi:role="line"
+         x="6.5664062"
+         y="1040.6727"
+         id="tspan3802">scouting needs </tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="rect3006"
@@ -84,20 +88,34 @@
        y="1007.3622" />
     <g
        id="g3994"
-       transform="matrix(0.75983876,0,0,0.75983876,127.1076,319.04904)">
-      <text
-         xml:space="preserve"
-         style="font-size:40.21786499px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#86a20b;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         x="-151.83321"
-         y="941.79645"
-         id="text4004"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4006"
-           x="-151.83321"
-           y="941.79645"><tspan
-   style="fill:#f37a1f;fill-opacity:1"
-   id="tspan4010">Scout</tspan>SHOP</tspan></text>
+       transform="matrix(0.42728791,0,0,0.42728791,190.88611,624.56135)">
+      <g
+         id="g3796">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4004"
+           y="945.69629"
+           x="-151.30676"
+           style="font-size:43.94074631px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#86a20b;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             style="font-size:43.94074631px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f37a1f;fill-opacity:1;font-family:The Serif Black-;-inkscape-font-specification:The Serif Black-"
+             y="945.69629"
+             x="-151.30676"
+             id="tspan4006"
+             sodipodi:role="line">Scout</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3018"
+           y="980.93402"
+           x="-151.4135"
+           style="font-size:49.02370071px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#84a40f;fill-opacity:0.94117647;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             style="font-size:49.02370071px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#84a40f;fill-opacity:0.94117647;font-family:The Serif Black-;-inkscape-font-specification:The Serif Black-"
+             y="980.93402"
+             x="-151.4135"
+             id="tspan3020"
+             sodipodi:role="line">SHOP</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
