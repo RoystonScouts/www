@@ -52,6 +52,18 @@
 		register_post_type( 'scout_role' , $args );
 	}
 	
+	function add_loginout_link( $items, $args ) {
+		if (is_user_logged_in() && $args->theme_location == 'top-menu') {
+			$items .= '<li><a href="'. wp_logout_url(get_permalink()) .'">Logout</a></li>';
+		}
+		elseif (!is_user_logged_in() && $args->theme_location == 'top-menu') {
+			$items .= '<li><a href="'. wp_login_url(get_permalink()) .'">Login</a></li><li><a href="'. site_url('/wp-login.php?action=register&redirect_to=' . get_permalink()) .'">Register</a></li>';
+		}
+		return $items;
+	}
+	add_filter( 'wp_nav_menu_items', 'add_loginout_link', 10, 2 );
+
+	
 	function royston_scouts_theme_setup() {
 		add_action( 'init', 'create_post_type' );
 		remove_filter( 'wp_page_menu_args', 'responsive_page_menu_args' );
