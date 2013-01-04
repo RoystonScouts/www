@@ -101,8 +101,7 @@ background-color: #343434;
 
 .widget-wrapper {
 	background-color: white;
-	border: 0px;
-	border-left: 1px solid #F37A1F;
+	border: 1px solid #F37A1F;
 	padding-top: 0px;
 	margin-top:20px;
 }
@@ -112,7 +111,8 @@ background-color: #343434;
 }
 
 .widget-title-home h3 {
-	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 }
 
 .textwidget h3.qa-faq-title {
@@ -120,11 +120,15 @@ background-color: #343434;
 	margin: 0px;
 }
 
-.qa-faq-answer p {
-	display: block !important;
+p:empty {
+	display: none;
 }
 
-.textwidget .qa-home .qa-faq p {
+.qa-faqs + .textwidget p {
+	display: none;
+}
+
+.qa-faq + p {
 	display: none;
 }
 
