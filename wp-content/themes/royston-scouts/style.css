@@ -115,10 +115,19 @@ background-color: #343434;
 	padding: 0px;
 }
 
-h3.qa-faq-title {
+.textwidget h3.qa-faq-title {
 	font-size: 1em;
 	margin: 0px;
 }
+
+.qa-faq-answer p {
+	display: block !important;
+}
+
+.textwidget .qa-home .qa-faq p {
+	display: none;
+}
+
 
 #wrapper {
 	border: 0px;
