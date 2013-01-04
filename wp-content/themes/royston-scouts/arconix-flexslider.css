@@ -117,12 +117,21 @@ html[xmlns] .slides { display: block; }
 /* Content
 ------------------------------------------------------------ */
 .flex-image-wrap {
+	width: 100%;
     float: left;
+}
+
+div.flex-image-wrap a img {
+	margin: auto;
+}
+
+div.flex-container{
+	margin: 20px;
 }
 
 .flex-content-wrap {
     float: left;
-    width: 50%;
+	width: 100%;
 }
 
 .flex-title {
@@ -130,15 +139,19 @@ html[xmlns] .slides { display: block; }
 	font-size: 2em;
 	font-weight: 700;
 	line-height: 1em;
-    padding-left: 10px;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+div.flex-title a {
+	font-weight: bold;
+	color: #001323;
 }
 
 .flex-content {
     margin-top: 15px;
-    padding: 0 15px 10px 10px;
+    padding: 0px;
 }
-
-
 
 /* Direction Nav
 ------------------------------------------------------------ */

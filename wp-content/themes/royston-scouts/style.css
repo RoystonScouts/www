@@ -44,29 +44,6 @@ div#featured {
 	background: #F9F9F9;
 }
 
-div.flex-container{
-	margin: 20px;
-}
-
-div.flex-image-wrap {
-	width: 50%;
-	float: left;
-}
-
-div.flex-content-wrap {
-	width: 50%;
-	float: right;
-}
-
-div.flex-image-wrap a img {
-	margin:0px;
-}
-
-div.flex-title a {
-	font-weight: bold;
-	color: #001323;
-}
-
 .menu {
   background-color: #001323;
 }
