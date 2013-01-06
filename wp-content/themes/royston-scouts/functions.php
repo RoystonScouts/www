@@ -51,6 +51,34 @@
  
 		register_post_type( 'scout_role' , $args );
 	}
+
+	// [vr_roles_available]
+	function vr_roles_available_func( $atts ) {
+		$vr_query = new WP_Query('post_type=scout_role');
+
+		$vr_r_str = "";
+
+		if ($vr_query->have_posts()) {
+			$vr_r_str .= "<p>We are currently looking for:</p><ul>";
+		};
+
+		// The Loop
+		while ( $vr_query->have_posts() ) :
+			$vr_query->the_post();
+			$vr_r_str .= '<li><a href="'. get_permalink() . '">' . get_the_title() . '</a></li>';
+		endwhile;
+
+		// Restore original Query & Post Data
+		wp_reset_query();
+		wp_reset_postdata();
+
+		if (!empty($vr_r_str))
+			$vr_r_str .= "</ul>";
+
+		return $vr_r_str;
+	}
+
+	add_shortcode( 'vr_roles_available', 'vr_roles_available_func' );
 	
 	function add_loginout_link( $items, $args ) {
 		if (is_user_logged_in() && $args->theme_location == 'top-menu') {
