@@ -5,25 +5,25 @@ function create_qa_post_types() {
 	 global $qaplus_options;
 	 
 	 $labels = array(
-		'name' => _x( 'FAQ Categories', 'taxonomy general name' ),
-		'singular_name' => _x( 'FAQ Category', 'taxonomy singular name' ),
-		'search_items' =>  __( 'Search FAQ Categories' ),
-		'all_items' => __( 'All FAQ Categories' ),
-		'parent_item' => __( 'Parent FAQ Category' ),
-		'parent_item_colon' => __( 'Parent FAQ Category:' ),
-		'edit_item' => __( 'Edit FAQ Category' ), 
-		'update_item' => __( 'Update FAQ Category' ),
-		'add_new_item' => __( 'Add New FAQ Category' ),
-		'new_item_name' => __( 'New FAQ Category Name' ),
+		'name' => _x( 'FAQ Categories', 'qa-free' ),
+		'singular_name' => _x( 'FAQ Category', 'qa-free'),
+		'search_items' =>  __( 'Search FAQ Categories', 'qa-free'),
+		'all_items' => __( 'All FAQ Categories', 'qa-free' ),
+		'parent_item' => __( 'Parent FAQ Category', 'qa-free' ),
+		'parent_item_colon' => __( 'Parent FAQ Category:', 'qa-free'),
+		'edit_item' => __( 'Edit FAQ Category', 'qa-free'), 
+		'update_item' => __( 'Update FAQ Category', 'qa-free'),
+		'add_new_item' => __( 'Add New FAQ Category', 'qa-free'),
+		'new_item_name' => __( 'New FAQ Category Name', 'qa-free')
   	);
 
   	register_post_type( 'qa_faqs',
 		array(
 			'labels' => array(
-				'name' => __( 'FAQs' ),
-				'singular_name' => __( 'FAQ' ),
-				'edit_item'	=>	__( 'Edit FAQ'),
-				'add_new_item'	=>	__( 'Add FAQ')
+				'name' => __( 'FAQs', 'qa-free' ),
+				'singular_name' => __( 'FAQ', 'qa-free' ),
+				'edit_item'	=>	__( 'Edit FAQ', 'qa-free'),
+				'add_new_item'	=>	__( 'Add FAQ', 'qa-free')
 			),
 			'public' => true,
 			'show_ui' => true,
@@ -74,9 +74,9 @@ function restrict_listings_by_categories() {
 function set_qa_faqs_columns($columns) {
     return array(
         'cb' => '<input type="checkbox" />',
-        'title' => __('Title'),
-        'faq_category' => __('Category'),
-        'date' => __('Date')
+        'title' => __('Title', 'qa-free'),
+        'faq_category' => __('Category', 'qa-free'),
+        'date' => __('Date', 'qa-free')
     );
 }
 add_filter('manage_qa_faqs_posts_columns' , 'set_qa_faqs_columns');

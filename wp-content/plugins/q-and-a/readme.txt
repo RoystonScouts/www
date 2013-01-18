@@ -1,11 +1,10 @@
-=== Q & A FAQ and Knowledge Base ===
+=== Q and A  ===
 Author: daltonrooney
 Author URL: http://madebyraygun.com
 Plugin URL: http://wordpress.org/extend/plugins/q-and-a/
-Tags: FAQ, faqs, knowledgebase, knowledge base
 Requires at least: 3.0
-Tested up to: 3.4.1
-Stable tag: 1.0.5.1
+Tested up to: 3.5.1
+Stable tag: 1.0.6.2
 
 Create a powerful and easy to use FAQ & knowledge base on your WordPress site.
 
@@ -91,9 +90,11 @@ Version 1.0 is an all new plugin. Your FAQs will be be preserved, but you may ne
 
 == Changelog ==
 
-= 1.0.5.1 =
+= 1.0.6 =
 
-* Small HTML error
+* Fixed incorrect site url for search box for sites installed in subdirectories.
+
+* Added text domain for translation.
 
 = 1.0.5 = 
 
@@ -108,6 +109,7 @@ Version 1.0 is an all new plugin. Your FAQs will be be preserved, but you may ne
 * Added in option for breadcrumbs in single FAQ titles
 
 * Cleaned up some CSS
+
 
 = 1.0.4 =
 

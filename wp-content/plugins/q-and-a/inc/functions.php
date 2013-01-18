@@ -134,7 +134,7 @@ function addQaplusPage(){
 	$new_page = ucwords( $new_page );
 	// Create post object
 	$qaplus_post = array(
-		'post_title' => $new_page,
+	  'post_title' => $new_page,
 	  'post_content' => '[qa]',
 	  'post_status' => 'publish',
 	  'post_type' => 'page',
@@ -146,9 +146,9 @@ function addQaplusPage(){
 	
 	$page_exists = get_page_by_path( $qaplus_options['faq_slug'] );
 	if ( $page_exists ) {
-		echo "<p>Page was successfully created!</p>";
+		_e('<p>Page was successfully created!</p>', 'qa-free');
 	} else {
-		echo "<p>Page could not be created. Please create it and add the shortcode manually.</p>";
+		_e('<p>Page could not be created. Please create it and add the shortcode manually.</p>', 'qa-free');
 	}
 	die();
 }
@@ -186,7 +186,7 @@ add_filter( 'excerpt_length', 'qaplus_excerpt_length' );
  */
 
 function qaplus_continue_reading_link() {
-	return ' <a href="'. esc_url( get_permalink() ) . '">' . __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) . '</a>';
+	return ' <a href="'. esc_url( get_permalink() ) . '">' . __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'qa-free' ) . '</a>';
 }
 
 /**
@@ -232,7 +232,7 @@ function update_page_title($data){
 		wp_reset_query();
 		
    		$homelink =  '<a href="' . home_url() . '/' . $qaplus_options['faq_slug'] . '">' . $title . '</a>';
-   		$data = $homelink . __(' / ', 'qa_plus') . $data;
+   		$data = $homelink . __(' / ', 'qa-free') . $data;
 	 }
 
 	return $data;
@@ -273,7 +273,7 @@ function add_categories_to_single ($content) {
 	global $post;
 	$faq_cats = qa_add_categories();
 	if ( is_single() && 'qa_faqs' == get_post_type($post) && !empty( $faq_cats ) ) {
-		$qa_cats = '<p class="qa_cats">' . __('Posted in: ', 'qa_plus') . $faq_cats . '</p>';
+		$qa_cats = '<p class="qa_cats">' . __('Posted in: ', 'qa-free') . $faq_cats . '</a>';
 		$content = $content . $qa_cats;
 		return $content;
 	} else {

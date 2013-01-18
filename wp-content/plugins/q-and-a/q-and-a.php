@@ -4,7 +4,8 @@ Plugin Name: Q and A
 Plugin URI: http://wordpress.org/extend/plugins/q-and-a/
 Description: FAQ plugin for WordPress
 Author: Raygun
-Version: 1.0.5.1
+Version: 1.0.6.2
+Text Domain: qa-free
 Author URI: http://madebyraygun.com
 
 Copyright 2012 Raygun Design LLC (email : contact@madebyraygun.com)
@@ -17,7 +18,7 @@ define( 'Q_A_PLUS_PATH', plugin_dir_path( __FILE__ ) );
 
 define( 'Q_A_PLUS_LOCATION', plugin_basename(__FILE__) );
 
-define( "Q_A_PLUS_VERSION", "1.0.5.1" );
+define( 'Q_A_PLUS_VERSION', '1.0.6.2' );
 
 define ( 'Q_A_PLUS_URL', plugins_url( '' ,  __FILE__ ) );
 
@@ -28,3 +29,13 @@ require ( Q_A_PLUS_PATH . 'inc/functions.php');
 if ( is_admin() ) { 
 	require( Q_A_PLUS_PATH . 'admin/q-a-plus-admin.php' );
 }
+
+
+/**
+ *  load plugin text domain for translation
+ *  @since Q and A  1.0.1
+ */
+function q_and_a_lang_init() {
+    load_plugin_textdomain('qa-free', false, basename(dirname(__FILE__)) . '/lang');
+}
+add_action('init','q_and_a_lang_init');
