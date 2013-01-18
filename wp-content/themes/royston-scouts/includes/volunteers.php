@@ -53,7 +53,7 @@ if ( !defined('ABSPATH')) exit;
 			$volunteer_query->the_post();
 			$r_str .= "<div class='rs_volunteer'>";
 			$r_str .= '  <div class="rs_volunteer_name">' . get_the_title() . '</div>';
-			$r_str .= '  <div class="rs_volunteer_thumbnail">' . the_post_thumbnail() . '</div>';
+			$r_str .= '  <div class="rs_volunteer_thumbnail">' . get_the_post_thumbnail() . '</div>';
 			$r_str .= '  <div class="rs_volunteer_description">' . get_the_content() . '</div>';
 			$r_str .= "</div>";
 		endwhile;
