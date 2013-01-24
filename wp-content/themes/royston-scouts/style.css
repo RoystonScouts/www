@@ -30,7 +30,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* =Start From Here
 -------------------------------------------------------------- */
 body {
-	background: white;
+	background-color: #415A68;
+}
+
+#container {
+	background-color: white;
+}
+
+#footer {
+	background-color: #001323;
+	color: white;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer .social-icons {
+	padding-top: 10px;
 }
 
 div#featured {
@@ -110,7 +127,12 @@ div#featured {
 	color: #4D2177;
 }
 
-.widget-title-home h3, .widget-title {
+.widget-title {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.widget-title-home h3 {
 	padding-top: 20px;
 	padding-bottom: 0px;
 }
