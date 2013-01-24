@@ -11,7 +11,7 @@ if ( !defined('ABSPATH')) exit;
 	function royston_scouts_theme_setup() {
 		add_theme_support( 'post-thumbnails' );
 		add_filter('widget_text', 'do_shortcode');
-		remove_filter( 'wp_page_menu_args', 'responsive_page_menu_args' );
+//		remove_filter( 'wp_page_menu_args', 'responsive_page_menu_args' );
 	}
 
 	add_action( 'after_setup_theme', 'royston_scouts_theme_setup' );

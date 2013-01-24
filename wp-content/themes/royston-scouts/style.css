@@ -39,17 +39,17 @@ div#featured {
 }
 
 .menu {
-  background-color: #001323;
+  background-color: #f0f0f0;
 }
 
 .menu .current_page_item a, .menu .current-menu-item a {
-background-color: #343434;
+  background-color: #4d2177;
 }
 
 .menu  li{
-  background-color: #001323;
+  background-color: #4d2177;
   text-align: center;
-  width: 192px;
+  width: 160px;
 }
 
 .featured-title {
@@ -57,30 +57,30 @@ background-color: #343434;
 }
 
 .page_item {
-  background-color: #001323;
+  background-color: #f0f0f0;
   text-align: center;
-  width: 192px;
+  width: 160px;
   text-indent: -9999px;
 }
 
 .page-item-36 a, .page-item-36 a:hover {
-	background: url(images/beavers-thumb.png) center left no-repeat;
+	background: url(images/menu-bar.png) -160px 0px no-repeat;
 }
 
 .page-item-38 a, .page-item-38 a:hover {
-	background: url(images/cubs-thumb.png) center left no-repeat;
+	background: url(images/menu-bar.png) -320px 0px no-repeat;
 }
 
 .page-item-41 a, .page-item-41 a:hover {
-	background: url(images/scouts-thumb.png) center left no-repeat;
+	background: url(images/menu-bar.png) -480px 0px no-repeat;
 }
 
 .page-item-1242 a, .page-item-1242 a:hover {
-	background: url(images/group-thumb.png) center left no-repeat;
+	background: url(images/menu-bar.png) -640px 0px no-repeat;
 }
 
 .page-item-1308 a, .page-item-1308 a:hover {
-	background: url(images/shop-thumb.png) center left no-repeat;
+	background: url(images/menu-bar.png) -800px 0px no-repeat;
 }
 
 
