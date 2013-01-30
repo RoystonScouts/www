@@ -10,7 +10,19 @@ Changelog Legend:
 
 ----
 
-(02/06/2013) - Improvements - Version 1.8.7
+(01/27/2013) - Maintenance and Minor Bug Release - Version 1.8.8
+
+[!] SelectBox for Android and iPhone
+[*] SelectBox style.css improvements
+[*] quirksmode.org link fix
+[*] Support link for style.css
+[x] Arabic language duplicates
+[+] Hindi language
+
+----
+
+(01/06/2013) - Improvements - Version 1.8.7
+
 ----
 Please see: http://themeid.com/forum/topic/4780/responsive-version-187/
 ----

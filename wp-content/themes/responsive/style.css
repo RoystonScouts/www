@@ -1,9 +1,9 @@
 /* 
 Theme Name: Responsive 
 Theme URI: http://themeid.com/responsive-theme/ 
-Description: Responsive Theme is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, Search Engine Friendly, W3C Markup Validated and currently translated into 40 languages. Cross-Browser compatible and yes even the IE7. No paid memberships or clubs to get a FREE/Responsive Support you need. http://themeid.com/support/
+Description: Responsive Theme is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, Search Engine Friendly, W3C Markup Validated and currently translated into 41 language. Cross-Browser compatible and yes even the IE7. No paid memberships or clubs to get a FREE/Responsive Support you need. http://themeid.com/help/
 
-Version: 1.8.7
+Version: 1.8.8
 Author: ThemeID 
 Author URI: http://themeid.com
 Tags: white, black, gray, light, custom-menu, custom-header, custom-background, one-column, two-columns, left-sidebar, right-sidebar, flexible-width, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, flexible-width, rtl-language-support
@@ -1907,6 +1907,7 @@ form div {
     margin: 0 auto;
     position: relative;
     width: 100%;
+    z-index: 2;
 }
 
 .sb-holder:focus .sb-selector {}
@@ -1961,11 +1962,12 @@ form div {
 
 .sb-options {
     background-color: #fff;
+    height: auto;
     list-style: none;
     left: 0;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: relative;
     top: 30px;
     width: 100%;
     z-index: 1;
@@ -2749,7 +2751,7 @@ BDO[DIR="rtl"] {
 }
 
 /*	Retina (HiDPI) Display
-    http://www.quirksmode.org/blog/archives/2013/06/devicepixelrati.html
+    http://www.quirksmode.org/blog/archives/2012/06/devicepixelrati.html
 -------------------------------------------------------------- */
 @media 
     only screen and (-moz-min-device-pixel-ratio:1.5), 
