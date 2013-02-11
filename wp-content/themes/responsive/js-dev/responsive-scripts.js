@@ -508,9 +508,7 @@ jQuery(document).ready(function ($) {
         "iframe[src*='player.vimeo.com']",
         "iframe[src*='www.youtube.com']",
         "iframe[src*='www.youtube-nocookie.com']",
-        "iframe[src*='www.kickstarter.com']",
 		"iframe[src*='fast.wistia.com']",
-        "object",
         "embed"
       ];
 
