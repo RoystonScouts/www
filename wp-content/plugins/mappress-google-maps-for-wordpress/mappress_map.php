@@ -60,7 +60,6 @@ class Mappress_Map extends Mappress_Obj {
 		// Tables		
 		$maps_table = $wpdb->prefix . 'mappress_maps';
 		$posts_table = $wpdb->prefix . 'mappress_posts';
-		$pois_table = $wpdb->prefix . 'mappress_pois';
 
 		$wpdb->show_errors(true);
 		
@@ -425,6 +424,7 @@ class Mappress_Map extends Mappress_Obj {
 
 		$actions = "<div class='mapp-m-actions'>"
 			. "<a href='#' class='mapp-maplist-edit'>" . __('Edit', 'mappress') . "</a> | " 
+			. "<a href='#' class='mapp-maplist-insert'>" . __('Insert into post', 'mappress') . "</a> | " 
 			. "<a href='#' class='mapp-maplist-delete'>" . __('Delete', 'mappress') . "</a>" 
 			. "</div>";
 		

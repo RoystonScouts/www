@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-25 13:40-0800\n"
-"PO-Revision-Date: 2013-01-25 13:41-0800\n"
+"POT-Creation-Date: 2013-02-04 18:05-0800\n"
+"PO-Revision-Date: 2013-02-04 18:05-0800\n"
 "Last-Translator: Plugin Author <donotreply@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Documentation"
 
 #: ../mappress.php:131
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: ../mappress.php:132
 msgid "Contact"
@@ -143,17 +143,22 @@ msgstr ""
 msgid "Untitled"
 msgstr ""
 
-#: ../mappress_map.php:107
+#: ../mappress_map.php:106
 msgid "Map not found"
 msgstr ""
 
-#: ../mappress_map.php:196
-#: ../mappress_map.php:202
+#: ../mappress_map.php:195
+#: ../mappress_map.php:201
 msgid "Internal error, your data has not been saved!"
 msgstr ""
 
-#: ../mappress_map.php:427
+#: ../mappress_map.php:426
 msgid "Edit"
+msgstr ""
+
+#: ../mappress_map.php:427
+#: ../forms/map_media.php:48
+msgid "Insert into post"
 msgstr ""
 
 #: ../mappress_map.php:467
@@ -162,7 +167,7 @@ msgstr ""
 
 #: ../mappress_map.php:479
 #: ../mappress_settings.php:447
-#: ../forms/map_editor.php:5
+#: ../forms/map_editor.php:13
 msgid "Center map"
 msgstr ""
 
@@ -641,7 +646,11 @@ msgstr ""
 msgid "A PRO Version update is available for manual installation: %s"
 msgstr ""
 
-#: ../forms/map_editor.php:4
+#: ../forms/map_editor.php:2
+msgid "Add POI"
+msgstr ""
+
+#: ../forms/map_editor.php:5
 #: ../templates/map_directions.php:11
 msgid "My location"
 msgstr ""
@@ -676,38 +685,34 @@ msgid "HTML"
 msgstr ""
 
 #: ../forms/map_editor_infobox.php:45
-#: ../forms/map_media.php:37
+#: ../forms/map_media.php:46
 msgid "Save"
 msgstr ""
 
 #: ../forms/map_editor_infobox.php:46
-#: ../forms/map_media.php:38
-#: ../pro/mappress_icons.php:62
+#: ../forms/map_media.php:47
+#: ../pro/mappress_icons.php:64
 msgid "Cancel"
 msgstr ""
 
-#: ../forms/map_media.php:9
+#: ../forms/map_media.php:11
 msgid "Maps for This Post"
 msgstr ""
 
-#: ../forms/map_media.php:10
+#: ../forms/map_media.php:12
 msgid "New Map"
 msgstr ""
 
-#: ../forms/map_media.php:18
+#: ../forms/map_media.php:22
 msgid "Map ID"
 msgstr ""
 
-#: ../forms/map_media.php:24
-msgid "Size"
-msgstr ""
-
-#: ../forms/map_media.php:31
-msgid "Insert into post"
-msgstr ""
-
-#: ../forms/map_media.php:35
+#: ../forms/map_media.php:27
 msgid "Map Title"
+msgstr ""
+
+#: ../forms/map_media.php:32
+msgid "Size"
 msgstr ""
 
 #: ../pro/mappress_geocoders.php:53
@@ -730,7 +735,7 @@ msgstr ""
 msgid "Error: %s %s"
 msgstr ""
 
-#: ../pro/mappress_icons.php:63
+#: ../pro/mappress_icons.php:65
 msgid "Use default icon"
 msgstr ""
 
