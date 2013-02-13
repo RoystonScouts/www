@@ -159,6 +159,30 @@ p:empty {
 	border: 0px;
 }
 
+#nav-search {
+    float:right;
+}
+
+#searchform {
+    margin: 0px;
+    width: 100%;
+}
+
+#header #search-box {
+    clear:right;
+    float: right;
+    width: 300px;
+}
+
+#header #search-box #s {
+    width:252px;
+}
+
+.ie7 #header #search-box {
+    margin-top:10px;
+    text-align:right;
+}
+
 /* =Media Print
 -------------------------------------------------------------- */
 @media print {

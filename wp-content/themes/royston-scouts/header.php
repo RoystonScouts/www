@@ -58,7 +58,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
          
     <?php responsive_header(); // before header hook ?>
     <div id="header">
-    
+        <div id="nav-search">
         <?php if (has_nav_menu('top-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
 				    'container'       => '',
@@ -69,8 +69,13 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 				?>
         <?php } ?>
         
+	<div id="search-box">
+            <?php get_search_form(); ?>
+        </div><!-- end of #search-box -->
+    </div>
+
     <?php responsive_in_header(); // header hook ?>
-   
+ 
 	<?php if ( get_header_image() != '' ) : ?>
                
         <div id="logo">
@@ -87,6 +92,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
         </div><!-- end of #logo -->  
 
     <?php endif; // header image was removed (again) ?>
+
     
     <?php get_sidebar('top'); ?>
 			    
@@ -104,10 +110,10 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 					); 
 				?>
             <?php } ?>
- 
+
     </div><!-- end of #header -->
     <?php responsive_header_end(); // after header hook ?>
     
-	<?php responsive_wrapper(); // before wrapper ?>
+    <?php responsive_wrapper(); // before wrapper ?>
     <div id="wrapper" class="clearfix">
     <?php responsive_in_wrapper(); // wrapper hook ?>
