@@ -159,6 +159,15 @@ p:empty {
 	border: 0px;
 }
 
+/* =FAQs
+-------------------------------------------------------------- */
+.qa-faq-title {
+    font-size: 1em;
+}
+
+/* =Search
+-------------------------------------------------------------- */
+
 #nav-search {
     float:right;
 }
@@ -181,6 +190,10 @@ p:empty {
 .ie7 #header #search-box {
     margin-top:10px;
     text-align:right;
+}
+
+#content-search h1.post-title {
+    font-size: 1.5em;
 }
 
 /* =Media Print
