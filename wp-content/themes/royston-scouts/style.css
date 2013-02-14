@@ -50,11 +50,6 @@ body {
 	padding-top: 10px;
 }
 
-div#featured {
-	padding-bottom: 0px;
-	background: #F9F9F9;
-}
-
 .menu {
   background-color: #f0f0f0;
 }
@@ -67,10 +62,6 @@ div#featured {
   background-color: #4d2177;
   text-align: center;
   width: 160px;
-}
-
-.featured-title {
-  color: #ED7703;
 }
 
 .page_item {
@@ -157,6 +148,35 @@ p:empty {
 
 #wrapper {
 	border: 0px;
+}
+
+/* =Featured
+-------------------------------------------------------------- */
+#featured {
+	margin-bottom:0px;
+	padding-bottom:0px;
+	background-color: #84a40b;
+}
+
+#slider {
+	margin-bottom:0px;
+	margin-right:20px;
+	padding-bottom:0px;
+}
+
+#mission {
+	margin-bottom:0px;
+	padding: 20px 20px 20px 0px;
+	color: white;
+}
+
+#mission-wrapper {
+  padding-left:20px;
+}
+
+#featured-image {
+  margin-top: 0px;
+  background-color: black;
 }
 
 /* =FAQs
@@ -332,6 +352,11 @@ p:empty {
         padding-bottom: 10px;
 	    text-align: center;
     }
+
+    #mission-wrapper {
+	padding-left: 0px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -355,6 +380,10 @@ p:empty {
 	.featured-title {
 	    font-size: 40px;
 	    padding: 40px 20px 0 20px
+    }
+
+    #mission {
+	display: none;
     }
 
     .navigation .next,

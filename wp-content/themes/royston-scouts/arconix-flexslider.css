@@ -119,6 +119,8 @@ html[xmlns] .slides { display: block; }
 .flex-image-wrap {
 	width: 100%;
     float: left;
+	min-height: 339px;
+	margin-top: 20px;
 }
 
 div.flex-image-wrap a img {
@@ -126,17 +128,21 @@ div.flex-image-wrap a img {
 }
 
 div.flex-container{
-	margin: 20px;
+	margin: 0px 0px -152px 0px;
 }
 
 .flex-content-wrap {
     float: left;
-	width: 100%;
+    width: 100%;
+	background-color: black;
+	position: relative;
+	top: -152px;
+	opacity: 0.6;
 }
 
 .flex-title {
-	color: #404040;
-	font-size: 2em;
+	color: white;
+	font-size: 1.5em;
 	font-weight: 700;
 	line-height: 1em;
 	padding-top: 10px;
@@ -145,12 +151,15 @@ div.flex-container{
 
 div.flex-title a {
 	font-weight: bold;
-	color: #001323;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-overflow:ellipsis;
 }
 
 .flex-content {
     margin-top: 15px;
-    padding: 0px;
+    padding: 0 20px 20px 20px;
 }
 
 /* Direction Nav

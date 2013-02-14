@@ -5,7 +5,7 @@ if ( !defined('ABSPATH')) exit;
 
 ?>
 <?php
-	add_image_size( 'slide-thumb', 470, 200, true); //(cropped)
+	add_image_size( 'slide-thumb', 620, 320, true); //(cropped)
 	
 	function custom_wmu_image_sizes($sizes) {
         $myimgsizes = array(

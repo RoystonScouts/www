@@ -23,9 +23,50 @@ if ( !defined('ABSPATH')) exit;
 ?>
 <?php get_header(); ?>
 
-        <div id="featured" class="grid col-940">
+        <div id="featured" class="grid col-940">	
+	  <div id="featured-image" class="grid col-620"> 
 		<?php echo do_shortcode( "[ac-flexslider show_content='excerpt' image_size='slide-thumb']" ); ?>
-        </div><!-- end of #featured -->
+    	  </div><!-- end of #featured -->
+	  <div id="mission" class="grid col-300 fit">
+	     <div id="mission-wrapper">
+             <?php $options = get_option('responsive_theme_options');
+			// First let's check if content is in place
+			    if (!empty($options['home_content_area'])) {
+                    echo '<p>'; 
+					echo do_shortcode($options['home_content_area']);
+				    echo '</p>'; 
+			// If not let's show dummy content for demo purposes
+			      } else { 
+			        echo '<p>';
+				    echo __('Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like.','responsive');
+				    echo '</p>';
+				  }
+			?>
+            
+            <?php $options = get_option('responsive_theme_options'); ?>
+		    <?php if ($options['cta_button'] == 0): ?>     
+            <div class="call-to-action">
+
+            <?php $options = get_option('responsive_theme_options');
+			// First let's check if headline was set
+			    if (!empty($options['cta_url']) && $options['cta_text']) {
+					echo '<a href="'.$options['cta_url'].'" class="blue button">'; 
+					echo $options['cta_text'];
+				    echo '</a>';
+			// If not display dummy headline for preview purposes
+			      } else { 
+					echo '<a href="#nogo" class="blue button">'; 
+					echo __('Call to Action','responsive');
+				    echo '</a>';
+				  }
+			?>  
+            
+            </div><!-- end of .call-to-action -->
+            <?php endif; ?>         
+            </div>
+          </div>
+
+	</div>
                
 <?php get_sidebar('home'); ?>
 <?php get_footer(); ?>
