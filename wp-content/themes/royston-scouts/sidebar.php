@@ -23,13 +23,17 @@ if ( !defined('ABSPATH')) exit;
             <?php
 
 		$category = get_the_category();
-		$sideBar = $category[0]->slug;
+		if (count($category) < 2) {
+			$sideBar = $category[0]->slug;
+		} else {
+			$sideBar = "group";
+		}
 	    ?>
             <?php if (!dynamic_sidebar($sideBar)) : ?>
             <div class="widget-wrapper">
 
             
-                <div class="widget-title"><?php _e('In Archive: ' . $sideBar, 'responsive'); ?></div>
+                <div class="widget-title"><?php _e('In Archive ' . $sideBar, 'responsive'); ?></div>
 					<ul>
 						<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
 					</ul>
