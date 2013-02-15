@@ -40,28 +40,20 @@ if (!$programme) {
 		$programme = $storeProgramme;
 	}
 }
-$programme = $programme[$instance['sectionid']];
 ?>
 <h3 class="widget-title"><?php echo $instance['wtitle']; ?></h3>
 <?php
 if ($continue) {
-	if ($programme) {
-		$i = 0;
-		foreach ($programme as $array) {
-			foreach ($array as $entry) {
-				if ($instance['type'] == 'both' or ($instance['type'] == 'programme' and $entry['type'] == 'programme') or ($instance['type'] == 'events' and $entry['type'] == 'events')) {
-					echo '<div class="osm_comingup_title">'.$entry['title'].'</div>';
-					echo '<div class="osm_comingup_date">'.$entry['date'].'</div>';
-					echo '<div class="osm_comingup_description">'.$entry['summary'].'</div>';
-					$i++;
-					if ($i >= $instance['numentries']) {
-						break 2;
-					}
-				}
-			}
-		}
+	$sectionId = $instance['sectionid'];
+
+	if (is_numeric($sectionId)) {
+		output_coming_up_programme($sectionId, $programme[$sectionId], $instance['type'], $instance['numentries']);
 	} else {
-		echo '<p>Nothing coming up this term.</p>';
+		$roles = get_option('OnlineScoutManager_activeRoles');
+
+		foreach ($roles as $role) {
+			output_coming_up_programme($role['sectionid'], $programme[$role['sectionid']], $instance['type'], $instance['numentries']);
+		}
 	}
 }
 ?>

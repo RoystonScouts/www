@@ -1,4 +1,6 @@
 <?php
+require("includes/comingup_functions.php");
+
 class OSM_Whats_Next extends WP_Widget {
 
 	/*--------------------------------------------------*/
@@ -41,6 +43,7 @@ class OSM_Whats_Next extends WP_Widget {
 	function widget($args, $instance) {
 		extract($args, EXTR_SKIP);
 		// Display the widget
+//		$instance['sectionid'] = '';
 		include(WP_PLUGIN_DIR . '/' . PLUGIN_SLUG . '/views/comingup_widget_view.php');
 		
 	} // end widget
