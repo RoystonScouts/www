@@ -52,6 +52,9 @@ if ($continue) {
 		$roles = get_option('OnlineScoutManager_activeRoles');
 
 		foreach ($roles as $role) {
+			$sectionName = get_section_name($role['sectionid']);
+			echo '<h3>'.$sectionName.'</h3>';
+
 			output_coming_up_programme($role['sectionid'], $programme[$role['sectionid']], $instance['type'], $instance['numentries']);
 		}
 	}

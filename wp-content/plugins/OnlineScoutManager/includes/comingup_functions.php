@@ -14,9 +14,6 @@ function get_section_name($sectionId) {
 
 function output_coming_up_programme($sectionId, $sectionProgramme, $outputType, $numEntries) {
 	if ($sectionProgramme) {
-		$sectionName = get_section_name($sectionId);
-		echo '<h3>'.$sectionName.'</h3>';
-
 		$i = 0;
 		foreach ($sectionProgramme as $array) {
 			foreach ($array as $entry) {
