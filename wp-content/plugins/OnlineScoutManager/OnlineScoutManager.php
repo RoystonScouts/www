@@ -17,6 +17,7 @@ require("ComingUp.php");
 require("PatrolPoints.php");
 require("AdminPage.php");
 require("page_replaces/challenge_badges.php");
+require("page_replaces/coming-up.php");
 require("page_replaces/programme.php");
 function register_osm_widgets() {
 	register_widget("OSM_PatrolPoints");
