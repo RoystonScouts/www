@@ -26,7 +26,7 @@ if ( !defined('ABSPATH')) exit;
 		if (count($category) < 2) {
 			$sideBar = $category[0]->slug;
 		} else {
-			$sideBar = "group";
+			$sideBar = "multiple-categories";
 		}
 	    ?>
             <?php if (!dynamic_sidebar($sideBar)) : ?>

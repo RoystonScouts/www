@@ -78,6 +78,18 @@ if ( !defined('ABSPATH')) exit;
             'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
             'after_widget' => '</div>'
         ));
+
+        register_sidebar(array(
+            'name' => __('Multiple Categories', 'responsive'),
+            'description' => __('Area 1 - sidebar.php', 'responsive'),
+            'id' => 'multiple-categories',
+            'before_title' => '<div class="widget-title">',
+            'after_title' => '</div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+
     }
 
     add_action('widgets_init', 'royston_scouts_widgets_init');
