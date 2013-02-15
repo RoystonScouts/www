@@ -107,6 +107,12 @@ body {
   text-align: left;
 }
 
+/* =Widgets
+-------------------------------------------------------------- */
+#widgets {
+	margin-top: 0px;
+}
+
 .widget-wrapper {
 	background-color: white;
 	border: 1px solid #F37A1F;
@@ -127,6 +133,9 @@ body {
 	padding-top: 20px;
 	padding-bottom: 0px;
 }
+
+/* =Q&A
+-------------------------------------------------------------- */
 
 .textwidget h3.qa-faq-title {
 	font-size: 1em;
