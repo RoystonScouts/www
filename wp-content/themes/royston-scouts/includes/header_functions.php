@@ -36,4 +36,49 @@ if ( !defined('ABSPATH')) exit;
 		return $items;
 	}
 	add_filter( 'wp_nav_menu_items', 'add_loginout_link', 10, 2 );
+
+    function royston_scouts_widgets_init() {
+
+        register_sidebar(array(
+            'name' => __('Beavers', 'responsive'),
+            'description' => __('Area 1 - sidebar.php', 'responsive'),
+            'id' => 'beavers',
+            'before_title' => '<div class="widget-title">',
+            'after_title' => '</div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+        register_sidebar(array(
+            'name' => __('Cubs', 'responsive'),
+            'description' => __('Area 1 - sidebar.php', 'responsive'),
+            'id' => 'cubs',
+            'before_title' => '<div class="widget-title">',
+            'after_title' => '</div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+        register_sidebar(array(
+            'name' => __('Scouts', 'responsive'),
+            'description' => __('Area 1 - sidebar.php', 'responsive'),
+            'id' => 'scouts',
+            'before_title' => '<div class="widget-title">',
+            'after_title' => '</div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+        register_sidebar(array(
+            'name' => __('Group', 'responsive'),
+            'description' => __('Area 1 - sidebar.php', 'responsive'),
+            'id' => 'group',
+            'before_title' => '<div class="widget-title">',
+            'after_title' => '</div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+    }
+
+    add_action('widgets_init', 'royston_scouts_widgets_init');
 ?>
