@@ -50,61 +50,72 @@ body {
 	padding-top: 10px;
 }
 
+/* =Menu
+-------------------------------------------------------------- */
 .menu {
-  background-color: #f0f0f0;
+	background-color: #4d2177;
+	background-image: none;
 }
 
-.menu .current_page_item a, .menu .current-menu-item a {
-  background-color: #4d2177;
+.menu a:hover {
+	background-color: #808080;
+	background-image: none;
 }
 
-.menu  li{
-  background-color: #4d2177;
-  text-align: center;
-  width: 160px;
+.page_item,
+.menu .menu-item {
+	text-align: center;
+	width: 160px;
+	text-indent: -9999px;
 }
 
-.page_item {
-  background-color: #f0f0f0;
-  text-align: center;
-  width: 160px;
-  text-indent: -9999px;
-}
-
-.page-item-36 a, .page-item-36 a:hover {
+.menu-beavers a,
+.menu-beavers a:hover,
+.page-item-36 a, 
+.page-item-36 a:hover {
 	background: url(images/menu-bar.png) -160px 0px no-repeat;
 }
 
-.page-item-38 a, .page-item-38 a:hover {
+.menu-cubs a, 
+.menu-cubs a:hover, 
+.page-item-38 a, 
+.page-item-38 a:hover {
 	background: url(images/menu-bar.png) -320px 0px no-repeat;
 }
 
-.page-item-41 a, .page-item-41 a:hover {
+.menu-scouts a, 
+.menu-scouts a:hover, 
+.page-item-41 a, 
+.page-item-41 a:hover {
 	background: url(images/menu-bar.png) -480px 0px no-repeat;
 }
 
-.page-item-1242 a, .page-item-1242 a:hover {
+.menu-group a,
+.menu-group a:hover,
+.page-item-1242 a,
+.page-item-1242 a:hover {
 	background: url(images/menu-bar.png) -640px 0px no-repeat;
 }
 
-.page-item-1308 a, .page-item-1308 a:hover {
+.menu-shop a,
+.menu-shop a:hover,
+.page-item-1308 a,
+.page-item-1308 a:hover {
 	background: url(images/menu-bar.png) -800px 0px no-repeat;
 }
 
+.menu-home a,
+.menu-home a:hover {
+	background-color: #4d2177;
+	text-align: center;
+}
 
-.children .page_item {
+.children .page_item,
+.menu .sub-menu .menu-item,
+.menu .menu-home {
+	background-color: #f0f0f0;
 	text-indent: 0px;
 	text-align: left;
-}
-
-.current_page_item {
-  background-color: #F37A1F;
-  text-align: center;
-  width: 192px;
-}
-
-.sub-menu {
-  text-align: left;
 }
 
 /* =Widgets
@@ -120,7 +131,8 @@ body {
 	margin-top:20px;
 }
 
-.widget-title-home, .widget-title {
+.widget-title-home,
+.widget-title {
 	color: #4D2177;
 }
 
@@ -154,6 +166,9 @@ p:empty {
 	display: none;
 }
 
+.qa-faq-title {
+    font-size: 1em;
+}
 
 #wrapper {
 	border: 0px;
@@ -186,12 +201,6 @@ p:empty {
 #featured-image {
   margin-top: 0px;
   background-color: black;
-}
-
-/* =FAQs
--------------------------------------------------------------- */
-.qa-faq-title {
-    font-size: 1em;
 }
 
 /* =Search

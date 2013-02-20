@@ -5,6 +5,8 @@ if ( !defined('ABSPATH')) exit;
 
 	require ( get_stylesheet_directory() . '/includes/volunteer_roles.php' );
 	require ( get_stylesheet_directory() . '/includes/volunteers.php' );
+	require ( get_stylesheet_directory() . '/includes/image_sizes.php' );
+	require ( get_stylesheet_directory() . '/includes/menus.php' );
 	require ( get_stylesheet_directory() . '/includes/header_functions.php' );
 
 	
