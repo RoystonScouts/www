@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Royston Scouts
-Plugin URI: https://github.com/RoystonScouts/www/plugins/royston-scouts
+Plugin URI: https://github.com/RoystonScouts/www/tree/master/wp-content/plugins/royston-scouts
 Description: A collection of functionality for the Royston Scout network
 Version: 0.1
 Author: Jens Kolind
@@ -34,12 +34,18 @@ if(!class_exists('Royston_Scouts'))
 	        	// Initialize Settings
 	            	require_once(sprintf("%s/settings.php", dirname(__FILE__)));
 	            	$Royston_Scouts_Settings = new Royston_Scouts_Settings();
+
+	        	// Customise the admin interface
+	            	require_once(sprintf("%s/custom_admin_interface.php", dirname(__FILE__)));
+	            	$royston_scouts_custom_admin_interface = new Royston_Scouts_Custom_Admin_Interface();
         	
 	        	// Register custom post types
 	            	require_once(sprintf("%s/post-types/royston_scouts_jobs.php", dirname(__FILE__)));
 	            	$royston_scouts_jobs = new Royston_Scouts_Jobs();
+
 		}
 	    
+
 		public static function activate()
 		{
 			// Do nothing
