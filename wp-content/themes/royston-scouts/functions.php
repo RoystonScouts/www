@@ -3,8 +3,6 @@
 // Exit if accessed directly
 if ( !defined('ABSPATH')) exit;
 
-	require ( get_stylesheet_directory() . '/includes/volunteer_roles.php' );
-	require ( get_stylesheet_directory() . '/includes/volunteers.php' );
 	require ( get_stylesheet_directory() . '/includes/image_sizes.php' );
 	require ( get_stylesheet_directory() . '/includes/menus.php' );
 	require ( get_stylesheet_directory() . '/includes/header_functions.php' );
@@ -17,5 +15,4 @@ if ( !defined('ABSPATH')) exit;
 	}
 
 	add_action( 'after_setup_theme', 'royston_scouts_theme_setup' );
-	add_action( 'after_switch_theme', 'flush_rewrite_rules' );
 ?>
