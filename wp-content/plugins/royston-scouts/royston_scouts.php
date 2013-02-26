@@ -38,25 +38,36 @@ if(!class_exists('Royston_Scouts'))
 	        	// Customise the admin interface
 	            	require_once(sprintf("%s/custom_admin_interface.php", dirname(__FILE__)));
 	            	$royston_scouts_custom_admin_interface = new Royston_Scouts_Custom_Admin_Interface();
-        	
+
 	        	// Register custom post types
 	            	require_once(sprintf("%s/post-types/royston_scouts_jobs.php", dirname(__FILE__)));
 	            	$royston_scouts_jobs = new Royston_Scouts_Jobs();
+
+	        	// Register custom taxonomies
+	            	// require_once(sprintf("%s/custom_taxonomies.php", dirname(__FILE__)));
+	            	// $royston_scouts_custom_taxonomies = new Royston_Scouts_Custom_Taxonomies();
 
 		}
 	    
 
 		public static function activate()
 		{
-			// Do nothing
 	            	$royston_scouts_jobs = new Royston_Scouts_Jobs();
 			$royston_scouts_jobs->init();
+
+	            	require_once(sprintf("%s/default_categories.php", dirname(__FILE__)));
+			Royston_Scouts_Default_Categories::init();
+
+			$role = get_role( 'editor' );
+			$role->remove_cap( 'manage_categories' );
+
 			flush_rewrite_rules();
 		}
 	
 		public static function deactivate()
 		{
-			// Do nothing
+			$role = get_role( 'editor' );
+			$role->add_cap( 'manage_categories' );
 		}
 
 	}

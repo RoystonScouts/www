@@ -8,6 +8,7 @@ if(!class_exists('Royston_Scouts_Custom_Admin_Interface'))
 			// Customise the admin interface
 			add_action( 'admin_menu', array($this, 'edit_admin_menu') );
 			add_action( 'admin_init', array($this, 'change_post_object_label') );
+			add_action( 'admin_init', array($this, 'change_category_taxonomy_label'), 0 );
 			add_filter( 'custom_menu_order', array($this, 'custom_menu_order') );
 			add_filter( 'menu_order', array($this, 'custom_menu_order') );
 			add_action( 'wp_dashboard_setup', array($this, 'wpc_dashboard_widgets') );
@@ -37,6 +38,22 @@ if(!class_exists('Royston_Scouts_Custom_Admin_Interface'))
 			$labels->not_found = 'No news articles found';
 			$labels->not_found_in_trash = 'No news articles found in Trash';
 	    	}
+
+		function change_category_taxonomy_label() {
+			$labels = get_taxonomy('category')->labels;
+			$labels->name = 'Sections';
+			$labels->singular_name = 'Section';
+			$labels->search_items = 'Search sections';
+			$labels->all_items = 'All sections';
+			$labels->parent_items = 'Parent Section';
+			$labels->parent_item_colon = 'Parent Section:';
+			$labels->edit_item = 'Edit Section';
+			$labels->view_item = 'View Section';
+			$labels->update_item = 'Update Section';
+			$labels->add_new_item = 'Add New Section';
+			$labels->new_item_name = 'New Section Name';
+			$labels->menu_name = 'Sections';
+		}
 
 		function custom_menu_order($menu_ord) {
 			if (!$menu_ord) return true;
