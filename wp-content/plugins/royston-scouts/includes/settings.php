@@ -72,7 +72,7 @@ if(!class_exists('Royston_Scouts_Settings'))
 			}
 	
 			// Render the settings template
-			include(sprintf("%s/templates/settings.php", dirname(__FILE__)));
+			include(RS_PATH . "/templates/settings.php" );
 		}
 	}
 }

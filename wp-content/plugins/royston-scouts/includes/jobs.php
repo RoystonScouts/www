@@ -132,7 +132,7 @@ if(!class_exists('Royston_Scouts_Jobs'))
 		public function add_inner_meta_boxes($post)
 		{		
 			// Render the job order metabox
-			include(sprintf("%s/../templates/%s_metabox.php", dirname(__FILE__), self::POST_TYPE));			
+			include(RS_PATH ."/templates/job_metabox.php" );			
 		}
 
 	}

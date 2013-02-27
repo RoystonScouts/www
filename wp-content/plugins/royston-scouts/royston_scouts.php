@@ -3,7 +3,7 @@
 Plugin Name: Royston Scouts
 Plugin URI: https://github.com/RoystonScouts/www/tree/master/wp-content/plugins/royston-scouts
 Description: A collection of functionality for the Royston Scout network
-Version: 0.1
+Version: 0.2
 Author: Jens Kolind
 Author URI: http://roystonscouts.org.uk
 License: GPL2
@@ -25,6 +25,16 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+define('RS_PATH' , WP_PLUGIN_DIR . "/" . plugin_basename(dirname(__FILE__)) );
+define('RS_URL'  , WP_PLUGIN_URL . "/" . plugin_basename(dirname(__FILE__)) );
+
+define('RS_VERSION', '0.2');
+
+require_once( RS_PATH . "/includes/default_categories.php" );
+require_once( RS_PATH . "/includes/settings.php" );
+require_once( RS_PATH . "/includes/custom_admin_interface.php" );
+require_once( RS_PATH . "/includes/jobs.php" );
+
 if(!class_exists('Royston_Scouts'))
 {
 	class Royston_Scouts
@@ -32,16 +42,13 @@ if(!class_exists('Royston_Scouts'))
 		public function __construct()
 		{
 	        	// Initialize Settings
-	            	require_once(sprintf("%s/settings.php", dirname(__FILE__)));
-	            	$Royston_Scouts_Settings = new Royston_Scouts_Settings();
+	            	$settings = new Royston_Scouts_Settings();
 
 	        	// Customise the admin interface
-	            	require_once(sprintf("%s/custom_admin_interface.php", dirname(__FILE__)));
-	            	$royston_scouts_custom_admin_interface = new Royston_Scouts_Custom_Admin_Interface();
+	            	$custom_admin_interface = new Royston_Scouts_Custom_Admin_Interface();
 
 	        	// Register custom post types
-	            	require_once(sprintf("%s/post-types/royston_scouts_jobs.php", dirname(__FILE__)));
-	            	$royston_scouts_jobs = new Royston_Scouts_Jobs();
+	            	$jobs = new Royston_Scouts_Jobs();
 
 	        	// Register custom taxonomies
 	            	// require_once(sprintf("%s/custom_taxonomies.php", dirname(__FILE__)));
@@ -52,10 +59,9 @@ if(!class_exists('Royston_Scouts'))
 
 		public static function activate()
 		{
-	            	$royston_scouts_jobs = new Royston_Scouts_Jobs();
-			$royston_scouts_jobs->init();
+	            	$jobs = new Royston_Scouts_Jobs();
+			$jobs->init();
 
-	            	require_once(sprintf("%s/default_categories.php", dirname(__FILE__)));
 			Royston_Scouts_Default_Categories::init();
 
 			$role = get_role( 'editor' );
