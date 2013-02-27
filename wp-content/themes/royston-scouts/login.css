@@ -1,0 +1,5 @@
+#login h1 a {
+	background-image: url('./images/default-logo.png') !important;
+	background-size: 300px 100px;
+	height: 100px;
+}

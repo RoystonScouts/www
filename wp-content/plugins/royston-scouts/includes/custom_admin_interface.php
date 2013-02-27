@@ -13,6 +13,10 @@ if(!class_exists('Royston_Scouts_Custom_Admin_Interface'))
 			add_filter( 'menu_order', array($this, 'custom_menu_order') );
 			add_action( 'wp_dashboard_setup', array($this, 'wpc_dashboard_widgets') );
 			add_filter( 'admin_footer_text', array($this, 'remove_footer_admin') );
+
+			add_action( 'login_enqueue_scripts', array($this, 'custom_login_css') );
+			add_filter( 'login_headertitle', array($this, 'custom_login_logo_url_title') );
+			add_filter( 'login_headerurl', array($this, 'custom_login_logo_url') );
 		}
 		
 		public function edit_admin_menu() {
@@ -68,13 +72,25 @@ if(!class_exists('Royston_Scouts_Custom_Admin_Interface'))
 			);
 		}
 
+		// Custom WordPress Login Logo
+		function custom_login_css() {
+			wp_enqueue_style( 'login_css', get_stylesheet_directory_uri() . '/login.css' );
+		}
+
+		function custom_login_logo_url() {
+		    	return get_bloginfo( 'url' );
+		}
+
+		function custom_login_logo_url_title() {
+		    	return get_bloginfo( 'description' );
+		}
+
 		function wpc_dashboard_widgets() {
 			global $wp_meta_boxes;
 
 			unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
 		}
 
-		// Custom WordPress Footer
 		function remove_footer_admin () {
 			echo '&copy; 2013 - Royston Scouts - A WordPress customised site';
 		}
