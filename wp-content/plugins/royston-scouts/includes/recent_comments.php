@@ -28,7 +28,7 @@ if(!class_exists('Royston_Scouts_Recent_Comments'))
 				_prime_post_caches( $post_ids, strpos( get_option( 'permalink_structure' ), '%category%' ), false );
 
 				foreach ( (array) $comments as $comment) {
-					$output .=  '<li class="recentcomments">' . sprintf(_x('%1$s said "%2$s" on %3$s', 'widgets'), get_comment_author_link(), get_comment_excerpt($comment->comment_ID), '<a href="' . esc_url( get_comment_link($comment->comment_ID) ) . '">' . get_the_title($comment->comment_post_ID) . '</a>') . '</li>';
+					$output .=  '<li class="recentcomments">' . sprintf(_x('%1$s said "%2$s" about %3$s', 'widgets'), get_comment_author_link(), get_comment_excerpt($comment->comment_ID), '<a href="' . esc_url( get_comment_link($comment->comment_ID) ) . '">' . get_the_title($comment->comment_post_ID) . '</a>') . '</li>';
 				}
 	 		}
 			$output .= '</ul>';
