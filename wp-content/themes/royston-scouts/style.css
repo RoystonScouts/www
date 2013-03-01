@@ -137,6 +137,10 @@ body {
 	padding-bottom: 0px;
 }
 
+.widget-wrapper ul {
+	margin-top: 1.6em;
+}
+
 /* =Q&A
 -------------------------------------------------------------- */
 
