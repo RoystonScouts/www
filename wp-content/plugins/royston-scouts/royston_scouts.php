@@ -34,6 +34,7 @@ require_once( RS_PATH . "/includes/default_categories.php" );
 require_once( RS_PATH . "/includes/settings.php" );
 require_once( RS_PATH . "/includes/custom_admin_interface.php" );
 require_once( RS_PATH . "/includes/jobs.php" );
+require_once( RS_PATH . "/includes/recent_comments.php" );
 
 if(!class_exists('Royston_Scouts'))
 {
@@ -49,11 +50,8 @@ if(!class_exists('Royston_Scouts'))
 
 	        	// Register custom post types
 	            	$jobs = new Royston_Scouts_Jobs();
-
-	        	// Register custom taxonomies
-	            	// require_once(sprintf("%s/custom_taxonomies.php", dirname(__FILE__)));
-	            	// $royston_scouts_custom_taxonomies = new Royston_Scouts_Custom_Taxonomies();
-
+	            	
+	            	$recent_comments = new Royston_Scouts_Recent_Comments();
 		}
 	    
 
