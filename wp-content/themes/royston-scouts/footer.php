@@ -104,8 +104,8 @@ if ( !defined('ABSPATH')) exit;
          <?php get_sidebar('colophon'); ?>
                 
         <div class="grid col-300 copyright">
-            <?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="1st Royston Scout Group, Registered Charity 302568">
-                1st Royston Scout Group, Registered Charity 302568
+            <?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="Royston District Scouts, Registered Charity 1130346">
+                Royston District Scouts, Registered Charity 1130346
             </a>
         </div><!-- end of .copyright -->
         
