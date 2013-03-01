@@ -59,15 +59,13 @@ if ( defined( 'WPSEO_VERSION' ) ) {
     <?php responsive_header(); // before header hook ?>
     <div id="header">
         <div id="nav-search">
-        <?php if (has_nav_menu('top-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
 				    'container'       => '',
-					'fallback_cb'	  =>  false,
+					'fallback_cb'	  => 'link_to_menu_editor',
 					'menu_class'      => 'top-menu',
 					'theme_location'  => 'top-menu')
 					); 
 				?>
-        <?php } ?>
         
 	<div id="search-box">
             <?php get_search_form(); ?>
