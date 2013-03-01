@@ -21,7 +21,7 @@ if(!class_exists('Royston_Scouts_Recent_Comments'))
 
 			$comments = get_comments( apply_filters( 'widget_comments_args', array( 'number' => 5, 'status' => 'approve', 'post_status' => 'publish' ) ) );
 
-			$output .= '<p /><ul id="recentcomments">';
+			$output .= '<ul id="recentcomments">';
 			if ( $comments ) {
 				// Prime cache for associated posts. (Prime post term cache if we need it for permalinks.)
 				$post_ids = array_unique( wp_list_pluck( $comments, 'comment_post_ID' ) );
