@@ -65,38 +65,41 @@ body {
 .menu .menu-item {
 	text-align: center;
 	width: 160px;
-	text-indent: -9999px;
 }
 
 .menu-beavers a,
 .menu-beavers a:hover {
 	background: url(images/menu-bar.png) -160px 0px no-repeat;
+	text-indent: -9999px;
 }
 
 .menu-cubs a, 
 .menu-cubs a:hover {
 	background: url(images/menu-bar.png) -320px 0px no-repeat;
+	text-indent: -9999px;
 }
 
 .menu-scouts a, 
 .menu-scouts a:hover {
 	background: url(images/menu-bar.png) -480px 0px no-repeat;
+	text-indent: -9999px;
 }
 
 .menu-group a,
 .menu-group a:hover {
 	background: url(images/menu-bar.png) -640px 0px no-repeat;
+	text-indent: -9999px;
 }
 
 .menu-shop a,
 .menu-shop a:hover {
 	background: url(images/menu-bar.png) -800px 0px no-repeat;
+	text-indent: -9999px;
 }
 
 .menu-home a,
 .menu-home a:hover {
 	background-color: #4d2177;
-	text-indent: 0px;
 	text-align: center;
 }
 
