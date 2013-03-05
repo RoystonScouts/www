@@ -104,11 +104,15 @@ body {
 }
 
 .children .page_item,
-.menu .sub-menu .menu-item {
+.sub-menu .menu-item {
 	background-color: #f0f0f0;
-	text-indent: 0px;
 	text-align: left;
 	width: auto;
+}
+
+.children .page-item a,
+.sub-menu .menu-item a {
+	text-indent: 0px;
 }
 
 /* =Widgets
