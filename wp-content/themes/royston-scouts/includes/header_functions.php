@@ -70,4 +70,9 @@ if ( !defined('ABSPATH')) exit;
     }
 
     add_action('widgets_init', 'royston_scouts_widgets_init');
+	
+	function dequeue_devicepx() {
+		wp_dequeue_script( 'devicepx' );
+	}
+	add_action( 'wp_enqueue_scripts', 'dequeue_devicepx', 20 );
 ?>
