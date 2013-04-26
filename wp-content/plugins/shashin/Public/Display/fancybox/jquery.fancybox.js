@@ -781,7 +781,7 @@
 		};
 
 	/*
-	 * Public methods 
+	 * public methods
 	 */
 
 	$.fn.fancybox = function(options) {

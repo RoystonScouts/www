@@ -19,7 +19,7 @@ class Admin_ShashinWidgetWp extends WP_Widget {
     public function Admin_ShashinWidgetWP() {
         $widgetSettings = array(
             'classname' => null,
-            'description' => __('Display Shashin Photos. Review your photos in the Shashin Tools menu to get their Photo IDs.', 'shashin')
+            'description' => __('display Shashin Photos. Review your photos in the Shashin Tools menu to get their Photo IDs.', 'shashin')
         );
 
         $widgetTitle = __('Shashin Photos', 'shashin');
@@ -47,7 +47,7 @@ class Admin_ShashinWidgetWp extends WP_Widget {
         foreach ($this->shashinFormFields as $k=>$v) {
             $inputName = $this->get_field_name($k);
             echo '<tr><td>' . $v['label'] . ':</td><td>';
-            echo ToppaHtmlFormField::quickBuild($inputName, $v, $instance[$k]);
+            echo Lib_ShashinHtmlFormField::quickBuild($inputName, $v, $instance[$k]);
             echo '</td></tr>';
         }
 

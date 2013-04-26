@@ -1,7 +1,7 @@
 <?php
 
 class Lib_ShashinPhoto extends Lib_ShashinDataObject {
-    public function __construct(ToppaDatabaseFacade $dbFacade) {
+    public function __construct(Lib_ShashinDatabaseFacade $dbFacade) {
         $this->refData = array(
             'id' => array(
                 'db' => array(
@@ -73,27 +73,23 @@ class Lib_ShashinPhoto extends Lib_ShashinDataObject {
                 'youtube' => array('media$group', 'media$thumbnail', 0, 'height')),
             'videoUrl' => array(
                 'db' => array(
-                    'type' => 'text',
-                    'not_null' => true),
+                    'type' => 'text'),
                 'picasa' => array('media$group', 'media$content', 2, 'url'),
                 'youtube' => array('media$group', 'media$content', 0, 'url')),
             'videoType' => array(
                 'db' => array(
                     'type' => 'varchar',
-                    'length' => '255',
-                    'not_null' => true),
+                    'length' => '255'),
                 'picasa' => array('media$group', 'media$content', 2, 'type'),
                 'youtube' => array('media$group', 'media$content', 0, 'type')),
             'videoWidth' => array(
                 'db' => array(
-                    'type' => 'smallint unsigned',
-                    'not_null' => true),
+                    'type' => 'smallint unsigned'),
                 'picasa' => array('media$group', 'media$content', 2, 'width'),
                 'youtube' => array('media$group', 'media$thumbnail', 0, 'width')),
             'videoHeight' => array(
                 'db' => array(
-                    'type' => 'smallint unsigned',
-                    'not_null' => true),
+                    'type' => 'smallint unsigned'),
                 'picasa' => array('media$group', 'media$content', 2, 'height'),
                 'youtube' => array('media$group', 'media$thumbnail', 0, 'height')),
             'takenTimestamp' => array(
@@ -207,7 +203,7 @@ class Lib_ShashinPhoto extends Lib_ShashinDataObject {
     }
 
     public function isVideo() {
-        $fileExtension = strtolower(ToppaFunctions::getFileExtension($this->data['filename']));
+        $fileExtension = strtolower(Lib_ShashinFunctions::getFileExtension($this->data['filename']));
 
         if (in_array($fileExtension, $this->videoFileTypes)) {
             return true;

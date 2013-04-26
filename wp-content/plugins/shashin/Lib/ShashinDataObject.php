@@ -6,9 +6,9 @@ abstract class Lib_ShashinDataObject {
     protected $baseTableName;
     protected $data = array();
     protected $refData;
-    protected $videoFileTypes = array('mpg', 'mod', 'mmv', 'tod', 'wmv', 'asf', 'avi', 'divx', 'mov', 'm4v', '3gp', '3g2', 'mp4', 'm2t', 'm2ts', 'mts', 'mkv');
+    protected $videoFileTypes = array('mpg', 'mod', 'mmv', 'tod', 'wmv', 'asf', 'avi', 'divx', 'mov', 'm4v', '3gp', '3g2', 'mp4', 'm2t', 'm2ts', 'mts', 'mkv', 'flv');
 
-    public function __construct(ToppaDatabaseFacade $dbFacade) {
+    public function __construct(Lib_ShashinDatabaseFacade $dbFacade) {
         $this->dbFacade = $dbFacade;
     }
 
@@ -50,6 +50,10 @@ abstract class Lib_ShashinDataObject {
     }
 
     public function set(array $fields) {
+        if (!is_array($fields) || empty($fields)) {
+            throw New Exception(__('No array passed for set()', 'shashin'));
+        }
+
         $intTypes = $this->dbFacade->getIntTypes();
 
         foreach ($this->refData as $k=>$v) {

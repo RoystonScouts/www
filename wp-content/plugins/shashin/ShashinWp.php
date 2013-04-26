@@ -1,7 +1,7 @@
 <?php
 
 class ShashinWp {
-    private $version = '3.2.6';
+    private $version = '3.3.3';
 
     public function __construct() {
     }
@@ -26,6 +26,7 @@ class ShashinWp {
     }
 
     public function run() {
+        add_filter('upgrader_pre_install', array($this, 'deactivateHighslide'));
         add_action('admin_init', array($this, 'runtimeUpgrade'));
         add_action('admin_menu', array($this, 'initToolsMenu'));
         add_action('admin_menu', array($this, 'initSettingsMenu'));
@@ -45,8 +46,35 @@ class ShashinWp {
         return true;
     }
 
+    public function deactivateHighslide() {
+        require_once(ABSPATH . 'wp-admin/includes/plugin.php');
+
+        if (is_plugin_active('highslide-for-shashin/start.php')) {
+            deactivate_plugins(WP_PLUGIN_DIR . '/highslide-for-shashin/start.php');
+        }
+    }
+
     public function runtimeUpgrade() {
         try {
+            $libContainer = new Lib_ShashinContainer();
+            $settings = $libContainer->getSettings();
+
+            if ($settings->imageDisplay == 'highslide') {
+                $settings->set(array('imageDisplay' => 'prettyphoto'));
+                $settings->purge(array('externalViewers', 'highslide'));
+                $_SESSION['shashin_highslide_deactivated'] = 1;
+            }
+
+            if ($_SESSION['shashin_highslide_deactivated'] && strpos($_SERVER['REQUEST_URI'], 'plugins.php')) {
+                unset($_SESSION['shashin_highslide_deactivated']);
+                echo '<div class="updated"><p><em>';
+                echo __('Highslide for Shashin', 'shashin');
+                echo '</em> ';
+                echo __('is no longer supported and has been deactivated (please delete it). Your viewer for Shashin has been upgraded to PrettyPhoto.', 'shashin');
+                echo '</p></div>' . PHP_EOL;
+            }
+
+            // check if upgrading from Shashin 2
             $adminContainer = new Admin_ShashinContainer();
             $upgrader = $adminContainer->getUpgrader();
             $upgrader->setTableProperties();
@@ -111,13 +139,15 @@ class ShashinWp {
     }
 
     public function initSettingsMenu() {
-        add_options_page(
+       $optionsPage = add_options_page(
             'Shashin',
             'Shashin',
             'manage_options',
             'shashin',
             array($this, 'displaySettingsMenu')
         );
+
+        add_action("admin_print_styles-$optionsPage", array($this, 'displayAdminHeadTags'));
     }
 
     public function displaySettingsMenu() {

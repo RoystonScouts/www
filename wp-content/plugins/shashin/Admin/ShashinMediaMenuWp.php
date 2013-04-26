@@ -30,18 +30,18 @@ class Admin_ShashinMediaMenuWp {
     }
 
     public function displayMediaMenuCss() {
-        $cssUrl = plugins_url('/Display/', __FILE__) .'media.css';
+        $cssUrl = plugins_url('/display/', __FILE__) .'media.css';
         wp_enqueue_style('shashinMediaMenuStyle', $cssUrl, false, $this->version);
     }
 
     // WP requires the function name starts with "media" to load the necessary media menu CSS file!
     public function mediaDisplayPhotoMenu() {
-        $this->displayMediaMenu('Display/mediaPhotos.php');
+        $this->displayMediaMenu('display/mediaPhotos.php');
     }
 
     // WP requires the function name starts with "media" to load the necessary media menu CSS file!
     public function mediaDisplayAlbumMenu() {
-        $this->displayMediaMenu('Display/mediaAlbums.php');
+        $this->displayMediaMenu('display/mediaAlbums.php');
     }
 
     private function displayMediaMenu($templatePath) {
@@ -51,7 +51,7 @@ class Admin_ShashinMediaMenuWp {
         $albumCollection = $this->container->getClonableAlbumCollection();
         $albumCollection->setNoLimit(true);
         $albums = $albumCollection->getCollectionForShortcode($shortcode);
-        $loaderUrl = plugins_url('/Display/images/', __FILE__) .'loader.gif';
+        $loaderUrl = plugins_url('/display/images/', __FILE__) .'loader.gif';
         require_once $templatePath;
     }
 

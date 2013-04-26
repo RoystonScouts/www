@@ -54,20 +54,19 @@ class Public_ShashinShortcode {
     }
 
     public function cleanShortcode() {
-        array_walk($this->arrayShortcode, array('ToppaFunctions', 'trimCallback'));
-        array_walk($this->arrayShortcode, array('ToppaFunctions', 'strtolowerCallback'));
+        array_walk($this->arrayShortcode, array('Lib_ShashinFunctions', 'trimCallback'));
+        array_walk($this->arrayShortcode, array('Lib_ShashinFunctions', 'strtolowerCallback'));
         return $this->arrayShortcode;
     }
 
     public function checkValidKeysAndAssign() {
         foreach($this->arrayShortcode as $k=>$v) {
+            // just ignore unrecognizes keys - some themes
+            // pass additional keys with widgets
             if (array_key_exists($k, $this->data)) {
                 $this->data[$k] = $v;
             }
 
-            else {
-                throw New Exception(__('Invalid shortcode attribute: ', 'shashin') . htmlentities($k));
-            }
         }
     }
 

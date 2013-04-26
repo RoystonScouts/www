@@ -10,7 +10,7 @@ class Admin_ShashinHeadTags {
         $this->version = $version;
     }
 
-    public function setFunctionsFacade(ToppaFunctionsFacade $functionsFacade) {
+    public function setFunctionsFacade(Lib_ShashinFunctionsFacade $functionsFacade) {
         $this->functionsFacade = $functionsFacade;
         return $this->functionsFacade;
     }
@@ -21,11 +21,11 @@ class Admin_ShashinHeadTags {
     }
 
     public function run() {
-        $cssUrl = $this->functionsFacade->getUrlforCustomizableFile('admin.css', __FILE__, 'Display/');
+        $cssUrl = $this->functionsFacade->getUrlforCustomizableFile('admin.css', __FILE__, 'display/');
         $this->functionsFacade->enqueueStylesheet('shashinAdminStyle', $cssUrl, false, $this->version);
-        $jsUrl = $this->functionsFacade->getUrlforCustomizableFile('admin.js', __FILE__, 'Display/');
+        $jsUrl = $this->functionsFacade->getUrlforCustomizableFile('admin.js', __FILE__, 'display/');
         $this->functionsFacade->enqueueScript('shashinAdminScript', $jsUrl, array('jquery', 'jquery-ui-tabs'), $this->version);
-        $menuDisplayUrl = $this->functionsFacade->getPluginsUrl('/Display/', __FILE__);
+        $menuDisplayUrl = $this->functionsFacade->getPluginsUrl('/display/', __FILE__);
         $this->functionsFacade->localizeScript('shashinAdminScript', 'shashinDisplay', array('url' => $menuDisplayUrl));
 
         // WordPress comes with jquery-ui scripts but not the themes

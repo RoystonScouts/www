@@ -78,7 +78,7 @@ abstract class Public_ShashinAlbumDisplayer extends Public_ShashinDataObjectDisp
             $this->caption .= '<a href="http://maps.google.com/maps?q='
                 . urlencode($this->dataObject->geoPos)
                 . '"><img src="'
-                . $this->functionsFacade->getPluginsUrl('/Display/mapped_sm.gif', __FILE__)
+                . $this->functionsFacade->getPluginsUrl('/display/mapped_sm.gif', __FILE__)
                 . '" alt="Google Maps Location" width="15" height="12" /></a> ';
         }
 

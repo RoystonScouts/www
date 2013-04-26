@@ -72,9 +72,9 @@ abstract class Public_ShashinPhotoDisplayer extends Public_ShashinDataObjectDisp
             . '">' . PHP_EOL;
         $this->caption .= '<div class="shashinFancyboxCaption">' . PHP_EOL;
         $this->caption .= '<div class="shashinFancyboxCaptionClose">'
-            . '<a href="javascript:;" onclick="jQuery.fancybox.close();">'
-            . '<img src="'
-            . $this->functionsFacade->getPluginsUrl('/Display/', __FILE__)
+            . '<a href="#" onclick="jQuery.fancybox.close();">'
+            . '<img alt="Close" src="'
+            . $this->functionsFacade->getPluginsUrl('/display/', __FILE__)
             . 'fancybox/closelabel.gif" />'
             . '</a>'
             . '</div>' . PHP_EOL;
@@ -100,6 +100,30 @@ abstract class Public_ShashinPhotoDisplayer extends Public_ShashinDataObjectDisp
         // leave this comment - shashin.js looks for it and will manipulate this closing div
         $this->caption .= '<!-- comment for image counter --></div>' . PHP_EOL;
         $this->caption .= '</div>' . PHP_EOL;
+        return $this->caption;
+    }
+
+    //  putting this here to avoid repeating it in every Prettyphoto subclass - need PHP 5.3 traits!
+    public function setCaptionForPrettyphoto() {
+        $linkId = $this->setLinkIdParts();
+        $this->caption .= '<div class="shashinPrettyphotoCaptionWrapper" id="shashinPrettyphotoCaption_'
+            . $linkId
+            . '">' . PHP_EOL;
+        $this->caption .= '<div class="shashinPrettyPhotoCaption">' . PHP_EOL;
+        $this->caption .= $this->setDivOriginalPhotoLinkForCaption();
+        $exifCaption = $this->setExifDataForCaption();
+
+        if ($this->dataObject->description || $exifCaption) {
+            if ($this->dataObject->description) {
+                $this->caption .= $this->functionsFacade->htmlSpecialCharsOnce($this->dataObject->description);
+            }
+
+            if ($exifCaption) {
+                $this->caption .= $exifCaption;
+            }
+        }
+
+        $this->caption .= '</div></div>' . PHP_EOL;
         return $this->caption;
     }
 

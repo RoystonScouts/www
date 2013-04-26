@@ -73,6 +73,11 @@ class Admin_ShashinSynchronizerPicasa extends Admin_ShashinSynchronizer {
     public function retrievePicasaRssUrl() {
         $rssUrl = null;
         $response = $this->httpRequester->request($this->request['userUrl'], array('timeout' => 30, 'sslverify' => false));
+
+        if (!class_exists('DOMDocument')) {
+            throw New Exception(__('Your installation of PHP has been configured without DOM support. DOM support is required to sync Picasa albums. If you are using Google+, try using the Google+ URL instead.', 'shashin'));
+        }
+
         $doc = new DOMDocument();
         @$doc->loadHTML($response['body']);
         $links = $doc->getElementsByTagName('link');
@@ -107,7 +112,7 @@ class Admin_ShashinSynchronizerPicasa extends Admin_ShashinSynchronizer {
         $this->album = clone $this->clonableAlbum;
         $albumRefData = $this->clonableAlbum->getRefData();
         $albumData = $this->extractFieldsFromDecodedData($decodedAlbumData['feed'], $albumRefData, 'picasa');
-        $albumData['pubDate'] = ToppaFunctions::makeTimestampPhpSafe($albumData['pubDate']);
+        $albumData['pubDate'] = Lib_ShashinFunctions::makeTimestampPhpSafe($albumData['pubDate']);
         $albumData['lastSync'] = $this->syncTime;
         $albumData['albumType'] = $this->album->albumType;
 
@@ -145,7 +150,7 @@ class Admin_ShashinSynchronizerPicasa extends Admin_ShashinSynchronizer {
                 $photoData['albumId'] = $this->album->id;
                 $photoData['albumType'] = $this->album->albumType;
                 if (isset($photoData['takenTimestamp'])) {
-                    $photoData['takenTimestamp'] = ToppaFunctions::makeTimestampPhpSafe($photoData['takenTimestamp']);
+                    $photoData['takenTimestamp'] = Lib_ShashinFunctions::makeTimestampPhpSafe($photoData['takenTimestamp']);
                 }
                 $photoData['uploadedTimestamp'] = strtotime($photoData['uploadedTimestamp']);
                 $photoData['sourceOrder'] = ++$sourceOrder;

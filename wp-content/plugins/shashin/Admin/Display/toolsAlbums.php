@@ -67,7 +67,7 @@ if ($dataObjects) {
         echo '<td class="shashinCenter">' . $this->functionsFacade->dateI18n("d-M-Y H:i", $album->lastSync) . "</td>" . PHP_EOL;
         echo '<td class="shashinCenter">';
 
-        echo ToppaHtmlFormField::quickBuild(
+        echo Lib_ShashinHtmlFormField::quickBuild(
             "includeInRandom[{$album->id}]",
             $refData['includeInRandom'],
             $album->includeInRandom);
@@ -80,7 +80,7 @@ if ($dataObjects) {
     <td colspan="2">&nbsp;</td>
     <td class="shashinCenter"><strong><?php echo $this->generateSyncAllLink(); ?></strong></td>
     <td colspan="5">&nbsp;</td>
-    <td class="shashinCenter"><input class="button-secondary" type="submit" name="update_random_display" value="<?php _e("Update Random Display", 'shashin'); ?>" /></td>
+    <td class="shashinCenter"><input class="button-secondary" type="submit" name="update_random_display" value="<?php _e("Update Random display", 'shashin'); ?>" /></td>
     </tr>
     </table>
     </form>
@@ -112,7 +112,7 @@ else {
         <p><strong><?php _e('Important notes:', 'shashin'); ?></strong></p>
         <ul>
         <li><?php _e('Google is migrating Picasa to Google+ and making changes without advance notification. If you are unable to add an album, please', 'shashin'); ?>
-            <a href="http://www.toppa.com/category/technical/wordpress-plugins/support/"><?php _e('let me know', 'shashin'); ?></a>.</li>
+            <a href="http://wordpress.org/support/plugin/shashin/"><?php _e('let me know', 'shashin'); ?></a>.</li>
         <li><?php _e('Shashin works with albums where the visibility is set to "public." Also, for albums with visibility set to "limited, anyone with the link", they will work if you include the "authkey" when pasting the URL in the form below (this is supported for Picasa, not Google+).', 'shashin'); ?></li>
         </ul>
         <p><strong><?php _e('Examples', 'shashin'); ?>:</strong></p>
@@ -129,9 +129,9 @@ else {
         </dl>
 
         <p><strong><?php _e("URL:", 'shashin'); ?></strong>
-            <?php echo ToppaHtmlFormField::quickBuild('userUrl', $refData['dataUrl']); ?><br />
+            <?php echo Lib_ShashinHtmlFormField::quickBuild('userUrl', $refData['dataUrl']); ?><br />
             <?php _e("Include these photos in random photo displays?", 'shashin'); ?>
-            <?php echo ToppaHtmlFormField::quickBuild('includeInRandom', $refData['includeInRandom'], 'Y'); ?></p>
+            <?php echo Lib_ShashinHtmlFormField::quickBuild('includeInRandom', $refData['includeInRandom'], 'Y'); ?></p>
         <p><input class="button-primary" type="submit" name="submit" value="<?php _e("Add Albums", 'shashin'); ?>" /></p>
         </form>
 
@@ -161,9 +161,9 @@ else {
         </dl>
 
         <p><strong><?php _e("RSS URL:", 'shashin'); ?></strong>
-            <?php echo ToppaHtmlFormField::quickBuild('userUrl', $refData['dataUrl']); ?><br />
+            <?php echo Lib_ShashinHtmlFormField::quickBuild('userUrl', $refData['dataUrl']); ?><br />
             <?php _e("Include these videos in random photo/video displays?", 'shashin'); ?>
-            <?php echo ToppaHtmlFormField::quickBuild('includeInRandom', $refData['includeInRandom'], 'Y'); ?></p>
+            <?php echo Lib_ShashinHtmlFormField::quickBuild('includeInRandom', $refData['includeInRandom'], 'Y'); ?></p>
         <p><input class="button-primary" type="submit" name="submit" value="<?php _e("Add Videos", 'shashin'); ?>" /></p>
         </form>
 
@@ -183,9 +183,9 @@ else {
             <dd>http://twitpic.com/photos/<strong>mtoppa</strong></dd>
             </dl>
             <p><strong><?php _e("URL:", 'shashin'); ?></strong>
-                <?php echo ToppaHtmlFormField::quickBuild('userUrl', $refData['dataUrl']); ?><br />
+                <?php echo Lib_ShashinHtmlFormField::quickBuild('userUrl', $refData['dataUrl']); ?><br />
                 <?php _e("Include these photos in random photo displays?", 'shashin'); ?>
-                <?php echo ToppaHtmlFormField::quickBuild('includeInRandom', $refData['includeInRandom'], 'Y'); ?></p>
+                <?php echo Lib_ShashinHtmlFormField::quickBuild('includeInRandom', $refData['includeInRandom'], 'Y'); ?></p>
             <p><input class="button-primary" type="submit" name="submit" value="<?php _e("Add Photos", 'shashin'); ?>" /></p>
         </form>
 

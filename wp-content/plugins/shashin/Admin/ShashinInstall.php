@@ -10,8 +10,8 @@ class Admin_ShashinInstall {
     private $settingsDefaults = array(
         'version' => null,
         'supportOldShortcodes' => 'n',
-        'imageDisplay' => 'fancybox',
-        'expandedImageSize' => 'medium',
+        'imageDisplay' => 'prettyphoto',
+        'expandedImageSize' => 'small',
         'defaultPhotoLimit' => 18,
         'scheduledUpdate' => 'n',
         'captionExif' => 'all',
@@ -23,6 +23,12 @@ class Admin_ShashinInstall {
         'albumPhotosOrder' => 'source',
         'albumPhotosOrderReverse' => 'n',
         'albumPhotosCaption' => 'n',
+        'prettyPhotoTheme' => 'pp_default',
+        'prettyPhotoOverlayGallery' => '1',
+        'prettyPhotoShowTitle' => '1',
+        'prettyPhotoAutoplaySlideshow' => '0',
+        'prettyPhotoSlideshow' => '5000',
+        'prettyPhotoLoadScript' => 'y',
         'fancyboxCyclic' => '0',
         'fancyboxVideoWidth' => '560',
         'fancyboxVideoHeight' => '340',
@@ -42,7 +48,7 @@ class Admin_ShashinInstall {
         $this->version = $version;
     }
 
-    public function setDbFacade(ToppaDatabaseFacade $dbFacade) {
+    public function setDbFacade(Lib_ShashinDatabaseFacade $dbFacade) {
         $this->dbFacade = $dbFacade;
         return $this->dbFacade;
     }
@@ -62,7 +68,7 @@ class Admin_ShashinInstall {
         return $this->settings;
     }
 
-    public function setFunctionsFacade(ToppaFunctionsFacade $functionsFacade) {
+    public function setFunctionsFacade(Lib_ShashinFunctionsFacade $functionsFacade) {
         $this->functionsFacade = $functionsFacade;
         return $this->functionsFacade;
     }
@@ -82,9 +88,9 @@ class Admin_ShashinInstall {
         // update the version number if needed
         $allSettings = $this->settings->refresh();
 
-        if (!isset($allSettings['version']) || version_compare($allSettings['version'], $this->version, '<')) {
+        //if (!isset($allSettings['version']) || version_compare($allSettings['version'], $this->version, '<')) {
             $this->updateSettings();
-        }
+        //}
 
         return true;
     }
@@ -131,24 +137,7 @@ class Admin_ShashinInstall {
     }
 
     public function updateSettings() {
-        // if upgrading from 3,0, the version is not set
-        // need to change the viewer selection from highslide to fancybox
-        $allSettings = $this->settings->refresh();
-
-        // for a new installation, imageDisplay is not set, so catch that exception
-        // and do nothing (fancybox is already the default)
-        // checking for 'version' lets us know if this version of Shashin pre-dates
-        // the availability of the Highslide for Shashin plugin
-        try {
-            if (!array_key_exists('version', $allSettings) && $this->settings->imageDisplay == 'highslide') {
-                $this->settings->set(array('imageDisplay' => 'fancybox'));
-            }
-        }
-
-        catch (Exception $e) {
-
-        }
-
+        $this->settings->refresh();
         $this->settings->set(array('version' => $this->version));
         return $this->settings->set($this->settingsDefaults, true);
     }

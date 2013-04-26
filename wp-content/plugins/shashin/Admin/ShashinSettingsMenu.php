@@ -8,7 +8,7 @@ class Admin_ShashinSettingsMenu {
     private $successMessage;
     private $errorMessage;
     private $request;
-    private $relativePathToTemplate = 'Display/settings.php';
+    private $relativePathToTemplate = 'display/settings.php';
     private $settingsGroups;
     private $refData;
 
@@ -19,12 +19,16 @@ class Admin_ShashinSettingsMenu {
                 'description' => ''
             ),
             'albumPhotos' => array(
-                'label' => __('Album Photos Display', 'shashin'),
+                'label' => __('Album Photos display', 'shashin'),
                 'description' => __('When clicking a Shashin album thumbnail to view its photos, these settings control how the album\'s photos are displayed.', 'shashin')
+            ),
+            'prettyphoto' => array(
+                'label' => __('PrettyPhoto Settings', 'shashin'),
+                'description' => __('PrettyPhoto is the recommended photo viewer included with Shashin. These settings apply only if you select "Use PrettyPhoto" under General Settings.', 'shashin')
             ),
             'fancybox' => array(
                 'label' => __('Fancybox Settings', 'shashin'),
-                'description' => __('Fancybox is the photo viewer included with Shashin. These settings apply only if you select "Use Fancybox" above.', 'shashin')
+                'description' => __('Fancybox is included with Shashin, but prettyphoto is recommended, as v1 of Fancybox (the GPL compliant version) is no longer updated. These settings apply only if you select "Use Fancybox" under General Settings.', 'shashin')
             ),
             'otherViewer' => array(
                 'label' => __('Other Viewer Settings', 'shashin'),
@@ -45,15 +49,16 @@ class Admin_ShashinSettingsMenu {
                 'input' => array(
                     'type' => 'select',
                     'subgroup' =>  array(
-                        'source' => __('Display at photo hosting site', 'shashin'),
+                        'source' => __('display at photo hosting site', 'shashin'),
+                        'prettyphoto' => __('Use PrettyPhoto', 'shashin'),
                         'fancybox' => __('Use FancyBox', 'shashin'),
                         'other' => __('Use another viewer', 'shashin')
                     )
                 ),
                 'validateFunction' => 'in_array',
-                'validValues' => array('source', 'fancybox', 'other'),
+                'validValues' => array('source', 'prettyphoto', 'fancybox', 'other'),
                 'label' => __('How to display a full-size photo when its thumbnail is clicked', 'shashin'),
-                'help' => __('FancyBox is included with Shashin and works "out of the box." If you select "Use another viewer," you are responsible for implementing your own image viewer. See "Other Viewer Settings" below.', 'shashin'),
+                'help' => __('PrettyPhoto is included with Shashin and works "out of the box." FancyBox is also included, but is being phased out. If you select "Use another viewer," you are responsible for implementing your own image viewer (see the "Other Viewer Settings" tab).', 'shashin'),
                 'group' => 'general'
             ),
             'expandedImageSize' => array(
@@ -61,7 +66,7 @@ class Admin_ShashinSettingsMenu {
                     'type' => 'select',
                     'subgroup' =>  array(
                         'xsmall' => __('X-Small (400px)', 'shashin'),
-                        'small' => __('Small (600px)', 'shashin'),
+                        'small' => __('Small (640px)', 'shashin'),
                         'medium' => __('Medium (800px)', 'shashin'),
                         'large' => __('Large (912px)', 'shashin'),
                         'xlarge' => __('X-Large (1024px)', 'shashin')
@@ -178,6 +183,65 @@ class Admin_ShashinSettingsMenu {
                 'group' => 'albumPhotos'
             ),
 
+            // PrettyPhoto settings
+            'prettyPhotoTheme' => array(
+                'input' => array(
+                    'type' => 'select',
+                    'subgroup' =>  array(
+                        'pp_default' => __('Default', 'shashin'),
+                        'light_rounded' => __('Light Rounded', 'shashin'),
+                        'dark_rounded' => __('Dark Rounded', 'shashin'),
+                        'light_square' => __('Light Square', 'shashin'),
+                        'dark_square' => __('Dark Square', 'shashin'),
+                        'facebook' => __('Facebook', 'shashin')
+                    )
+                ),
+                'validateFunction' => 'in_array',
+                'validValues' => array('pp_default', 'light_rounded', 'dark_rounded', 'light_square', 'dark_square', 'facebook'),
+                'label' => __('Theme', 'shashin'),
+                'help' => '',
+                'group' => 'prettyphoto'
+            ),
+            'prettyPhotoOverlayGallery' => array(
+                'input' => array('type' => 'radio', 'subgroup' => array('1' => __('Yes', 'shashin'), '0' => __('No', 'shashin'))),
+                'validateFunction' => 'in_array',
+                'validValues' => array('1', '0'),
+                'label' => __('Overlay gallery?', 'shashin'),
+                'help' => __('If "yes", a gallery will overlay the expanded view of an image when you mouse over it.', 'shashin'),
+                'group' => 'prettyphoto'
+            ),
+            'prettyPhotoShowTitle' => array(
+                'input' => array('type' => 'radio', 'subgroup' => array('1' => __('Yes', 'shashin'), '0' => __('No', 'shashin'))),
+                'validateFunction' => 'in_array',
+                'validValues' => array('1', '0'),
+                'label' => __('Show title?', 'shashin'),
+                'help' => __('If "yes", shows the photo caption in large text above the photo.', 'shashin'),
+                'group' => 'prettyphoto'
+            ),
+            'prettyPhotoAutoplaySlideshow' => array(
+                'input' => array('type' => 'radio', 'subgroup' => array('1' => __('Yes', 'shashin'), '0' => __('No', 'shashin'))),
+                'validateFunction' => 'in_array',
+                'validValues' => array('1', '0'),
+                'label' => __('Auto-play slideshow?', 'shashin'),
+                'help' => '',
+                'group' => 'prettyphoto'
+            ),
+            'prettyPhotoSlideshow' => array(
+                'input' => array('type' => 'text', 'size' => 5),
+                'validateFunction' => 'is_numeric_or_empty',
+                'label' => __('Autoplay image display time', 'shashin'),
+                'help' => __('Enter a duration in milliseconds (e.g. "5000" for 5 seconds) for your slideshow speed.', 'shashin'),
+                'group' => 'prettyphoto'
+            ),
+            'prettyPhotoLoadScript' => array(
+                'input' => array('type' => 'radio', 'subgroup' => array('y' => __('Yes', 'shashin'), 'n' => __('No', 'shashin'))),
+                'validateFunction' => 'in_array',
+                'validValues' => array('y', 'n'),
+                'label' => __('Load Shashin\'s PrettyPhoto script?', 'shashin'),
+                'help' => __('If you already have PrettyPhoto installed on your site, select "no" to prevent Shashin from loading its own copy of PrettyPhoto.', 'shashin'),
+                'group' => 'prettyphoto'
+            ),
+
             // Fancybox settings
             'fancyboxCyclic' => array(
                 'input' => array('type' => 'radio', 'subgroup' => array('1' => __('Yes', 'shashin'), '0' => __('No', 'shashin'))),
@@ -281,7 +345,7 @@ class Admin_ShashinSettingsMenu {
         );
     }
 
-    public function setFunctionsFacade(ToppaFunctionsFacade $functionsFacade) {
+    public function setFunctionsFacade(Lib_ShashinFunctionsFacade $functionsFacade) {
         $this->functionsFacade = $functionsFacade;
         return $this->functionsFacade;
     }
@@ -327,15 +391,14 @@ class Admin_ShashinSettingsMenu {
 
     public function createHtmlForSettingsGroupHeader($groupData) {
         $html = '<tr>' . PHP_EOL
-            . '<th scope="row" colspan="3"><h3>' . $groupData['label'] . '</h3></th>' . PHP_EOL
-            . '</tr>' . PHP_EOL;
+            . '<th scope="row" colspan="3"><h3>' . $groupData['label'] . "</h3>";
 
-            if ($groupData['description']) {
-                $html .= '<tr>' . PHP_EOL
-                    . '<th colspan="3" scope="row">' . $groupData['description'] . '</th>' . PHP_EOL
-                    . '</tr>' . PHP_EOL;
-            }
+        if ($groupData['description']) {
+            $html .= '<p><em>' . $groupData['description'] . '</em></p>' . PHP_EOL;
+        }
 
+        $html .= '</th>' . PHP_EOL
+            .'</tr>' . PHP_EOL;
         return $html;
     }
 
@@ -346,7 +409,7 @@ class Admin_ShashinSettingsMenu {
             . $this->refData[$setting]['label']
             . '</label></th>' . PHP_EOL
             . '<td nowrap="nowrap">'
-            . ToppaHtmlFormField::quickBuild($setting, $this->refData[$setting], $value)
+            . Lib_ShashinHtmlFormField::quickBuild($setting, $this->refData[$setting], $value)
             . '</td>' . PHP_EOL
             . '<td>' . $this->refData[$setting]['help'] . '</td>' . PHP_EOL
             . '</tr>' . PHP_EOL;

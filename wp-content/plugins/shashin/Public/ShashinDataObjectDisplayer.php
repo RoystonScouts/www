@@ -55,7 +55,7 @@ abstract class Public_ShashinDataObjectDisplayer {
         $this->shortcode = $shortcode;
     }
 
-    public function setFunctionsFacade(ToppaFunctionsFacade $functionsFacade) {
+    public function setFunctionsFacade(Lib_ShashinFunctionsFacade $functionsFacade) {
         $this->functionsFacade = $functionsFacade;
     }
 
@@ -328,6 +328,10 @@ abstract class Public_ShashinDataObjectDisplayer {
 
     public function getImgWidth() {
         return $this->imgWidth;
+    }
+
+    public function getExpandedSizesMap() {
+        return $this->expandedSizesMap;
     }
 
     abstract public function setExifDataForCaption();

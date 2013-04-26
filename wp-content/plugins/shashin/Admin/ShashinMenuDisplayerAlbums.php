@@ -3,7 +3,7 @@
 class Admin_ShashinMenuDisplayerAlbums extends Admin_ShashinMenuDisplayer {
     public function __construct() {
         $this->defaultOrderBy = 'title';
-        $this->relativePathToTemplate = 'Display/toolsAlbums.php';
+        $this->relativePathToTemplate = 'display/toolsAlbums.php';
         parent::__construct();
     }
 
@@ -23,7 +23,7 @@ class Admin_ShashinMenuDisplayerAlbums extends Admin_ShashinMenuDisplayer {
         $nonceName = "shashinNonceSync_" . $album->id;
         $noncedUrl = $this->functionsFacade->addNonceToUrl($url, $nonceName);
         $linkTag = '<a href="' . $noncedUrl . '"><img src="'
-            . $this->functionsFacade->getPluginsUrl('/Display/images/arrow_refresh.png', __FILE__)
+            . $this->functionsFacade->getPluginsUrl('/display/images/arrow_refresh.png', __FILE__)
             . '" alt="Sync Album" width="16" height="16" border="0" /></a>';
         return $linkTag;
     }
@@ -35,7 +35,7 @@ class Admin_ShashinMenuDisplayerAlbums extends Admin_ShashinMenuDisplayer {
         $nonceName = "shashinNonceDelete_" . $album->id;
         $noncedUrl = $this->functionsFacade->addNonceToUrl($url, $nonceName);
         $linkTag = "<a href=\"$noncedUrl\" onclick=\"$onClick\"><img src=\""
-            . $this->functionsFacade->getPluginsUrl('/Display/images/delete.png', __FILE__)
+            . $this->functionsFacade->getPluginsUrl('/display/images/delete.png', __FILE__)
             . '" alt="Sync Album" width="16" height="16" border="0" /></a>';
         return $linkTag;
     }
