@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NEVDJ
 Tags: contact form,database,contact form database,save contact form,form database,CFDB
 Requires at least: 3.2.1
 Tested up to: 3.5.1
-Stable tag: 2.4.8
+Stable tag: 2.5.2
 
 Saves submitted form data to the database and provides short codes to display it. Captures data from Contact Form 7 and Fast Secure Contact Form
 
@@ -87,6 +87,21 @@ prevent it from being deleted. You can always deactivate the plugin without loos
 1. Admin Panel view of submitted form data
 
 == Changelog ==
+
+= 2.6 =
+* [cfdb-datatable form="form-name" edit="true"] The "edit" option makes the table editable if the CFDB Editor plugin extension is also installed.
+* [cfdb-datatable] "Show" setting shows all rows by default
+* [cfdb-datatable] upgraded the included DataTables to version 1.9.4
+* Support for import from CSV file when CFDB Editor extension is installed
+
+= 2.5.2 =
+* Minor bug fix. When user has exactly one form and admin page auto-loads that form's data, the editor plugin did not know which form to edit.
+
+= 2.5.1 =
+* Now "headers" option on [cfdb-table] and [cfdb-datatable] allow you to change column header display names, e.g [cfdb-table form="form1" headers="ext_field1=First Name,ext_field2=Last Name"]
+* Can now query multiple forms at once in short codes, e.g. [cfdb-table form="form1,form2"]
+* Added RSS URLs
+* Can now use regex's in options for forms & fields to ignore and which cookie values to save
 
 = 2.5 =
 * Added option to set the timezone in which Submit Time should be captured.
